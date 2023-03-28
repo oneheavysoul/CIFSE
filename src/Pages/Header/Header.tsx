@@ -51,7 +51,7 @@ function Header() {
                                         </div>
                                         <div className="content">
                                             <p>Send Email</p>
-                                            <h5><a href="mailto:needhelp@company.com">needhelp@company.com</a></h5>
+                                            <h5><a href="mailto:needhelp@company.com">chintanpatel1624@gmail.com</a></h5>
                                         </div>
                                     </li>
                                     <li>
