@@ -3,6 +3,7 @@ import React from 'react'
 function Header() {
     return (
         <>
+
             <header className="main-header-two clearfix">
                 <div className="main-header-two__top">
                     <div className="container">
@@ -32,7 +33,7 @@ function Header() {
                             <div className="main-header-two__shape-6"></div>
                             <div className="main-header-two__shape-7"></div>
                             <div className="main-header-two__logo">
-                                <a href="index.html"><img src="assets/images/resources/logo_c.png" alt="" /></a>
+                                <a href="index.html"><img src="assets/images/resources/logo-2.png" alt="" /></a>
                             </div>
                             <div className="main-header-two__address">
                                 <ul className="list-unstyled main-header-two__address-list">
@@ -78,139 +79,25 @@ function Header() {
                                         <a href="#" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
                                         <ul className="main-menu__list">
                                             <li className="dropdown current megamenu">
-                                                <a href="index.html">Home </a>
-                                                <ul>
-                                                    <li>
-                                                        <section className="home-showcase">
-                                                            <div className="container">
-                                                                <div className="home-showcase__inner">
-                                                                    <div className="row">
-                                                                        <div className="col-lg-3">
-                                                                            <div className="home-showcase__item">
-                                                                                <div className="home-showcase__image">
-                                                                                    <img src="assets/images/home-showcase/home-showcase-1-1.jpg"
-                                                                                        alt="" />
-                                                                                    <div className="home-showcase__buttons">
-                                                                                        <a href="index.html"
-                                                                                            className="thm-btn home-showcase__buttons__item">Multi
-                                                                                            Page</a>
-                                                                                        <a href="index-one-page.html"
-                                                                                            className="thm-btn home-showcase__buttons__item">One
-                                                                                            Page</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <h3 className="home-showcase__title">Home 01
-                                                                                </h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-lg-3">
-                                                                            <div className="home-showcase__item">
-                                                                                <div className="home-showcase__image">
-                                                                                    <img src="assets/images/home-showcase/home-showcase-1-2.jpg"
-                                                                                        alt="" />
-                                                                                    <div className="home-showcase__buttons">
-                                                                                        <a href="index2.html"
-                                                                                            className="thm-btn home-showcase__buttons__item">Multi
-                                                                                            Page</a>
-                                                                                        <a href="index2-one-page.html"
-                                                                                            className="thm-btn home-showcase__buttons__item">One
-                                                                                            Page</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <h3 className="home-showcase__title">Home 02
-                                                                                </h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-lg-3">
-                                                                            <div className="home-showcase__item">
-                                                                                <div className="home-showcase__image">
-                                                                                    <img src="assets/images/home-showcase/home-showcase-1-3.jpg"
-                                                                                        alt="" />
-                                                                                    <div className="home-showcase__buttons">
-                                                                                        <a href="index3.html"
-                                                                                            className="thm-btn home-showcase__buttons__item">Multi
-                                                                                            Page</a>
-                                                                                        <a href="index3-one-page.html"
-                                                                                            className="thm-btn home-showcase__buttons__item">One
-                                                                                            Page</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <h3 className="home-showcase__title">Home 03
-                                                                                </h3>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div className="col-lg-3">
-                                                                            <div className="home-showcase__item">
-                                                                                <div className="home-showcase__image">
-                                                                                    <img src="assets/images/home-showcase/home-showcase-1-4.jpg"
-                                                                                        alt="" />
-                                                                                    <div className="home-showcase__buttons">
-                                                                                        <a href="index-dark.html"
-                                                                                            className="thm-btn home-showcase__buttons__item">View
-                                                                                            Page</a>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <h3 className="home-showcase__title">Home 04
-                                                                                </h3>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-                                                        </section>
-                                                    </li>
-                                                </ul>
+                                                <a href="#">Home </a>
                                             </li>
                                             <li>
-                                                <a href="about.html">About</a>
+                                                <a href="#">About</a>
                                             </li>
                                             <li className="dropdown">
                                                 <a href="#">Services</a>
-                                                <ul className="border-top-2px">
-                                                    <li><a href="services.html">Services</a></li>
-                                                    <li><a href="services-carousel.html">Services Carousel</a></li>
-                                                    <li><a href="single-play-roofing.html">Single play roofing</a></li>
-                                                    <li><a href="modified-roofing.html">Modified roofing</a></li>
-                                                    <li><a href="built-up-roofing.html">Built-up roofing</a></li>
-                                                    <li><a href="roof-inspection.html">Roof inspection</a></li>
-                                                    <li><a href="roof-installation.html">Roof installation</a></li>
-                                                    <li><a href="metal-roofing.html">Metal roofing</a></li>
-                                                </ul>
                                             </li>
                                             <li className="dropdown">
                                                 <a href="#">Pages</a>
-                                                <ul className="border-top-2px">
-                                                    <li><a href="team.html">Team</a></li>
-                                                    <li><a href="team-carousel.html">Team Carousel</a></li>
-                                                    <li><a href="team-details.html">Team Details</a></li>
-                                                    <li><a href="testimonials.html">Testimonials</a></li>
-                                                    <li><a href="testimonials-carousel.html">Teatimonials Carousel</a></li>
-                                                    <li><a href="gallery.html">Gallery</a></li>
-                                                    <li><a href="gallery-carousel.html">Gallery Carousel</a></li>
-                                                    <li><a href="faq.html">FAQs</a></li>
-                                                    <li><a href="404.html">404 Error</a></li>
-                                                </ul>
                                             </li>
                                             <li className="dropdown">
                                                 <a href="#">Works </a>
-                                                <ul className="border-top-2px">
-                                                    <li><a href="work.html">Work</a></li>
-                                                    <li><a href="work-carousel.html">Work Carousel</a></li>
-                                                    <li><a href="work-details.html">Work Details</a></li>
-                                                </ul>
                                             </li>
                                             <li className="dropdown">
                                                 <a href="#">Blog</a>
-                                                <ul className="border-top-2px">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog-carousel.html">Blog Carousel</a></li>
-                                                    <li><a href="blog-sidebar.html">Blog Sidebar</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                                </ul>
                                             </li>
                                             <li>
-                                                <a href="contact.html">Contact </a>
+                                                <a href="#">Contact </a>
                                             </li>
                                         </ul>
                                     </div>
@@ -220,7 +107,7 @@ function Header() {
                                         <a href="#" className="main-menu-two__search search-toggler icon-magnifying-glass"></a>
                                     </div>
                                     <div className="main-menu-two__btn-box">
-                                        <a href="contact.html" className="thm-btn main-menu-two__btn"> <i
+                                        <a href="#" className="thm-btn main-menu-two__btn"> <i
                                             className="fa fa-arrow-right"></i> Free estimate</a>
                                     </div>
                                 </div>
