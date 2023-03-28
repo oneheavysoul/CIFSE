@@ -42,7 +42,7 @@ function Header() {
                                         </div>
                                         <div className="content">
                                             <p>Call Anytime</p>
-                                            <h5><a href="tel:9200368090">+92 (003) 68-090</a></h5>
+                                            <h5><a href="tel:9200368090">+9737917867</a></h5>
                                         </div>
                                     </li>
                                     <li>
