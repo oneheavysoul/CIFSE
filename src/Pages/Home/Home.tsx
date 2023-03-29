@@ -11,10 +11,10 @@ function Home() {
       <div className="page-wrapper">
         <Header />
         <Banner />
-        <About />
-        <Footer />
+        {/* <About />
+        <Footer /> */}
       </div>
-      <BottomFooter />
+      {/* <BottomFooter /> */}
     </>
   )
 }

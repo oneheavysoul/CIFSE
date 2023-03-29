@@ -13,25 +13,12 @@ function BottomFooter() {
         minscript.async = true;
         minscript.src = publicUrl + "assets/js/roofsie.js";
         document.body.appendChild(minscript);
-        $('.go-top').find('a').on('click', function () {
-
-            $(".quarter-overlay").fadeIn(1);
-
-            $(window).scrollTop(0);
-
-            setTimeout(function () {
-                $(".quarter-overlay").fadeOut(300);
-            }, 800);
-
-        });
 
 
-        $(document).on('click', '.theme-btn-1 ', function () {
-            $('div').removeClass('modal-backdrop');
-            $('div').removeClass('show');
-            $('div').removeClass('fade');
-            $('body').attr("style", "");
-        });
+        
+
+
+        
     }
 
     return (
