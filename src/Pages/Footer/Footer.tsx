@@ -26,7 +26,7 @@ function Footer() {
                                 <h2>
                                     <img src="assets/images/logo.png" className="main-logo" alt="logo" />
                                 </h2>
-                                <p>Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor ut labore dolore magna</p>
+                                <p>Central Institute of Fire & Safety Engineering has been founded to produce skilled and trained professionals in the field of engineering and safety.</p>
 
                             </div>
                         </div>
@@ -58,7 +58,7 @@ function Footer() {
                                         <i className="fa fa-phone-square"></i>
                                         <span><a href="tel:+91 94514 42632">+91 94514 42632</a></span>
                                         <span><a href="tel:+91 73101 76777">+91 73101 76777</a></span>
-                                    </li>
+                                    </li><br/>
                                     <li>
                                         <i className="fa fa-envelope"></i>
                                         <span><a href="mailto:info@cifseindia.org"> info@cifseindia.org</a></span>

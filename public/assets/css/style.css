@@ -61,8 +61,8 @@ img {
 }
 
 .ptb-100 {
-    padding-top: 100px;
-    padding-bottom: 100px
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 
 .pt-100 {
@@ -74,7 +74,7 @@ img {
 }
 
 .pb-70 {
-    padding-bottom: 70px
+    padding-bottom: 30px
 }
 
 .pb-75 {
@@ -131,7 +131,8 @@ h6:last-child {
 }
 
 .section-title-warp {
-    margin-bottom: 45px
+    margin-bottom: 45px;
+    text-align: center;
 }
 
 .section-title-warp .sub-title {
@@ -434,7 +435,8 @@ h6:last-child {
 
 .middle-header h1 {
     font-size: 45px;
-    margin-bottom: 0
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .middle-header h1 a {
@@ -1462,7 +1464,8 @@ h6:last-child {
     border-radius: 10px;
     margin-bottom: 30px;
     -webkit-transition: .6s;
-    transition: .6s
+    transition: .6s;
+    min-height: 250px;
 }
 
 .single-features.bg-f57e57 {
@@ -6405,11 +6408,11 @@ blockquote p,
 }
 
 .dental-tourism-review-area {
-    background-color: #eff8fb
+    background-color: #fff2f4;
 }
 
 .dental-tourism-review-area .section-title-warp .sub-title {
-    background-color: #1dbfcc;
+    background-color: #222222;
     color: #fff
 }
 
@@ -6488,13 +6491,13 @@ blockquote p,
 
 .dental-tourism-review-card .icon-quote i {
     font-size: 50px;
-    color: #1dbfcc
+    color: #222222;
 }
 
 .dental-tourism-review-slides.owl-theme .owl-dots .owl-dot span {
     width: 10px;
     height: 10px;
-    background-color: #1dbfcc;
+    background-color: #e92741;
     -webkit-transition: .6s;
     transition: .6s;
     border-radius: 50%;
@@ -6506,7 +6509,7 @@ blockquote p,
 
 .dental-tourism-review-slides.owl-theme .owl-dots .owl-dot:hover span,
 .dental-tourism-review-slides.owl-theme .owl-dots .owl-dot.active span {
-    background: #1dbfcc;
+    background: #e92741;
     -webkit-transform: scale(1.5);
     transform: scale(1.5)
 }
@@ -6516,12 +6519,12 @@ blockquote p,
 }
 
 .dental-tourism-blog-area .section-title-warp .sub-title {
-    background-color: #1dbfcc;
+    background-color: #e92741;
     color: #fff
 }
 
 .dental-tourism-blog-area .section-warp-btn .default-btn {
-    background-color: #1dbfcc
+    background-color: #e92741
 }
 
 .dental-tourism-blog-area .section-warp-btn .default-btn:hover {
@@ -15496,4 +15499,10 @@ blockquote p,
 
 .main-text {
     color: #dc3545;
+}
+.text-justify{
+    text-align: justify;
+}
+.card-image{
+    width: 20%;
 }

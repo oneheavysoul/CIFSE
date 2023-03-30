@@ -55,6 +55,7 @@ function Header() {
                                 <h1>
                                     <img src="assets/images/logo.png" className="main-logo" alt="logo" />
                                 </h1>
+                                <p style={{fontSize:"12px", color:'#222222',fontWeight:600,textAlign:'center'}}>ISO:9001-2015 CERTIFIED</p>
                             </div>
                         </div>
                         <div className="col-lg-10 col-md-12">
