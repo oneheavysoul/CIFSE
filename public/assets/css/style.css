@@ -66,7 +66,7 @@ img {
 }
 
 .pt-100 {
-    padding-top: 100px
+    padding-top: 50px
 }
 
 .pb-100 {
@@ -316,9 +316,9 @@ h6:last-child {
 .top-header-information li i {
     position: absolute;
     left: 0;
-    top: 2px;
+    top: 0px;
     color: #eb2d3c;
-    font-size: 16px
+    font-size: 22px
 }
 
 .top-header-information li a {
@@ -2730,16 +2730,16 @@ h6:last-child {
     transform: translateY(-10px)
 }
 
-.gallery-area.bg-091e3e {
-    background-color: #091e3e;
+.gallery-area.bg-222222 {
+    background-color: #222222;
     padding-bottom: 150px
 }
 
-.gallery-area.bg-091e3e .section-title h2 {
+.gallery-area.bg-222222 .section-title h2 {
     color: #fff
 }
 
-.gallery-area.bg-091e3e .section-title p {
+.gallery-area.bg-222222 .section-title p {
     color: #fff
 }
 
@@ -4934,7 +4934,7 @@ blockquote p,
 }
 
 .footer-area {
-    background-color: #091e3e
+    background-color: #222222;
 }
 
 .single-footer-widget {
@@ -5167,14 +5167,14 @@ blockquote p,
 }
 
 .copyright-area {
-    padding-bottom: 30px;
-    background-color: #091e3e
+    padding-bottom: 15px;
+    background-color: #222222
 }
 
 .copyright-area-content {
     text-align: center;
     border-top: 1px solid #2e405b;
-    padding-top: 30px
+    padding-top: 15px
 }
 
 .copyright-area-content p {
@@ -15494,6 +15494,6 @@ blockquote p,
     color: #fff
 }
 
-.main-text{
+.main-text {
     color: #dc3545;
 }

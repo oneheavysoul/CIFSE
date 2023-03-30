@@ -14,13 +14,13 @@ function Header() {
                                     Cisfe College Sector 25, GIDC, Plot No 26, Opp. Madur Dairy, Raj Shikshan Sankul, Gandhinagar, Gujarat
                                 </li> */}
                                 <li>
-                                    <i className="flaticon-emergency-call"></i>
+                                    <i className="fa fa-phone-square" aria-hidden="true"></i>
                                     <span><a href="tel:+91 94514 42632">+91 94514 42632</a></span>,
                                     <span><a href="tel:+91 73101 76777">+91 73101 76777</a></span>
                                 </li>
                                 <li>
-                                    <i className="flaticon-mail"></i>
-                                    <span><a href="mailto:info@cifseindia.org">info@cifseindia.org</a></span>
+                                    <i className="fa fa-envelope" aria-hidden="true"></i>
+                                    <span><a href="mailto:info@cifseindia.org"> info@cifseindia.org</a></span>
                                 </li>
                             </ul>
                         </div>
@@ -28,16 +28,16 @@ function Header() {
                             <ul className="top-header-optional">
                                 <li>
                                     <a href="https://www.facebook.com/" target="_blank">
-                                        <i className='bx bxl-facebook'></i>
+                                        <i className='fa fa-facebook'></i>
                                     </a>
                                     <a href="https://twitter.com/?lang=en" target="_blank">
-                                        <i className='bx bxl-twitter'></i>
+                                        <i className='fa fa-twitter'></i>
                                     </a>
                                     <a href="https://www.linkedin.com/" target="_blank">
-                                        <i className='bx bxl-linkedin'></i>
+                                        <i className='fa fa-linkedin'></i>
                                     </a>
                                     <a href="https://www.instagram.com/" target="_blank">
-                                        <i className='bx bxl-instagram'></i>
+                                        <i className='fa fa-instagram'></i>
                                     </a>
                                 </li>
                             </ul>
