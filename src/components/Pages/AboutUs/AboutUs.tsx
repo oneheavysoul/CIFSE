@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../Footer/Footer';
 import Header from '../../Header/Header';
 import PageHeader from './PageHeader';
 
@@ -7,7 +8,8 @@ function AboutUs() {
         <>
             <div className="page-wrapper">
                 <Header />
-                <PageHeader/>
+                <PageHeader />
+                <Footer />
             </div>
         </>
     )
