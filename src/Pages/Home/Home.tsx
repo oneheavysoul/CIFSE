@@ -18,7 +18,7 @@ function Home() {
         <Testimonial />
         <Footer />
       </div>
-      <BottomFooter />
+      {/* <BottomFooter /> */}
     </>
   )
 }

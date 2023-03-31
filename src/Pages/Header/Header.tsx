@@ -9,10 +9,6 @@ function Header() {
                     <div className="row align-items-center">
                         <div className="col-lg-9 col-md-12">
                             <ul className="top-header-information">
-                                {/* <li>
-                                    <i className='bx bxs-map'></i>
-                                    Cisfe College Sector 25, GIDC, Plot No 26, Opp. Madur Dairy, Raj Shikshan Sankul, Gandhinagar, Gujarat
-                                </li> */}
                                 <li>
                                     <i className="fa fa-phone-square" aria-hidden="true"></i>
                                     <span><a href="tel:+91 94514 42632">+91 94514 42632</a></span>,
@@ -51,11 +47,10 @@ function Header() {
                     <div className="row align-items-center">
                         <div className="col-lg-2 col-md-12">
                             <div className="middle-header">
-                                {/* <img src="assets/images/logo.png" className="main-logo" alt="logo" /> */}
                                 <h1>
                                     <img src="assets/images/logo.png" className="main-logo" alt="logo" />
                                 </h1>
-                                <p style={{fontSize:"12px", color:'#222222',fontWeight:600,textAlign:'center'}}>ISO:9001-2015 CERTIFIED</p>
+                                <p style={{ fontSize: "12px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>ISO:9001-2015 CERTIFIED</p>
                             </div>
                         </div>
                         <div className="col-lg-10 col-md-12">
@@ -81,7 +76,6 @@ function Header() {
                             <div className="logo">
                                 <a href="#">
                                     <img src="assets/images/logo.png" className="main-logo" alt="logo" />
-                                    {/* <img src="assets/images/logo-2.png" className="white-logo" alt="logo" /> */}
                                 </a>
                             </div>
                         </div>

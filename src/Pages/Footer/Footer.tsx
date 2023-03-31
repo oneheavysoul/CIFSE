@@ -30,7 +30,7 @@ function Footer() {
 
                             </div>
                         </div>
-                        <div className="col-lg-2 offset-1 col-sm-6">
+                        <div className="col-lg-2 offset-lg-1 col-sm-6">
                             <div className="single-footer-widget">
                                 <h3>Useful Link</h3>
                                 <ul className="quick-links">
