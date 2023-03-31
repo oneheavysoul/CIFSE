@@ -17,6 +17,7 @@ function Home() {
         <Testimonial />
         <Footer />
       </div>
+      {/* <BottomFooter /> */}
     </>
   )
 }

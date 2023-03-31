@@ -73,7 +73,6 @@ function Banner() {
                             <div className="single-features">
                                 <div className="content">
                                     <div className="icon">
-                                        {/* <i className="flaticon-doctor"></i> */}
                                         <img src="assets/images/others/si3.png" className="card-image" alt="logo" />
                                     </div>
                                     <h3>
@@ -87,7 +86,6 @@ function Banner() {
                             <div className="single-features bg-f57e57">
                                 <div className="content">
                                     <div className="icon">
-                                        {/* <i className="flaticon-chair"></i> */}
                                         <img src="assets/images/others/training1.png" className="card-image" alt="logo" />
                                     </div>
                                     <h3>
@@ -101,7 +99,6 @@ function Banner() {
                             <div className="single-features bg-4a6577">
                                 <div className="content">
                                     <div className="icon">
-                                        {/* <i className="flaticon-healthcare"></i> */}
                                         <img src="assets/images/others/docs2.png" className="card-image" alt="logo" />
                                     </div>
                                     <h3>
