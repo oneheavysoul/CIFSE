@@ -2262,7 +2262,7 @@ h6:last-child {
 }
 
 .about-image {
-    text-align: right;
+    /* text-align: right; */
     position: relative
 }
 
