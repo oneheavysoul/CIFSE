@@ -25,7 +25,7 @@ function Directors() {
                     <div className="row">
 
 
-                        <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                        <div className="col-lg-3 col-md-6 offset-lg-0 offset-md-3">
                             <div className="single-doctor">
                                 <a href="dentist-details.html"><img src="assets/images/others/123.jpg" alt="image" /></a>
                                 <div className="doctor-content">

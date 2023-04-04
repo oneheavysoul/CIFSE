@@ -5,6 +5,8 @@ import About from './About';
 import Banner from './Banner';
 import Directors from './Directors';
 import Testimonial from './Testimonial';
+import OurAffiliation from './OurAffiliation';
+import Admission from './Admission';
 
 function Home() {
   return (
@@ -13,8 +15,10 @@ function Home() {
         <Header />
         <Banner />
         <About />
-        <Directors />
+        <OurAffiliation />
         <Testimonial />
+        <Directors />
+        <Admission />
         <Footer />
       </div>
       {/* <BottomFooter /> */}

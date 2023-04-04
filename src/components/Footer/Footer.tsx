@@ -5,6 +5,7 @@ function Footer() {
 
     useEffect(() => {
         mainMethod();
+        mainMethod1();
     }, [])
 
     const mainMethod = () => {
@@ -12,9 +13,15 @@ function Footer() {
         minscript.async = true;
         minscript.src = publicUrl + "assets/js/main.js";
         document.body.appendChild(minscript);
+    }
+    
+    const mainMethod1 = () => {
+        const minscript1 = document.createElement("script");
+        minscript1.async = true;
+        minscript1.src = publicUrl + "assets/js/jarallax.min.js";
+        document.body.appendChild(minscript1);
 
     }
-
     return (
         <>
 

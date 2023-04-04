@@ -196,7 +196,7 @@ function OurStory() {
 
                     </div>
                     <div className="row">
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-3 col-md-6">
                             <div className="single-doctor">
                                 <a href="dentist-details.html"><img src="assets/images/others/123.jpg" alt="image" /></a>
                                 <div className="doctor-content">
@@ -215,7 +215,7 @@ function OurStory() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-6">
+                        <div className="col-lg-3 col-md-6">
                             <div className="single-doctor">
                                 <a href="dentist-details.html"><img src="assets/images/others/124.jpg" alt="image" /></a>
                                 <div className="doctor-content">
@@ -234,7 +234,6 @@ function OurStory() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>

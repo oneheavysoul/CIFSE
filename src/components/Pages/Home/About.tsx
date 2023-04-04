@@ -7,17 +7,17 @@ function About() {
             <section className="about-area ptb-100">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-7">
+                        <div className="col-lg-6">
                             <div className="about-content">
                                 <span className="sub-title">
                                     <i className="flaticon-hashtag-symbol"></i>
-                                    About Our Hospital
+                                    About Our CIFSE
                                 </span>
                                 <h3>Central Institute of  <span>Fire & Safety Engineering</span>
                                 </h3>
                                 <p>Central Institute of Fire & Safety Engineering has been founded to produce skilled and trained professionals in the field of engineering and safety. Since last two years,
                                     We have seen tremendous progress in the field of fire services & growth in fire technology development in entire India.</p>
-                                
+
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6">
                                         <div className="about-info">
@@ -36,9 +36,44 @@ function About() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-5">
-                            <div className="about-image">
-                                <img src="assets/images/about/about-1.png" alt="image" />
+                        <div className="col-lg-6">
+                            <div className="row">
+                                <div className="col-md-6 col-sm-6">
+                                    <div className="pricingTable">
+                                        <div className="pricingTable-header">
+                                            <h3 className="title">HIGHLIGHTS</h3>
+                                        </div>
+                                        <ul className="pricing-content">
+                                            <li>Government Recognized</li>
+                                            <li>ISO 9001-2008 certified</li>
+                                            <li>International Level Faculty</li>
+                                            <li>Independent Practical Training Yard</li>
+                                            <li>Hostel Facility</li>
+                                            <li>Industrial Visit</li>
+                                            <li>Ground for Playing / Drill</li>
+                                            <li>Books Library Available</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <div className="col-md-6 col-sm-6">
+                                    <div className="pricingTable blue">
+                                        <div className="pricingTable-header">
+                                            <h3 className="title">NEWS</h3>
+                                        </div>
+                                        <ul className="pricing-content">
+                                            <li>Government Recognized</li>
+                                            <li>ISO 9001-2008 certified</li>
+                                            <li>International Level Faculty</li>
+                                            <li>Independent Practical Training Yard</li>
+                                            <li>Hostel Facility</li>
+                                            <li>Industrial Visit</li>
+                                            <li>Ground for Playing / Drill</li>
+                                            <li>Books Library Available</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

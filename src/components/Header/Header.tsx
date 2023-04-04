@@ -128,7 +128,7 @@ function Header() {
                                 <div className="others-options d-flex align-items-center">
                                     <div className="option-item">
                                         <div className="navbar-btn">
-                                            <a href="#" className="default-btn">Inquiry / Contact Us</a>
+                                            <Link to={ROUTES.contactUs} className="default-btn">Inquiry / Contact Us</Link>
                                         </div>
                                     </div>
                                 </div>
