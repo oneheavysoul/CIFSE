@@ -97,9 +97,9 @@ function Header() {
                                         <Link to={ROUTES.aboutUs} className="nav-link">About Us</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="#" className="nav-link">
+                                        <Link to={ROUTES.RegularCourse} className="nav-link">
                                             Regular Course
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
                                         <a href="#" className="nav-link">

@@ -4,6 +4,7 @@ import { ROUTES } from './constants/routes';
 import AboutUs from './components/Pages/About/AboutUs';
 import Home from './components/Pages/Home/Home';
 import ContactUs from './components/Pages/Contact/ContactUs';
+import RegularCourseP from './components/Pages/RegularCourse/RegularCourseP';
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
         <Switch>
           <Route exact path={ROUTES.home} component={Home} />
           <Route exact path={ROUTES.aboutUs} component={AboutUs} />
+          <Route exact path={ROUTES.RegularCourse} component={RegularCourseP} />
           <Route exact path={ROUTES.contactUs} component={ContactUs} />
         </Switch >
       </BrowserRouter >
