@@ -5,6 +5,7 @@ import AboutUs from './components/Pages/About/AboutUs';
 import Home from './components/Pages/Home/Home';
 import ContactUs from './components/Pages/Contact/ContactUs';
 import RegularCourseP from './components/Pages/RegularCourse/RegularCourseP';
+import RegularCourseDetailsPage from './components/Pages/RegularCourse/RegularCourseDetails/RegularCourseDetailsPage';
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
           <Route exact path={ROUTES.home} component={Home} />
           <Route exact path={ROUTES.aboutUs} component={AboutUs} />
           <Route exact path={ROUTES.RegularCourse} component={RegularCourseP} />
+          <Route exact path={ROUTES.RegularCourseDetail} component={RegularCourseDetailsPage}/>
           <Route exact path={ROUTES.contactUs} component={ContactUs} />
         </Switch >
       </BrowserRouter >
