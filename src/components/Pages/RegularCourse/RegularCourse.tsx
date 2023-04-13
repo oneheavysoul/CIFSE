@@ -24,6 +24,7 @@ function RegularCourse() {
                             </div>
                         </div>
                     </div>
+                    
                     <div className="row">
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div className="blog-one__single">
@@ -53,7 +54,7 @@ function RegularCourse() {
                                     </div>
                                     <h3 className="blog-one__title"><a href="#">Diploma in Fire Service Engineering</a></h3>
                                     <p className="blog-one__text">Duration: 2 Year Course</p>
-                                    <p className="blog-one__text">Eligibility: 12th or Equivalent Or Any<br /> Diploma</p>
+                                    <p className="blog-one__text">Eligibility: 12th or Equivalent Or Any Diploma</p>
                                     <div className="blog-one__read-more">
                                         <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
                                     </div>
@@ -70,65 +71,7 @@ function RegularCourse() {
                                     </div>
                                     <h3 className="blog-one__title"><a href="#">Advance Diploma in Industrial Safety</a></h3>
                                     <p className="blog-one__text">Duration: 1 Year Course</p>
-                                    <p className="blog-one__text">Eligibility:Any Degree or Any <br /> Diploma</p>
-                                    <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-                    </div>
-
-                    <div className="row">
-                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                            <div className="blog-one__single">
-                                <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
-                                </div>
-                                <div className="blog-one__content">
-                                    <div className="blog-one__user">
-                                    </div>
-                                    <h3 className="blog-one__title"><a href="#">B.Sc. in Fire, Safety and Hazard Management</a></h3>
-                                    <p className="blog-one__text">Duration: 3 year Course</p>
-                                    <p className="blog-one__text">Eligibility: 10th +2 or Equivalent, Lateral entry direct 3rd year - Dip. In fire service engg. (1 year course)</p>
-                                    <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                            <div className="blog-one__single">
-                                <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
-                                </div>
-                                <div className="blog-one__content">
-                                    <div className="blog-one__user">
-
-                                    </div>
-                                    <h3 className="blog-one__title"><a href="#">Diploma in Fire Service Engineering</a></h3>
-                                    <p className="blog-one__text">Duration: 2 Year Course</p>
-                                    <p className="blog-one__text">Eligibility: 12th or Equivalent Or Any<br /> Diploma</p>
-                                    <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-                            <div className="blog-one__single">
-                                <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
-                                </div>
-                                <div className="blog-one__content">
-                                    <div className="blog-one__user">
-                                    </div>
-                                    <h3 className="blog-one__title"><a href="#">Advance Diploma in Industrial Safety</a></h3>
-                                    <p className="blog-one__text">Duration: 1 Year Course</p>
-                                    <p className="blog-one__text">Eligibility:Any Degree or Any <br /> Diploma</p>
+                                    <p className="blog-one__text">Eligibility: Any Degree or Any Diploma</p>
                                     <div className="blog-one__read-more">
                                         <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
                                     </div>
@@ -146,9 +89,9 @@ function RegularCourse() {
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
                                     </div>
-                                    <h3 className="blog-one__title"><a href="#">B.Sc. in Fire, Safety and Hazard Management</a></h3>
-                                    <p className="blog-one__text">Duration: 3 year Course</p>
-                                    <p className="blog-one__text">Eligibility: 10th +2 or Equivalent, Lateral entry direct 3rd year - Dip. In fire service engg. (1 year course)</p>
+                                    <h3 className="blog-one__title"><a href="#">Diploma in Fire and Safety Engineering</a></h3>
+                                    <p className="blog-one__text">Duration: 1 Year</p>
+                                    <p className="blog-one__text">Eligibility: 10th +2 or Equivalent</p>
                                     <div className="blog-one__read-more">
                                         <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
                                     </div>
@@ -164,9 +107,9 @@ function RegularCourse() {
                                     <div className="blog-one__user">
 
                                     </div>
-                                    <h3 className="blog-one__title"><a href="#">Diploma in Fire Service Engineering</a></h3>
-                                    <p className="blog-one__text">Duration: 2 Year Course</p>
-                                    <p className="blog-one__text">Eligibility: 12th or Equivalent Or Any<br /> Diploma</p>
+                                    <h3 className="blog-one__title"><a href="#">Advance Diploma in Industrial Safety & Security Management</a></h3>
+                                    <p className="blog-one__text">Duration: 1 Year</p>
+                                    <p className="blog-one__text">Eligibility: Any Graduate Or Any Diploma</p>
                                     <div className="blog-one__read-more">
                                         <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
                                     </div>
@@ -181,9 +124,9 @@ function RegularCourse() {
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
                                     </div>
-                                    <h3 className="blog-one__title"><a href="#">Advance Diploma in Industrial Safety</a></h3>
-                                    <p className="blog-one__text">Duration: 1 Year Course</p>
-                                    <p className="blog-one__text">Eligibility:Any Degree or Any <br /> Diploma</p>
+                                    <h3 className="blog-one__title"><a href="#">Certificate in Fire and Safety Engineering</a></h3>
+                                    <p className="blog-one__text">Duration: 6 Months</p>
+                                    <p className="blog-one__text">Eligibility: 10th Pass</p>
                                     <div className="blog-one__read-more">
                                         <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
                                     </div>
@@ -201,9 +144,9 @@ function RegularCourse() {
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
                                     </div>
-                                    <h3 className="blog-one__title"><a href="#">B.Sc. in Fire, Safety and Hazard Management</a></h3>
-                                    <p className="blog-one__text">Duration: 3 year Course</p>
-                                    <p className="blog-one__text">Eligibility: 10th +2 or Equivalent, Lateral entry direct 3rd year - Dip. In fire service engg. (1 year course)</p>
+                                    <h3 className="blog-one__title"><a href="#">MBA in Fire Safety Management</a></h3>
+                                    <p className="blog-one__text">Duration: 2 Years</p>
+                                    <p className="blog-one__text">Eligibility: Any Graduate or Equivalent</p>
                                     <div className="blog-one__read-more">
                                         <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
                                     </div>
@@ -219,9 +162,9 @@ function RegularCourse() {
                                     <div className="blog-one__user">
 
                                     </div>
-                                    <h3 className="blog-one__title"><a href="#">Diploma in Fire Service Engineering</a></h3>
-                                    <p className="blog-one__text">Duration: 2 Year Course</p>
-                                    <p className="blog-one__text">Eligibility: 12th or Equivalent Or Any<br /> Diploma</p>
+                                    <h3 className="blog-one__title"><a href="#">Fire Officer Course</a></h3>
+                                    <p className="blog-one__text">Duration: 1 Year</p>
+                                    <p className="blog-one__text">Eligibility: 10+2 or equivalent</p>
                                     <div className="blog-one__read-more">
                                         <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
                                     </div>
@@ -238,7 +181,62 @@ function RegularCourse() {
                                     </div>
                                     <h3 className="blog-one__title"><a href="#">Advance Diploma in Industrial Safety</a></h3>
                                     <p className="blog-one__text">Duration: 1 Year Course</p>
-                                    <p className="blog-one__text">Eligibility:Any Degree or Any <br /> Diploma</p>
+                                    <p className="blog-one__text">Eligibility:Any Degree or Any Diploma</p>
+                                    <div className="blog-one__read-more">
+                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                            <div className="blog-one__single">
+                                <div className="blog-one__img">
+                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                </div>
+                                <div className="blog-one__content">
+                                    <div className="blog-one__user">
+                                    </div>
+                                    <h3 className="blog-one__title"><a href="#">MBA in Industrial Safety Management</a></h3>
+                                    <p className="blog-one__text">Duration: 2 Years</p>
+                                    <p className="blog-one__text">Eligibility: Any Degree or Any Diploma</p>
+                                    <div className="blog-one__read-more">
+                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                            <div className="blog-one__single">
+                                <div className="blog-one__img">
+                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                </div>
+                                <div className="blog-one__content">
+                                    <div className="blog-one__user">
+
+                                    </div>
+                                    <h3 className="blog-one__title"><a href="#">P.G. Diploma in Industrial Safety</a></h3>
+                                    <p className="blog-one__text">Duration: 1 Year</p>
+                                    <p className="blog-one__text">Eligibility: Any Graduate or Any Diploma</p>
+                                    <div className="blog-one__read-more">
+                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                            <div className="blog-one__single">
+                                <div className="blog-one__img">
+                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                </div>
+                                <div className="blog-one__content">
+                                    <div className="blog-one__user">
+                                    </div>
+                                    <h3 className="blog-one__title"><a href="#">Safety Officer Course</a></h3>
+                                    <p className="blog-one__text">Duration: 1 Year</p>
+                                    <p className="blog-one__text">Eligibility: 10+2 or equivalent</p>
                                     <div className="blog-one__read-more">
                                         <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
                                     </div>

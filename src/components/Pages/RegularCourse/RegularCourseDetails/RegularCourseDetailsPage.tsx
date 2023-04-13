@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import PageHeader from './PageHeader'
 import Header from '../../../Header/Header'
 import Footer from '../../../Footer/Footer'
-import RegularCourseDetailOne from './RegularCourseDetailOne'
+import RegularCourseDetailOne from './BscFire/RegularCourseDetailOne'
 
 function RegularCourseDetailsPage() {
     return (

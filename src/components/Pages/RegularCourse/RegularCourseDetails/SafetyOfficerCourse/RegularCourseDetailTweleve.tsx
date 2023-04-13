@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import PageHeader from './PageHeader'
-import Header from '../../../Header/Header'
-import Footer from '../../../Footer/Footer'
+import PageHeader from '../PageHeader'
+import Header from '../../../../Header/Header'
+import Footer from '../../../../Footer/Footer'
 
 function RegularCourseDetailOne() {
     return (
@@ -17,10 +17,10 @@ function RegularCourseDetailOne() {
 
                                 </div>
                                 <div className="article-content">
-                                    <h3>B.Sc. in Fire, Safety and Hazard Management</h3>
-                                    <p>Join <b>Regular Diploma Courses</b> in <b>B.Sc. in Fire, Safety and hazard
-                                        Management,</b> Exam will be held on July or Dec every year, you can pursue
-                                        3 year course, Come to the campus for a guided tour & counselling and then
+                                    <h3>SOC - Safety Officer Course</h3>
+                                    <p>Join <b>Regular Diploma Courses</b> in <b>Safety Officer Course,</b>
+                                        Exam will be held on July or Dec every year, you can pursue
+                                        1 year diploma,, Come to the campus for a guided tour & counselling and then
                                         apply <b>GANGHINAGAR,</b> Contact us on mobile (9am to 9pm) <b>0777799414</b> or
                                         Send us an email – <b>cifsevrl101@gmail.com</b>
                                     </p>
@@ -43,14 +43,14 @@ function RegularCourseDetailOne() {
                         <div className="col-lg-4 col-md-12">
                             <aside className="widget-area">
                                 <div className="widget widget_grin_posts_thumb">
-                                    <h3 className="widget-title">Another Regular Course</h3>
+                                    <h3 className="widget-title">Another Regular Courses</h3>
                                     <article className="item">
                                         <a href="#" className="thumb">
                                             <span className="fullimage cover bg1" role="img"></span>
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">New Technology Make for Dental Operation</a>
+                                                <a href="blog-details.html">B.Sc. in Fire Safety and Hazard Management</a>
                                             </h4>
                                         </div>
                                     </article>
@@ -60,7 +60,7 @@ function RegularCourseDetailOne() {
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Regular Dental care make Your Smile Brighter</a>
+                                                <a href="blog-details.html">Diploma in Fire Service Engineering</a>
                                             </h4>
                                         </div>
                                     </article>
@@ -70,7 +70,7 @@ function RegularCourseDetailOne() {
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Dental Hygiene for All Age to Make Smile</a>
+                                                <a href="blog-details.html">Advance Diploma in Industrial Safety</a>
                                             </h4>
                                         </div>
                                     </article>
@@ -80,7 +80,7 @@ function RegularCourseDetailOne() {
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Dental Hygiene for All Age to Make Smile</a>
+                                                <a href="blog-details.html">Diploma in Fire and Safety Engineering</a>
                                             </h4>
                                         </div>
                                     </article>
@@ -90,7 +90,7 @@ function RegularCourseDetailOne() {
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Dental Hygiene for All Age to Make Smile</a>
+                                                <a href="blog-details.html">Adavance Diploma in Industrial Safety & Security Management</a>
                                             </h4>
                                         </div>
                                     </article>
@@ -100,7 +100,7 @@ function RegularCourseDetailOne() {
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Dental Hygiene for All Age to Make Smile</a>
+                                                <a href="blog-details.html">Certificate in Fire and Safety Engineering</a>
                                             </h4>
                                         </div>
                                     </article>
@@ -110,7 +110,7 @@ function RegularCourseDetailOne() {
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Dental Hygiene for All Age to Make Smile</a>
+                                                <a href="blog-details.html">MBA in Fire Safety Management</a>
                                             </h4>
                                         </div>
                                     </article>
@@ -120,7 +120,7 @@ function RegularCourseDetailOne() {
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Dental Hygiene for All Age to Make Smile</a>
+                                                <a href="blog-details.html">Fire Officer Course</a>
                                             </h4>
                                         </div>
                                     </article>
@@ -130,7 +130,7 @@ function RegularCourseDetailOne() {
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Dental Hygiene for All Age to Make Smile</a>
+                                                <a href="blog-details.html">Diploma in Fire and Safety</a>
                                             </h4>
                                         </div>
                                     </article>
@@ -140,7 +140,7 @@ function RegularCourseDetailOne() {
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Dental Hygiene for All Age to Make Smile</a>
+                                                <a href="blog-details.html">MBA in Industrial Safety Management</a>
                                             </h4>
                                         </div>
                                     </article>
@@ -150,7 +150,7 @@ function RegularCourseDetailOne() {
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Dental Hygiene for All Age to Make Smile</a>
+                                                <a href="blog-details.html">P.G. Diploma in Industrial Safety</a>
                                             </h4>
                                         </div>
                                     </article>
