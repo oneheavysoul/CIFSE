@@ -6,22 +6,30 @@ function Footer() {
     useEffect(() => {
         mainMethod();
         mainMethod1();
+        mainMethod2()
     }, [])
 
     const mainMethod = () => {
         const minscript = document.createElement("script");
         minscript.async = true;
-        minscript.src = publicUrl + "%PUBLIC_URL%/assets/js/main.js";
+        minscript.src = publicUrl + "assets/js/main.js";
         document.body.appendChild(minscript);
     }
 
     const mainMethod1 = () => {
         const minscript1 = document.createElement("script");
         minscript1.async = true;
-        minscript1.src = publicUrl + "%PUBLIC_URL%/assets/js/jarallax.min.js";
+        minscript1.src = publicUrl + "assets/js/jarallax.min.js";
         document.body.appendChild(minscript1);
-
     }
+
+    const mainMethod2 = () => {
+        const minscript2 = document.createElement("script");
+        minscript2.async = true;
+        minscript2.src = publicUrl + "assets/js/jquery.magnific-popup.min.js";
+        document.body.appendChild(minscript2);
+    }
+
     return (
         <>
 
