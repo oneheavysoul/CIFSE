@@ -3,7 +3,7 @@ import Footer from '../../Footer/Footer';
 import Header from '../../Header/Header';
 import PageHeader from './PageHeader';
 import { Link } from 'react-router-dom';
-import { ROUTES } from '../../../constants/routes';
+import { InnerPageRoutes, ROUTES } from '../../../constants/routes';
 
 
 function RegularCourse() {
@@ -38,7 +38,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 3 year Course</p>
                                     <p className="blog-one__text">Eligibility: 10th +2 or Equivalent, Lateral entry direct 3rd year - Dip. In fire service engg. (1 year course)</p>
                                     <div className="blog-one__read-more">
-                                        <Link to={ROUTES.RegularCourseDetail}>Read More <i className="fa fa-arrow-right"></i></Link>
+                                        <Link to={InnerPageRoutes.bscfire}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

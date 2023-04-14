@@ -1,19 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import PageHeader from '../PageHeader'
-import Header from '../../../../Header/Header'
 import Footer from '../../../../Footer/Footer'
+import Header from '../../../../Header/Header'
+
 
 function RegularCourseDetailOne() {
+    let publicUrl = process.env.PUBLIC_URL + "/";
+
     return (
         <>
+        <Header />
             <section className="blog-details-area ptb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 col-md-12">
                             <div className="blog-details-desc">
                                 <div className="article-image">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="image" />
+                                    <img src={publicUrl + "assets/images/regular-course/fire-sefty-2.jpg"} alt="image" />
 
                                 </div>
                                 <div className="article-content">
@@ -192,6 +196,7 @@ function RegularCourseDetailOne() {
                     </div>
                 </div>
             </section>
+        <Footer/>
         </>
     )
 }

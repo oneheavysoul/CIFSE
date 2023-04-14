@@ -11,14 +11,14 @@ function Footer() {
     const mainMethod = () => {
         const minscript = document.createElement("script");
         minscript.async = true;
-        minscript.src = publicUrl + "assets/js/main.js";
+        minscript.src = publicUrl + "%PUBLIC_URL%/assets/js/main.js";
         document.body.appendChild(minscript);
     }
-    
+
     const mainMethod1 = () => {
         const minscript1 = document.createElement("script");
         minscript1.async = true;
-        minscript1.src = publicUrl + "assets/js/jarallax.min.js";
+        minscript1.src = publicUrl + "%PUBLIC_URL%/assets/js/jarallax.min.js";
         document.body.appendChild(minscript1);
 
     }
@@ -31,7 +31,7 @@ function Footer() {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget">
                                 <h2>
-                                    <img src="assets/images/logo.png" className="main-logo" alt="logo" />
+                                    <img src={publicUrl + "assets/images/logo.png"} className="main-logo" alt="logo" />
                                 </h2>
                                 <p>Central Institute of Fire & Safety Engineering has been founded to produce skilled and trained professionals in the field of engineering and safety.</p>
 
@@ -84,9 +84,9 @@ function Footer() {
                 <div className="container">
                     <div className="copyright-area-content">
                         <p>
-                        © 2020 CIFSE. All rights reserved | Designed by
+                            © 2020 CIFSE. All rights reserved | Designed by
                             <a href="#" target="_blank">
-                                 Creactive Design Info
+                                Creactive Design Info
                             </a>
                         </p>
                     </div>

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ROUTES } from '../../constants/routes';
 
 function Header() {
+    let publicUrl = process.env.PUBLIC_URL + "/";
     return (
         <>
 
@@ -50,7 +51,12 @@ function Header() {
                         <div className="col-lg-2 col-md-12">
                             <div className="middle-header">
                                 <h1>
-                                    <img src="assets/images/logo.png" className="main-logo" alt="logo" />
+                                    {/* <img src="assets/images/logo.png" className="main-logo" alt="logo" /> */}
+                                    <img
+                                        src={publicUrl + "assets/images/logo.png"}
+                                        alt="Logo"
+                                        className="main-logo"
+                                    />
                                 </h1>
                                 <p style={{ fontSize: "12px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>ISO:9001-2015 CERTIFIED</p>
                             </div>
@@ -77,7 +83,12 @@ function Header() {
                         <div className="main-responsive-menu">
                             <div className="logo">
                                 <a href="#">
-                                    <img src="assets/images/logo.png" className="main-logo" alt="logo" />
+                                    {/* <img src="assets/images/logo.png" className="main-logo" alt="logo" /> */}
+                                    <img
+                                        src={publicUrl + "assets/images/logo.png"}
+                                        alt="Logo"
+                                        className="main-logo"
+                                    />
                                 </a>
                             </div>
                         </div>
