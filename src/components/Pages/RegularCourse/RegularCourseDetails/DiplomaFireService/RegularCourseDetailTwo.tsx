@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import PageHeader from '../PageHeader'
 import Header from '../../../../Header/Header'
 import Footer from '../../../../Footer/Footer'
 
 function RegularCourseDetailTwo() {
+    let publicUrl = process.env.PUBLIC_URL + "/";
+
+    useEffect(() => {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }, [])
     return (
         <>
             <section className="blog-details-area ptb-100">
@@ -13,7 +18,7 @@ function RegularCourseDetailTwo() {
                         <div className="col-lg-8 col-md-12">
                             <div className="blog-details-desc">
                                 <div className="article-image">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="image" />
+                                    <img src={publicUrl + "assets/images/regular-course/11.jpg"} alt="image" />
 
                                 </div>
                                 <div className="article-content">
@@ -43,10 +48,11 @@ function RegularCourseDetailTwo() {
                         <div className="col-lg-4 col-md-12">
                             <aside className="widget-area">
                                 <div className="widget widget_grin_posts_thumb">
-                                    <h3 className="widget-title">Another Regular Course</h3>
+                                    <h3 className="widget-title">Another Regular Courses</h3>
                                     <article className="item">
                                         <a href="#" className="thumb">
-                                            <span className="fullimage cover bg1" role="img"></span>
+                                            {/* <span className="fullimage cover bg1" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/10.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
@@ -56,7 +62,8 @@ function RegularCourseDetailTwo() {
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
-                                            <span className="fullimage cover bg2" role="img"></span>
+                                            {/* <span className="fullimage cover bg2" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/12.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
@@ -66,7 +73,8 @@ function RegularCourseDetailTwo() {
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
-                                            <span className="fullimage cover bg3" role="img"></span>
+                                            {/* <span className="fullimage cover bg3" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/1.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
@@ -76,17 +84,19 @@ function RegularCourseDetailTwo() {
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
-                                            <span className="fullimage cover bg4" role="img"></span>
+                                            {/* <span className="fullimage cover bg4" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/2.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Adavance Diploma in Industrial Safety & Security Management</a>
+                                                <a href="blog-details.html">Advance Diploma in Industrial Safety & Security Management</a>
                                             </h4>
                                         </div>
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
-                                            <span className="fullimage cover bg5" role="img"></span>
+                                            {/* <span className="fullimage cover bg5" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/3.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
@@ -96,7 +106,8 @@ function RegularCourseDetailTwo() {
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
-                                            <span className="fullimage cover bg6" role="img"></span>
+                                            {/* <span className="fullimage cover bg6" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/4.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
@@ -106,7 +117,8 @@ function RegularCourseDetailTwo() {
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
-                                            <span className="fullimage cover bg7" role="img"></span>
+                                            {/* <span className="fullimage cover bg7" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/5.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
@@ -116,7 +128,8 @@ function RegularCourseDetailTwo() {
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
-                                            <span className="fullimage cover bg8" role="img"></span>
+                                            {/* <span className="fullimage cover bg8" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/6.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
@@ -126,7 +139,8 @@ function RegularCourseDetailTwo() {
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
-                                            <span className="fullimage cover bg9" role="img"></span>
+                                            {/* <span className="fullimage cover bg9" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/7.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
@@ -136,7 +150,8 @@ function RegularCourseDetailTwo() {
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
-                                            <span className="fullimage cover bg10" role="img"></span>
+                                            {/* <span className="fullimage cover bg10" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/8.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
@@ -146,7 +161,8 @@ function RegularCourseDetailTwo() {
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
-                                            <span className="fullimage cover bg11" role="img"></span>
+                                            {/* <span className="fullimage cover bg11" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/9.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">

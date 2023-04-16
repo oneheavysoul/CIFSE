@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../../Footer/Footer';
 import Header from '../../Header/Header';
 import PageHeader from './PageHeader';
 import { Link } from 'react-router-dom';
 import { InnerPageRoutes, ROUTES } from '../../../constants/routes';
 
-
 function RegularCourse() {
+    let publicUrl = process.env.PUBLIC_URL + "/";
+
+    useEffect(() => {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }, [])
     return (
         <>
             {/* Blog Page Start */}
@@ -24,12 +28,12 @@ function RegularCourse() {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div className="row">
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src={publicUrl + "assets/images/regular-course/10.jpg"} alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
@@ -38,7 +42,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 3 year Course</p>
                                     <p className="blog-one__text">Eligibility: 10th +2 or Equivalent, Lateral entry direct 3rd year - Dip. In fire service engg. (1 year course)</p>
                                     <div className="blog-one__read-more">
-                                        <Link to={InnerPageRoutes.bscfire}>Read More <i className="fa fa-arrow-right"></i></Link>
+                                        <Link to={InnerPageRoutes.bscFire}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -46,7 +50,7 @@ function RegularCourse() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src={publicUrl + "assets/images/regular-course/11.jpg"} alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
@@ -56,7 +60,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 2 Year Course</p>
                                     <p className="blog-one__text">Eligibility: 12th or Equivalent Or Any Diploma</p>
                                     <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                        <Link to={InnerPageRoutes.diplomaFireService}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +68,7 @@ function RegularCourse() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src={publicUrl + "assets/images/regular-course/12.jpg"} alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
@@ -73,7 +77,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 1 Year Course</p>
                                     <p className="blog-one__text">Eligibility: Any Degree or Any Diploma</p>
                                     <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                        <Link to={InnerPageRoutes.adis12th}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -84,7 +88,7 @@ function RegularCourse() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src={publicUrl + "assets/images/regular-course/1.jpg"} alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
@@ -93,7 +97,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 1 Year</p>
                                     <p className="blog-one__text">Eligibility: 10th +2 or Equivalent</p>
                                     <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                        <Link to={InnerPageRoutes.dfse}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -101,7 +105,7 @@ function RegularCourse() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src={publicUrl + "assets/images/regular-course/2.jpg"} alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
@@ -111,7 +115,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 1 Year</p>
                                     <p className="blog-one__text">Eligibility: Any Graduate Or Any Diploma</p>
                                     <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                        <Link to={InnerPageRoutes.adis}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +123,7 @@ function RegularCourse() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src={publicUrl + "assets/images/regular-course/3.jpg"} alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
@@ -128,7 +132,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 6 Months</p>
                                     <p className="blog-one__text">Eligibility: 10th Pass</p>
                                     <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                        <Link to={InnerPageRoutes.cfse}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -139,7 +143,7 @@ function RegularCourse() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src="assets/images/regular-course/4.jpg" alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
@@ -148,7 +152,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 2 Years</p>
                                     <p className="blog-one__text">Eligibility: Any Graduate or Equivalent</p>
                                     <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                        <Link to={InnerPageRoutes.mbaFireSafety}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +160,7 @@ function RegularCourse() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src="assets/images/regular-course/5.jpg" alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
@@ -166,7 +170,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 1 Year</p>
                                     <p className="blog-one__text">Eligibility: 10+2 or equivalent</p>
                                     <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                        <Link to={InnerPageRoutes.foc}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -174,16 +178,16 @@ function RegularCourse() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src="assets/images/regular-course/6.jpg" alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
                                     </div>
-                                    <h3 className="blog-one__title"><a href="#">Advance Diploma in Industrial Safety</a></h3>
+                                    <h3 className="blog-one__title"><a href="#">Diploma in Fire and Safety</a></h3>
                                     <p className="blog-one__text">Duration: 1 Year Course</p>
-                                    <p className="blog-one__text">Eligibility:Any Degree or Any Diploma</p>
+                                    <p className="blog-one__text">Eligibility: Any Degree or Any Diploma</p>
                                     <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                        <Link to={InnerPageRoutes.pgdFiresafety}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -194,7 +198,7 @@ function RegularCourse() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src="assets/images/regular-course/7.jpg" alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
@@ -203,7 +207,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 2 Years</p>
                                     <p className="blog-one__text">Eligibility: Any Degree or Any Diploma</p>
                                     <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                        <Link to={InnerPageRoutes.mbaIndustrialSafety}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -211,7 +215,7 @@ function RegularCourse() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src="assets/images/regular-course/8.jpg" alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
@@ -221,7 +225,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 1 Year</p>
                                     <p className="blog-one__text">Eligibility: Any Graduate or Any Diploma</p>
                                     <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                        <Link to={InnerPageRoutes.pgdIndustrialSafety}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>
@@ -229,7 +233,7 @@ function RegularCourse() {
                         <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                             <div className="blog-one__single">
                                 <div className="blog-one__img">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="" />
+                                    <img src="assets/images/regular-course/9.jpg" alt="" />
                                 </div>
                                 <div className="blog-one__content">
                                     <div className="blog-one__user">
@@ -238,7 +242,7 @@ function RegularCourse() {
                                     <p className="blog-one__text">Duration: 1 Year</p>
                                     <p className="blog-one__text">Eligibility: 10+2 or equivalent</p>
                                     <div className="blog-one__read-more">
-                                        <a href="#">Read More <i className="fa fa-arrow-right"></i></a>
+                                        <Link to={InnerPageRoutes.soc}>Read More <i className="fa fa-arrow-right"></i></Link>
                                     </div>
                                 </div>
                             </div>

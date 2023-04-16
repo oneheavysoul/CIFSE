@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import PageHeader from '../PageHeader'
 import Header from '../../../../Header/Header'
 import Footer from '../../../../Footer/Footer'
 
 function RegularCourseDetailOne() {
+    let publicUrl = process.env.PUBLIC_URL + "/";
+
+    useEffect(() => {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }, [])
     return (
         <>
             <section className="blog-details-area ptb-100">
@@ -13,7 +18,7 @@ function RegularCourseDetailOne() {
                         <div className="col-lg-8 col-md-12">
                             <div className="blog-details-desc">
                                 <div className="article-image">
-                                    <img src="assets/images/regular-course/fire-sefty-2.jpg" alt="image" />
+                                    <img src={publicUrl + "assets/images/regular-course/12.jpg"} alt="image" />
 
                                 </div>
                                 <div className="article-content">
@@ -43,7 +48,7 @@ function RegularCourseDetailOne() {
                         <div className="col-lg-4 col-md-12">
                             <aside className="widget-area">
                                 <div className="widget widget_grin_posts_thumb">
-                                    <h3 className="widget-title">Another Regular Course</h3>
+                                    <h3 className="widget-title">Another Regular Courses</h3>
                                     <article className="item">
                                         <a href="#" className="thumb">
                                             <span className="fullimage cover bg1" role="img"></span>
@@ -80,7 +85,7 @@ function RegularCourseDetailOne() {
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                <a href="blog-details.html">Adavance Diploma in Industrial Safety & Security Management</a>
+                                                <a href="blog-details.html">Advance Diploma in Industrial Safety & Security Management</a>
                                             </h4>
                                         </div>
                                     </article>

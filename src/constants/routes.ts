@@ -3,33 +3,32 @@ export const ROUTES = {
   aboutUs: "/about-us",
   contactUs: "/contact-us",
   RegularCourse: "/regular-course",
-  Gallery:"/gallery",
+  Gallery: "/gallery",
   bscfire: "/bsc-in-fire-safety-and-hazard-management",
 };
 
 export const InnerPageRoutes = {
-  adis: `${ROUTES.RegularCourse}/`,
-  
-  adis12th: `${ROUTES.RegularCourse}/thank-course`,
+  bscFire: `${ROUTES.RegularCourse}/bsc-fire-safety-and-hazard-management`,
 
-  bscfire: `${ROUTES.RegularCourse}/bsc-in-fire-safety-and-hazard-management`,
+  diplomaFireService: `${ROUTES.RegularCourse}/diploma-fire-service-engineering`,
 
-  cfse: `${ROUTES.RegularCourse}/thank-course`,
+  adis12th: `${ROUTES.RegularCourse}/advance-diploma-in-industrial-safety`,
 
-  dfse: `${ROUTES.RegularCourse}/thank-basic`,
+  dfse: `${ROUTES.RegularCourse}/diploma-fire-and-safety`,
 
-  diplomaFireService: `${ROUTES.RegularCourse}/thank-course`,
+  adis: `${ROUTES.RegularCourse}/advance-diploma-industrial-safety-security-management`,
 
-  foc: `${ROUTES.RegularCourse}/thank-basic`,
+  cfse: `${ROUTES.RegularCourse}/certificate-fire-and-safety-engineering`,
 
-  mbaFireSafety: `${ROUTES.RegularCourse}/thank-course`,
+  mbaFireSafety: `${ROUTES.RegularCourse}/mba-fire-safety-management`,
 
-  mbaIndustrialSafety: `${ROUTES.RegularCourse}/thank-basic`,
+  foc: `${ROUTES.RegularCourse}/fire-officer-course`,
 
-  pgdFiresafety: `${ROUTES.RegularCourse}/thank-basic`,
+  pgdFiresafety: `${ROUTES.RegularCourse}/diploma-in-fire-and-safety`,
 
-  pgdIndustrialSafety: `${ROUTES.RegularCourse}/thank-basic`,
+  mbaIndustrialSafety: `${ROUTES.RegularCourse}/mba-industrial-safety-management`,
 
-  soc: `${ROUTES.RegularCourse}/thank-basic`,
+  pgdIndustrialSafety: `${ROUTES.RegularCourse}/pg-diploma-industrial-safety`,
 
+  soc: `${ROUTES.RegularCourse}/safety-officer-course`,
 };
