@@ -113,9 +113,9 @@ function Header() {
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="#" className="nav-link">
+                                        <Link to={ROUTES.DistanceCourse} className="nav-link">
                                             Distance Course
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
                                         <a href="#" className="nav-link">

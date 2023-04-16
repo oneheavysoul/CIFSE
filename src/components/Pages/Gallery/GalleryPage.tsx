@@ -13,13 +13,12 @@ function GalleryPage() {
             <section className="gallery-page">
                 <div className="container">
                     <div className="row">
-
                         <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__img">
-                                    <img src={publicUrl + "assets/images/others/133.jpg"} alt="" />
+                                    <img src={publicUrl + "assets/images/others/148.jpg"} alt="" />
                                     <div className="gallery-page__icon">
-                                        <a className="img-popup" href="assets/images/others/133.jpg"><span
+                                        <a className="img-popup" href="assets/images/others/148.jpg"><span
                                             className="fas fa-plus"></span></a>
                                     </div>
                                 </div>
@@ -29,9 +28,9 @@ function GalleryPage() {
                         <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__img">
-                                    <img src={publicUrl + "assets/images/others/133.jpg"} alt="" />
+                                    <img src={publicUrl + "assets/images/others/182.jpg"} alt="" />
                                     <div className="gallery-page__icon">
-                                        <a className="img-popup" href="assets/images/others/133.jpg"><span
+                                        <a className="img-popup" href="assets/images/others/182.jpg"><span
                                             className="fas fa-plus"></span></a>
                                     </div>
                                 </div>
@@ -41,9 +40,9 @@ function GalleryPage() {
                         <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__img">
-                                    <img src={publicUrl + "assets/images/others/133.jpg"} alt="" />
+                                    <img src={publicUrl + "assets/images/others/127.jpg"} alt="" />
                                     <div className="gallery-page__icon">
-                                        <a className="img-popup" href="assets/images/others/133.jpg"><span
+                                        <a className="img-popup" href="assets/images/others/127.jpg"><span
                                             className="fas fa-plus"></span></a>
                                     </div>
                                 </div>
@@ -53,9 +52,9 @@ function GalleryPage() {
                         <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__img">
-                                    <img src={publicUrl + "assets/images/others/133.jpg"} alt="" />
+                                    <img src={publicUrl + "assets/images/others/128.jpg"} alt="" />
                                     <div className="gallery-page__icon">
-                                        <a className="img-popup" href="assets/images/others/133.jpg"><span
+                                        <a className="img-popup" href="assets/images/others/128.jpg"><span
                                             className="fas fa-plus"></span></a>
                                     </div>
                                 </div>
@@ -65,9 +64,9 @@ function GalleryPage() {
                         <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="500ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__img">
-                                    <img src={publicUrl + "assets/images/others/133.jpg"} alt="" />
+                                    <img src={publicUrl + "assets/images/others/129.jpg"} alt="" />
                                     <div className="gallery-page__icon">
-                                        <a className="img-popup" href="assets/images/others/133.jpg"><span
+                                        <a className="img-popup" href="assets/images/others/129.jpg"><span
                                             className="fas fa-plus"></span></a>
                                     </div>
                                 </div>
@@ -77,7 +76,43 @@ function GalleryPage() {
                         <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="600ms">
                             <div className="gallery-page__single">
                                 <div className="gallery-page__img">
-                                    <img src={publicUrl + "assets/images/others/133.jpg"} alt="" />
+                                    <img src={publicUrl + "assets/images/others/130.jpg"} alt="" />
+                                    <div className="gallery-page__icon">
+                                        <a className="img-popup" href="assets/images/others/130.jpg"><span
+                                            className="fas fa-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="700ms">
+                            <div className="gallery-page__single">
+                                <div className="gallery-page__img">
+                                    <img src={publicUrl + "assets/images/others/131.jpg"} alt="" />
+                                    <div className="gallery-page__icon">
+                                        <a className="img-popup" href="assets/images/others/131.jpg"><span
+                                            className="fas fa-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="800ms">
+                            <div className="gallery-page__single">
+                                <div className="gallery-page__img">
+                                    <img src={publicUrl + "assets/images/others/138.jpg"} alt="" />
+                                    <div className="gallery-page__icon">
+                                        <a className="img-popup" href="assets/images/others/132.jpg"><span
+                                            className="fas fa-plus"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="900ms">
+                            <div className="gallery-page__single">
+                                <div className="gallery-page__img">
+                                    <img src={publicUrl + "assets/images/others/140.jpg"} alt="" />
                                     <div className="gallery-page__icon">
                                         <a className="img-popup" href="assets/images/others/133.jpg"><span
                                             className="fas fa-plus"></span></a>

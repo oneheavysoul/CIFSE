@@ -7736,12 +7736,12 @@ blockquote p,
 }
 
 .skin-care-partner-inner-box {
-    background-color: #002345;
+    background-color: #222222;
     padding: 100px 50px;
-    position: relative;
+    /* position: relative; */
     z-index: 1;
     overflow: hidden;
-    margin-bottom: -120px
+    /* margin-bottom: -120px */
 }
 
 .skin-care-partner-card {

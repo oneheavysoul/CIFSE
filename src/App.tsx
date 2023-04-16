@@ -4,7 +4,7 @@ import { InnerPageRoutes, ROUTES } from './constants/routes';
 import AboutUs from './components/Pages/About/AboutUs';
 import Home from './components/Pages/Home/Home';
 import ContactUs from './components/Pages/Contact/ContactUs';
-import RegularCourseP from './components/Pages/RegularCourse/RegularCourseP';
+import RegularCourseP from './components/Pages/RegularCourse/RegularCourseMainPage';
 import RegularCourseDetailOne from './components/Pages/RegularCourse/RegularCourseDetails/BscFire/RegularCourseDetailOne';
 import RegularCourseDetailTwo from './components/Pages/RegularCourse/RegularCourseDetails/DiplomaFireService/RegularCourseDetailTwo';
 import RegularCourseDetailThree from './components/Pages/RegularCourse/RegularCourseDetails/ADIS12th/RegularCourseDetailThree';
@@ -17,6 +17,21 @@ import RegularCourseDetailNine from './components/Pages/RegularCourse/RegularCou
 import RegularCourseDetailTen from './components/Pages/RegularCourse/RegularCourseDetails/MBAIndustialSafety/RegularCourseDetailTen';
 import RegularCourseDetailEleven from './components/Pages/RegularCourse/RegularCourseDetails/PGDIndustrialSafety/RegularCourseDetailEleven';
 import RegularCourseDetailTweleve from './components/Pages/RegularCourse/RegularCourseDetails/SafetyOfficerCourse/RegularCourseDetailTweleve';
+
+import DistanceCourseP from './components/Pages/DistanceCourse/DistanceCourseMainPage';
+import DCDetailOne from './components/Pages/DistanceCourse/DistanceCourseDetails/ADIEHS/DCDetailOne';
+import DCDetailTwo from './components/Pages/DistanceCourse/DistanceCourseDetails/ADFIES/DCDetailTwo';
+import DCDetailThree from './components/Pages/DistanceCourse/DistanceCourseDetails/DFSIM/DCDetailThree';
+import DCDetailFour from './components/Pages/DistanceCourse/DistanceCourseDetails/ADIES/DCDetailFour';
+import DCDetailFive from './components/Pages/DistanceCourse/DistanceCourseDetails/DDM/DCDetailFive';
+import DCDetailSix from './components/Pages/DistanceCourse/DistanceCourseDetails/DHSEM/DCDetailSix';
+import DCDetailSeven from './components/Pages/DistanceCourse/DistanceCourseDetails/DFSM/DCDetailSeven';
+import DCDetailEight from './components/Pages/DistanceCourse/DistanceCourseDetails/PGFSM/DCDetailEight';
+import DCDetailNine from './components/Pages/DistanceCourse/DistanceCourseDetails/DISM/DCDetailNine';
+import DCCourseDetailTen from './components/Pages/DistanceCourse/DistanceCourseDetails/MBA/DCCourseDetailTen';
+import DCDetailEleven from './components/Pages/DistanceCourse/DistanceCourseDetails/PGISM/DCDetailEleven';
+import DCDetailTweleve from './components/Pages/DistanceCourse/DistanceCourseDetails/PGHSE/DCDetailTweleve';
+
 import Gallery from './components/Pages/Gallery/Gallery';
 
 function App() {
@@ -39,6 +54,20 @@ function App() {
           <Route exact path={`${InnerPageRoutes.mbaIndustrialSafety}`} component={RegularCourseDetailTen} />
           <Route exact path={`${InnerPageRoutes.pgdIndustrialSafety}`} component={RegularCourseDetailEleven} />
           <Route exact path={`${InnerPageRoutes.soc}`} component={RegularCourseDetailTweleve} />
+
+          <Route exact path={ROUTES.DistanceCourse} component={DistanceCourseP} />
+          <Route exact path={`${InnerPageRoutes.adiehs}`} component={DCDetailOne} />
+          <Route exact path={`${InnerPageRoutes.adfies}`} component={DCDetailTwo} />
+          <Route exact path={`${InnerPageRoutes.dfsim}`} component={DCDetailThree} />
+          <Route exact path={`${InnerPageRoutes.adies}`} component={DCDetailFour} />
+          <Route exact path={`${InnerPageRoutes.ddm}`} component={DCDetailFive} />
+          <Route exact path={`${InnerPageRoutes.dhsem}`} component={DCDetailSix} />
+          <Route exact path={`${InnerPageRoutes.dfsm}`} component={DCDetailSeven} />
+          <Route exact path={`${InnerPageRoutes.pgfsm}`} component={DCDetailEight} />
+          <Route exact path={`${InnerPageRoutes.dism}`} component={DCDetailNine} />
+          <Route exact path={`${InnerPageRoutes.mba}`} component={DCCourseDetailTen} />
+          <Route exact path={`${InnerPageRoutes.pgism}`} component={DCDetailEleven} />
+          <Route exact path={`${InnerPageRoutes.pghse}`} component={DCDetailTweleve} />
 
           <Route exact path={ROUTES.Gallery} component={Gallery} />
 
