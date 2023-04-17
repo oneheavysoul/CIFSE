@@ -12,6 +12,7 @@ function RegularCourseDetailOne() {
     }, [])
     return (
         <>
+            <Header />
             <section className="blog-details-area ptb-100">
                 <div className="container">
                     <div className="row">
@@ -200,6 +201,7 @@ function RegularCourseDetailOne() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </>
     )
 }

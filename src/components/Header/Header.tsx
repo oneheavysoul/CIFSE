@@ -48,7 +48,7 @@ function Header() {
             <div className="middle-header-area">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-2 col-md-12">
+                        <div className="col-xl-3 col-lg-2 col-md-12">
                             <div className="middle-header">
                                 <h1>
                                     {/* <img src="assets/images/logo.png" className="main-logo" alt="logo" /> */}
@@ -58,17 +58,18 @@ function Header() {
                                         className="main-logo"
                                     />
                                 </h1>
-                                <p style={{ fontSize: "12px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>ISO:9001-2015 CERTIFIED</p>
+                                <p style={{ fontSize: "12px", marginBottom:"0px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>ISO:9001-2015 CERTIFIED</p>
+                                <p style={{ fontSize: "12px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>Ministry of Human Resource Development</p>
                             </div>
                         </div>
-                        <div className="col-lg-10 col-md-12">
+                        <div className="col-xl-9 col-lg-10 col-md-12">
                             <ul className="middle-header-content">
                                 <li className='text-center'>
                                     <h2>CENTRAL INSTITUTE OF FIRE & SAFETY ENGINEERING</h2>
-                                    <h5 className='main-text'>
+                                    {/* <h5 className='main-text'>
                                         India's No.1 Fire & Safety Engineering College<br />
-                                    </h5>
-                                    <h5 className='main-text'>मानव संसाधन शिक्षण विकास परिषद-भारत सरकार</h5>
+                                    </h5> */}
+                                    <h5 className='main-text'>मानव संसाधन शिक्षण विकास परिषद-<br />भारत सरकार</h5>
                                 </li>
 
                             </ul>
