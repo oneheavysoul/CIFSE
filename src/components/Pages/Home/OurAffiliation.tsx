@@ -22,10 +22,10 @@ function OurAffiliation() {
                                     - Authorized training center of RDAT (Regional Director of Apprenticeship Training) Ministry of Labor & Employment
                                 </p>
                                 <p className="affiliation-recognition">
-                                    - CIFSE offers Diploma, Degree & PG Courses approved by UGC, DEB, AICTE & Ministry of HRD, Govt. of India
+                                    - CIFSE offers Diploma, Degree & PG Courses approved by UGC, AICTE & Ministry of HRD, Govt. of India
                                 </p>
                                 <p className="affiliation-recognition">
-                                    - CIFSE is Co-ordinate with Maharashtra State Board Of Technical Education (MSBTE) Govt. of India
+                                    - CIFSE is Co-ordinate with Technical Education Board (TEB) Govt. of India
                                 </p>
                                 <p className="affiliation-recognition">
                                     Membership & Associate -<br />

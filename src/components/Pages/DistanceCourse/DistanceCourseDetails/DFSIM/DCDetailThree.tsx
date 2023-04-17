@@ -51,7 +51,7 @@ function RegularCourseDetailOne() {
                         <div className="col-lg-4 col-md-12">
                             <aside className="widget-area">
                                 <div className="widget widget_grin_posts_thumb">
-                                    <h3 className="widget-title">Another Regular Courses</h3>
+                                    <h3 className="widget-title">Another Distance Courses</h3>
                                     <article className="item">
                                         <a href="#" className="thumb">
                                             <span className="fullimage cover bg1" role="img"></span>
