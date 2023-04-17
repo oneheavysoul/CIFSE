@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import PageHeader from '../PageHeader'
 import Footer from '../../../../Footer/Footer'
 import Header from '../../../../Header/Header'
 import { InnerPageRoutes } from '../../../../../constants/routes'
