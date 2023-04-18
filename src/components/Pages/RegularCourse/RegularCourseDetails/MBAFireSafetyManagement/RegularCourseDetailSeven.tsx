@@ -48,7 +48,8 @@ function RegularCourseDetailOne() {
                                     </blockquote> */}
                                     <p>The Government curriculam added in our syllabus are an effort to make this possible. We want our students
                                         to excel in what they are doing; creating a <b>Safety Engineer / HSE officer / Safety officer</b> is not the aim for us, its making a Engineer who
-                                        can really take its organization on a high with Zero Accident policy..</p>
+                                        can really take its organization on a high with Zero Accident policy.
+                                    </p>
 
                                 </div>
 
@@ -176,29 +177,67 @@ function RegularCourseDetailOne() {
                                 <thead className="thead-dark">
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
+                                        <th scope="col">Syllabus (2 Years)</th>
+                                        <th scope="col">Eligibility Criteria</th>
+                                        <th scope="col">Exam Schedule</th>
+                                        <th scope="col">Elective Subject</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td><b>SEM - I</b>
+                                            <br />• Management Principles & Practices
+                                            <br />• Fire Service Organization
+                                            <br />• Fundamental Of Safety
+                                            <br />• Fire Engineering Science
+                                        </td>
+                                        <td>Any Graduate or Equivalent</td>
+                                        <td>Examination will be taken on JULY or DEC<br />(You will be able to attain anyone of given schedule)</td>
+                                        <td>
+                                            • Safety In Chemical Industry
+                                            <br />• Safety In Textile Industry
+                                            <br />• Safety In Electrical Industry
+                                            <br />• Safety At DockYard
+                                            <br />• Special Fire Hazards
+                                            <br />• Safety At Constructions
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td><b>SEM - II</b>
+                                            <br />• Business Communication
+                                            <br />• Human Resource Development
+                                            <br />• Special Fire Hazards
+                                            <br />• Communication And Detection System
+                                        </td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
+                                        <td><b>SEM - III</b>
+                                            <br />• Equipment And Appliance
+                                            <br />• Safety Acts And Law
+                                            <br />• Safety Acts And Law
+                                            <br />• Risk Assessment
+                                        </td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td><b>SEM - IV</b>
+                                            <br />• Storage And Handling Of Hazardous Substances
+                                            <br />• Safety Audit
+                                            <br />• Project Study OR
+                                            <br />• Elective I, Elective -II
+                                        </td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>

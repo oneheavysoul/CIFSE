@@ -59,7 +59,7 @@ function Header() {
                                     />
                                 </h1>
                                 <p style={{ fontSize: "12px", marginBottom:"0px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>ISO:9001-2015 CERTIFIED</p>
-                                <p style={{ fontSize: "12px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>Ministry of Human Resource Development</p>
+                                <p style={{ fontSize: "12px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>Ministry of Education</p>
                             </div>
                         </div>
                         <div className="col-xl-9 col-lg-10 col-md-12">

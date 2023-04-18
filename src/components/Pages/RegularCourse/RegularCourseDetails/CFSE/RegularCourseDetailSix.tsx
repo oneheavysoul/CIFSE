@@ -12,7 +12,7 @@ function RegularCourseDetailOne() {
     }, [])
     return (
         <>
-        <Header />
+            <Header />
             <section className="blog-details-area ptb-100">
                 <div className="container">
                     <div className="row">
@@ -40,8 +40,51 @@ function RegularCourseDetailOne() {
                                     </blockquote> */}
                                     <p>The Government curriculam added in our syllabus are an effort to make this possible. We want our students
                                         to excel in what they are doing; creating a <b>Safety Engineer / HSE officer / Safety officer</b> is not the aim for us, its making a Engineer who
-                                        can really take its organization on a high with Zero Accident work.</p>
-
+                                        can really take its organization on a high with Zero Accident work.
+                                    </p>
+                                    <div className='col-lg-12'>
+                                        <table className="table">
+                                            <thead className="thead-dark">
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">Syllabus</th>
+                                                    <th scope="col">Eligibility Criteria</th>
+                                                    <th scope="col">Exam Schedule</th>
+                                                    <th scope="col">Duration</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Fire Engineering Science</td>
+                                                    <td>10th Pass</td>
+                                                    <td>Examination will be taken on JULY or DEC<br />(You will be able to attain anyone of given schedule)</td>
+                                                    <td>6 Months</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Fire Fighting Technology</td>
+                                                    <td> </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Fire Ground Communication</td>
+                                                    <td> </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>Organisation & Acts</td>
+                                                    <td> </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
 
                             </div>
@@ -163,42 +206,10 @@ function RegularCourseDetailOne() {
                                 </div>
                             </aside>
                         </div>
-                        <div className='col-lg-12'>
-                            <table className="table">
-                                <thead className="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
                     </div>
                 </div>
             </section>
-            <Footer/>
+            <Footer />
         </>
     )
 }

@@ -52,7 +52,7 @@ function OurStory() {
                         </div>
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/194.jpg" alt="image" />
+                                <img src="assets/images/about/400.jpg" alt="image" />
                             </div>
                         </div>
                     </div>
@@ -63,7 +63,7 @@ function OurStory() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/195.jpg" alt="image" />
+                                <img src="assets/images/about/401.jpg" alt="image" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -201,7 +201,7 @@ function OurStory() {
                                 <a href="dentist-details.html"><img src="assets/images/others/123.jpg" alt="image" /></a>
                                 <div className="doctor-content">
                                     <h3>
-                                        <a href="dentist-details.html">Siddharth Dodiya</a>
+                                        <a href="dentist-details.html">Siddharth Dodiya</a>
                                     </h3>
                                     <span>Director</span>
                                     <div className="share-link">
@@ -220,7 +220,7 @@ function OurStory() {
                                 <a href="dentist-details.html"><img src="assets/images/others/124.jpg" alt="image" /></a>
                                 <div className="doctor-content">
                                     <h3>
-                                        <a href="dentist-details.html">Dhara Dodiya</a>
+                                        <a href="dentist-details.html">Dhara Dodiya</a>
                                     </h3>
                                     <span>CEO</span>
                                     <div className="share-link">

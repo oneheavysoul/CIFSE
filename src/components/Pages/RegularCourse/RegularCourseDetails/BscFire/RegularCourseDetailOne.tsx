@@ -191,29 +191,86 @@ function RegularCourseDetailOne() {
                                 <thead className="thead-dark">
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
+                                        <th scope="col">Syllabus (2 Years)</th>
+                                        <th scope="col">Eligibility Criteria</th>
+                                        <th scope="col">Exam Schedule</th>
+                                        <th scope="col">Duration</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td><b>SEM - I (First Year)</b>
+                                            <br />• Management Principles & Practices
+                                            <br />• Fire Service Organization
+                                            <br />• Fundamental Of Safety
+                                            <br />• Fire Engineering Science
+                                        </td>
+                                        <td>
+                                            • Human Resource  Development
+                                            <br />• Special Fire Hazards
+                                            <br />• Communication And<br />Detection System 10th+2</td>
+                                        <td>Equivalent, Lateral entry direct 3rd year -<br />Dip. In fire service engg.<br />(1 year course)<br />
+                                            Examination will be 1 Year taken on<br />JULY or DEC<br />(you will be able to attain anyone of given schedule)
+                                        </td>
+                                        <td>1 Year</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td><b>SEM - II</b>
+                                            <br />• Business Communication
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
+                                        <td><b>SEM - III (Second Year)</b>
+                                            <br />• Industrial Hygiene
+                                            <br />• Safety Acts And Law
+                                            <br />• Work Permit System
+                                            <br />• Risk Assessment
+                                        </td>
+                                        <td>B.Sc. First Year Pass</td>
+                                        <td>Examination will be taken on JULY or DEC<br />(You will be able to attain anyone of given schedule)</td>
+                                        <td>1 Year</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td><b>SEM - IV</b>
+                                            <br />• Storage And Handling Of Hazardous Substances
+                                            <br />• Safety Audit
+                                            <br />• Project Study OR
+                                            <br />• Elective I, Elective -II
+                                        </td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td><b>SEM - V (Third Year)</b>
+                                            <br />• Industrial Hygiene
+                                            <br />• Safety Acts And Law
+                                            <br />• Work Permit System
+                                            <br />• Risk Assessment
+                                        </td>
+                                        <td>B.Sc. First Year Clear and Second Year Pass</td>
+                                        <td>Examination will be taken on JULY or DEC<br />(You will be able to attain anyone of given schedule)</td>
+                                        <td>1 Year</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td><b>SEM - VI</b>
+                                            <br />• Storage And Handling Of Hazardous Substances
+                                            <br />• Safety Audit
+                                            <br />• Project Study OR
+                                            <br />• Elective I, Elective -II
+                                        </td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>
