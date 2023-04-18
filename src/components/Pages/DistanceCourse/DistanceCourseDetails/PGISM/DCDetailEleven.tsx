@@ -170,29 +170,68 @@ function RegularCourseDetailOne() {
                                 <thead className="thead-dark">
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
+                                        <th scope="col">Syllabus</th>
+                                        <th scope="col">Eligibility Criteria</th>
+                                        <th scope="col">Exam Schedule</th>
+                                        <th scope="col">Duration</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td>Safety, Health & Environmental Management</td>
+                                        <td>Any Degree or Any Diploma</td>
+                                        <td>Examination will be taken on JULY or DEC<br />(You will be able to attain anyone of given schedule)</td>
+                                        <td>1 Year</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td>Safety Engineering</td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
+                                        <td>Safety Legislation</td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Occupational Health & Industrial Hygiene</td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Risk Management & Permit To Work System</td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>Controlling Environment Pollution</td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Fire Prevention And Protection</td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>First Aid</td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>

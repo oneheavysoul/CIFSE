@@ -87,7 +87,7 @@ function OurStory() {
                         </div>
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/196.jpg" alt="image" />
+                                <img src="assets/images/about/408.jpg" alt="image" />
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ function OurStory() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/197.png" alt="image" />
+                                <img src="assets/images/others/405.png" alt="image" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -169,7 +169,7 @@ function OurStory() {
                         </div>
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/198.png" alt="image" />
+                                <img src="assets/images/about/406.jpg" alt="image" />
                             </div>
                         </div>
                     </div>

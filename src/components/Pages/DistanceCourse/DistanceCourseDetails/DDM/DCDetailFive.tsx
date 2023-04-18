@@ -42,7 +42,72 @@ function RegularCourseDetailOne() {
                                     </blockquote> */}
                                     <p>The International curriculam added in our syllabus are an effort to make this possible. We want our students
                                         to excel in what they are doing; creating a <b>Safety Engineer / HSE officer / Safety officer</b> is not the aim for us, its making a Engineer who
-                                        can really take its organization on a high with Zero Accident policy.</p>
+                                        can really take its organization on a high with Zero Accident policy.
+                                    </p>
+                                    <div className='col-lg-12'>
+                                        <table className="table">
+                                            <thead className="thead-dark">
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">Syllabus</th>
+                                                    <th scope="col">Eligibility Criteria</th>
+                                                    <th scope="col">Exam Schedule</th>
+                                                    <th scope="col">Duration</th>
+                                                    <th scope="col">Total Fees</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Disaster Preparedness</td>
+                                                    <td>10+2 or equivalent</td>
+                                                    <td>Examination will be taken on JULY or DEC<br />(You will be able to attain anyone of given schedule)</td>
+                                                    <td>1 Year/6 Months</td>
+                                                    <td><b>Rs. 9000</b><br />(including study material and exam fees)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Disaster Mitigation</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Disaster Response</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>Rehabilitation And Resettlement</td>
+                                                    <td> </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">5</th>
+                                                    <td>Industrial Safety</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">6</th>
+                                                    <td>First Aid</td>
+                                                    <td> </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -53,7 +53,72 @@ function RegularCourseDetailOne() {
                                     </blockquote> */}
                                     <p>The International curriculam added in our syllabus are an effort to make this possible. We want our students
                                         to excel in what they are doing; creating a <b>Safety Engineer / HSE officer / Safety officer</b> is not the aim for us, its making a Engineer who
-                                        can really take its organization on a high with Zero Accident policy..</p>
+                                        can really take its organization on a high with Zero Accident policy.
+                                    </p>
+                                    <div className='col-lg-12'>
+                                        <table className="table">
+                                            <thead className="thead-dark">
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">Syllabus</th>
+                                                    <th scope="col">Eligibility Criteria</th>
+                                                    <th scope="col">Elective Subject</th>
+                                                    <th scope="col">Duration</th>
+                                                    <th scope="col">Total Fees</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Fundamental Of Safety</td>
+                                                    <td>Any Graduate or<br /> Any Diploma</td>
+                                                    <td>• Safety In Chemical Industry</td>
+                                                    <td>1 Year</td>
+                                                    <td><b>Rs.10,500</b><br />(including study material and exam fees)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Occupational Disease</td>
+                                                    <td></td>
+                                                    <td>• Safety In Textile Industry</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Environment Management</td>
+                                                    <td></td>
+                                                    <td>• Safety In Electrical Industry</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>Storage And Handling Of Hazardous Substances</td>
+                                                    <td> </td>
+                                                    <td>• Industrial Engineering</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">5</th>
+                                                    <td>Industrial Hygiene</td>
+                                                    <td></td>
+                                                    <td>• Safety At DockYard</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">6</th>
+                                                    <td>Elective Subject Or Project Study</td>
+                                                    <td> </td>
+                                                    <td>• Safety At Constructions</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -195,38 +260,6 @@ function RegularCourseDetailOne() {
                                     </article>
                                 </div>
                             </aside>
-                        </div>
-                        <div className='col-lg-12'>
-                            <table className="table">
-                                <thead className="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
-                                    </tr>
-                                </tbody>
-                            </table>
                         </div>
                     </div>
                 </div>

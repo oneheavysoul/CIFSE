@@ -69,7 +69,7 @@ function Header() {
                                     {/* <h5 className='main-text'>
                                         India's No.1 Fire & Safety Engineering College<br />
                                     </h5> */}
-                                    <h5 className='main-text'>मानव संसाधन शिक्षण विकास परिषद-<br />भारत सरकार</h5>
+                                    <h5 className='main-text'>मानव संसाधन शिक्षण विकास परिषद<br />(भारत सरकार)</h5>
                                 </li>
 
                             </ul>

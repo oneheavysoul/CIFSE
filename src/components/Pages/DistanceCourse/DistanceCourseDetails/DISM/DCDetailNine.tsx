@@ -28,7 +28,7 @@ function RegularCourseDetailOne() {
                                         Safety Management.</b> Exam will be held on July or Dec every year, you can pursue
                                         1 year diploma, just you have to send Demand Draft infavour of
                                         <b>CENTRAL INSTITUTE OF FIRE AND SAFETY ENGINEERING</b> Payable at
-                                        <b>GANGHINAGAR</b> of amount <b>Rs 10,500</b> course fee. As soon as we received your
+                                        <b>GANGHINAGAR</b> of amount <b>Rs 10,700</b> course fee. As soon as we received your
                                         <b>Demand Draft</b> and <b>Application Form</b> we will send you <b>Study Material</b> at your
                                         given address.
                                     </p>
@@ -42,7 +42,72 @@ function RegularCourseDetailOne() {
                                     </blockquote> */}
                                     <p>The International curriculam added in our syllabus are an effort to make this possible. We want our students
                                         to excel in what they are doing; creating a <b>Safety Engineer / HSE officer / Safety officer</b> is not the aim for us, its making a Engineer who
-                                        can really take its organization on a high with Zero Accident policy.</p>
+                                        can really take its organization on a high with Zero Accident policy.
+                                    </p>
+                                    <div className='col-lg-12'>
+                                        <table className="table">
+                                            <thead className="thead-dark">
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">Syllabus</th>
+                                                    <th scope="col">Eligibility Criteria</th>
+                                                    <th scope="col">Exam Schedule</th>
+                                                    <th scope="col">Duration</th>
+                                                    <th scope="col">Total Fees</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Occupational Health & Industrial Hygiene</td>
+                                                    <td>10+2 or equivalent</td>
+                                                    <td>Examination will be taken on JULY or DEC<br />(You will be able to attain anyone of given schedule)</td>
+                                                    <td>1 Year</td>
+                                                    <td><b>Rs. 9000</b><br />(including study material and exam fees)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Environmental Safety Management</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Psychology, Ergonomics & Accident</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>Health, Safety & Environment Legislation</td>
+                                                    <td> </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">5</th>
+                                                    <td>Risk Management & Permit To Work System</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">6</th>
+                                                    <td>Safety In Power Plant</td>
+                                                    <td> </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -162,38 +227,6 @@ function RegularCourseDetailOne() {
                                     </article>
                                 </div>
                             </aside>
-                        </div>
-                        <div className='col-lg-12'>
-                            <table className="table">
-                                <thead className="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
-                                    </tr>
-                                </tbody>
-                            </table>
                         </div>
                     </div>
                 </div>
