@@ -122,79 +122,80 @@ function RegularCourseDetailOne() {
                                 </div>
                             </div>
                         </div>
+
                         <div className="col-lg-4 col-md-12">
                             <aside className="widget-area">
                                 <div className="widget widget_grin_posts_thumb">
-                                    <h3 className="widget-title">Another Distance Courses</h3>
+                                    <h3 className="widget-title">Another Regular Courses</h3>
                                     <article className="item">
-                                        <a href="#" className="thumb">
-                                            {/* <span className="fullimage cover bg1" role="img"></span> */}
+                                        <a href="blog-details.html" className="thumb">
+                                            {/* <span className="fullimage cover bg2" role="img"></span> */}
                                             <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/11.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                {/* <a href="blog-details.html">Diploma in Fire Service Engineering</a> */}
-                                                <Link to={InnerPageRoutes.diplomaFireService}>Advance Diploma in Fire And Industrial Safety Engineering</Link>
+                                                {/* <a href="blog-details.html">Advance Diploma in Industrial Safety</a> */}
+                                                <Link to={InnerPageRoutes.adfies}>Advance Diploma in Fire And Industrial Safety Engineering</Link>
                                             </h4>
                                         </div>
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
                                             {/* <span className="fullimage cover bg2" role="img"></span> */}
-                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/12.jpg"} alt="image" />
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/10.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
                                                 {/* <a href="blog-details.html">Advance Diploma in Industrial Safety</a> */}
-                                                <Link to={InnerPageRoutes.adis12th}>Diploma in Fire and Industrial Safety Engineering</Link>
+                                                <Link to={InnerPageRoutes.dfsim}>Diploma in Fire and Industrial Safety Engineering</Link>
                                             </h4>
                                         </div>
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
                                             {/* <span className="fullimage cover bg3" role="img"></span> */}
-                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/1.jpg"} alt="image" />
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/9.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
                                                 {/* <a href="blog-details.html">Diploma in Fire and Safety Engineering</a> */}
-                                                <Link to={InnerPageRoutes.dfse}>Advance Diploma in Industrial Safety Engineering</Link>
+                                                <Link to={InnerPageRoutes.adies}>Advance Diploma in Industrial Safety Engineering</Link>
                                             </h4>
                                         </div>
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
                                             {/* <span className="fullimage cover bg4" role="img"></span> */}
-                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/2.jpg"} alt="image" />
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/8.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
                                                 {/* <a href="blog-details.html">Advance Diploma in Industrial Safety & Security Management</a> */}
-                                                <Link to={InnerPageRoutes.pgdFiresafety}>Diploma in Disaster Management</Link>
+                                                <Link to={InnerPageRoutes.ddm}>Diploma in Disaster Management</Link>
                                             </h4>
                                         </div>
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
                                             {/* <span className="fullimage cover bg5" role="img"></span> */}
-                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/3.jpg"} alt="image" />
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/7.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
                                                 {/* <a href="blog-details.html">Certificate in Fire and Safety Engineering</a> */}
-                                                <Link to={InnerPageRoutes.cfse}>Diploma in Health, Safety and Environment Management</Link>
+                                                <Link to={InnerPageRoutes.dhsem}>Diploma in Health, Safety and Environment Management</Link>
                                             </h4>
                                         </div>
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
                                             {/* <span className="fullimage cover bg6" role="img"></span> */}
-                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/4.jpg"} alt="image" />
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/6.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
                                                 {/* <a href="blog-details.html">MBA in Fire Safety Management</a> */}
-                                                <Link to={InnerPageRoutes.mbaFireSafety}>Diploma in Fire and Safety Management</Link>
+                                                <Link to={InnerPageRoutes.dfsm}>Diploma in Fire and Safety Management</Link>
                                             </h4>
                                         </div>
                                     </article>
@@ -206,55 +207,67 @@ function RegularCourseDetailOne() {
                                         <div className="info">
                                             <h4 className="title usmall">
                                                 {/* <a href="blog-details.html">Fire Officer Course</a> */}
-                                                <Link to={InnerPageRoutes.foc}>PG Diploma in Fire and Safety Management</Link>
+                                                <Link to={InnerPageRoutes.pgfsm}>PG Diploma in Fire and Safety Management</Link>
                                             </h4>
                                         </div>
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
                                             {/* <span className="fullimage cover bg8" role="img"></span> */}
-                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/6.jpg"} alt="image" />
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/4.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
                                                 {/* <a href="blog-details.html">Diploma in Fire and Safety</a> */}
-                                                <Link to={InnerPageRoutes.dfse}>Diploma in Industrial Safety Management</Link>
+                                                <Link to={InnerPageRoutes.dism}>Diploma in Industrial Safety Management</Link>
                                             </h4>
                                         </div>
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
                                             {/* <span className="fullimage cover bg9" role="img"></span> */}
-                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/7.jpg"} alt="image" />
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/3.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
                                                 {/* <a href="blog-details.html">MBA in Industrial Safety Management</a> */}
-                                                <Link to={InnerPageRoutes.mbaIndustrialSafety}>MBA Safety and Fire Management Programs</Link>
+                                                <Link to={InnerPageRoutes.mba}>MBA Safety and Fire Management Programs</Link>
                                             </h4>
                                         </div>
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
                                             {/* <span className="fullimage cover bg10" role="img"></span> */}
-                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/8.jpg"} alt="image" />
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/2.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
                                                 {/* <a href="blog-details.html">P.G. Diploma in Industrial Safety</a> */}
-                                                <Link to={InnerPageRoutes.pgdIndustrialSafety}>PG Diploma in Industrial Safety Management</Link>
+                                                <Link to={InnerPageRoutes.pgism}>PG Diploma in Industrial Safety Management</Link>
                                             </h4>
                                         </div>
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
                                             {/* <span className="fullimage cover bg11" role="img"></span> */}
-                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/9.jpg"} alt="image" />
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/1.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
                                                 {/* <a href="blog-details.html">Safety Officer Course</a> */}
-                                                <Link to={InnerPageRoutes.soc}>PG Diploma in Health Safety and Enviornment</Link>
+                                                <Link to={InnerPageRoutes.pghse}>PG Diploma in Health Safety and Enviornment</Link>
+                                            </h4>
+                                        </div>
+                                    </article>
+                                    <article className="item">
+                                        <a href="blog-details.html" className="thumb">
+                                            {/* <span className="fullimage cover bg11" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/1.jpg"} alt="image" />
+                                        </a>
+                                        <div className="info">
+                                            <h4 className="title usmall">
+                                                {/* <a href="blog-details.html">Safety Officer Course</a> */}
+                                                <Link to={InnerPageRoutes.phdms}>PG Diploma in Disaster & Crisis</Link>
                                             </h4>
                                         </div>
                                     </article>

@@ -5,7 +5,7 @@ import Header from '../../../../Header/Header'
 import Footer from '../../../../Footer/Footer'
 import { InnerPageRoutes } from '../../../../../constants/routes'
 
-function RegularCourseDetailOne() {
+function DistanceCourseThirteen() {
     let publicUrl = process.env.PUBLIC_URL + "/";
 
     useEffect(() => {
@@ -20,12 +20,12 @@ function RegularCourseDetailOne() {
                         <div className="col-lg-8 col-md-12">
                             <div className="blog-details-desc">
                                 <div className="article-image">
-                                    <img src={publicUrl + "assets/images/regular-course/8.jpg"} alt="image" />
+                                    <img src={publicUrl + "assets/images/regular-course/9.jpg"} alt="image" />
 
                                 </div>
                                 <div className="article-content">
-                                    <h3>PG Diploma in Industrial Safety Management<br /></h3><h6>(CHRED Govt. Of India)</h6>
-                                    <p>You can join <b>Correspondence PG Diploma</b> in <b>Industrial Safety Management.</b>
+                                    <h3>PG Diploma in Disastert & Crisis</h3>
+                                    <p>Join <b>Correspondence PG Diploma</b> in <b>Disaster Management & Crisis</b>
                                         Exam will be held on July or Dec every year, you can pursue
                                         1 year diploma, just you have to send Demand Draft infavour of
                                         <b>CENTRAL INSTITUTE OF FIRE AND SAFETY ENGINEERING</b> Payable at
@@ -45,6 +45,78 @@ function RegularCourseDetailOne() {
                                         to excel in what they are doing; creating a <b>Safety Engineer / HSE officer / Safety officer</b> is not the aim for us, its making a Engineer who
                                         can really take its organization on a high with Zero Accident policy.
                                     </p>
+
+                                    <div className='col-lg-12'>
+                                        <table className="table">
+                                            <thead className="thead-dark">
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">Syllabus</th>
+                                                    <th scope="col">Eligibility Criteria</th>
+                                                    <th scope="col">Exam Schedule</th>
+                                                    <th scope="col">Duration</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Disaster Risk Reduction &Development Planning</td>
+                                                    <td>Any Degree or Any Diploma</td>
+                                                    <td>Examination will be taken on JULY or DEC<br />(You will be able to attain anyone of given schedule)</td>
+                                                    <td>1 Year</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Disaster Recovery</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Introduction To Public Health & Mental Health Planning</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">4</th>
+                                                    <td>Risk & Crisis Planning</td>
+                                                    <td> </td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">5</th>
+                                                    <td>Theories Of Crisis & Disaster</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">6</th>
+                                                    <td>Emergency & Crisis Management</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">7</th>
+                                                    <td>Crisis Communication</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">8</th>
+                                                    <td>Project Management In Disaster</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -175,13 +247,13 @@ function RegularCourseDetailOne() {
                                     </article>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
-                                            {/* <span className="fullimage cover bg11" role="img"></span> */}
-                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/1.jpg"} alt="image" />
+                                            {/* <span className="fullimage cover bg10" role="img"></span> */}
+                                            <img className="fullimage cover bg1" src={publicUrl + "assets/images/regular-course/2.jpg"} alt="image" />
                                         </a>
                                         <div className="info">
                                             <h4 className="title usmall">
-                                                {/* <a href="blog-details.html">Safety Officer Course</a> */}
-                                                <Link to={InnerPageRoutes.pghse}>PG Diploma in Health Safety and Enviornment</Link>
+                                                {/* <a href="blog-details.html">P.G. Diploma in Industrial Safety</a> */}
+                                                <Link to={InnerPageRoutes.pgism}>PG Diploma in Industrial Safety Management</Link>
                                             </h4>
                                         </div>
                                     </article>
@@ -193,84 +265,12 @@ function RegularCourseDetailOne() {
                                         <div className="info">
                                             <h4 className="title usmall">
                                                 {/* <a href="blog-details.html">Safety Officer Course</a> */}
-                                                <Link to={InnerPageRoutes.phdms}>PG Diploma in Disaster & Crisis</Link>
+                                                <Link to={InnerPageRoutes.pghse}>PG Diploma in Health Safety and Enviornment</Link>
                                             </h4>
                                         </div>
                                     </article>
                                 </div>
                             </aside>
-                        </div>
-
-                        <div className='col-lg-12'>
-                            <table className="table">
-                                <thead className="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Syllabus</th>
-                                        <th scope="col">Eligibility Criteria</th>
-                                        <th scope="col">Exam Schedule</th>
-                                        <th scope="col">Duration</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Safety, Health & Environmental Management</td>
-                                        <td>Any Degree or Any Diploma</td>
-                                        <td>Examination will be taken on JULY or DEC<br />(You will be able to attain anyone of given schedule)</td>
-                                        <td>1 Year</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Safety Engineering</td>
-                                        <td> </td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Safety Legislation</td>
-                                        <td> </td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td>Occupational Health & Industrial Hygiene</td>
-                                        <td> </td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">5</th>
-                                        <td>Risk Management & Permit To Work System</td>
-                                        <td> </td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">6</th>
-                                        <td>Controlling Environment Pollution</td>
-                                        <td> </td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">7</th>
-                                        <td>Fire Prevention And Protection</td>
-                                        <td> </td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">8</th>
-                                        <td>First Aid</td>
-                                        <td> </td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                            </table>
                         </div>
                     </div>
                 </div>
@@ -279,4 +279,4 @@ function RegularCourseDetailOne() {
         </>
     )
 }
-export default RegularCourseDetailOne
+export default DistanceCourseThirteen

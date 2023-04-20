@@ -31,6 +31,7 @@ import DCDetailNine from './components/Pages/DistanceCourse/DistanceCourseDetail
 import DCCourseDetailTen from './components/Pages/DistanceCourse/DistanceCourseDetails/MBA/DCCourseDetailTen';
 import DCDetailEleven from './components/Pages/DistanceCourse/DistanceCourseDetails/PGISM/DCDetailEleven';
 import DCDetailTweleve from './components/Pages/DistanceCourse/DistanceCourseDetails/PGHSE/DCDetailTweleve';
+import DCDetailThirteen from './components/Pages/DistanceCourse/DistanceCourseDetails/PHDMS/DCDetailThirteen';
 
 import Gallery from './components/Pages/Gallery/Gallery';
 
@@ -68,6 +69,7 @@ function App() {
           <Route exact path={`${InnerPageRoutes.mba}`} component={DCCourseDetailTen} />
           <Route exact path={`${InnerPageRoutes.pgism}`} component={DCDetailEleven} />
           <Route exact path={`${InnerPageRoutes.pghse}`} component={DCDetailTweleve} />
+          <Route exact path={`${InnerPageRoutes.phdms}`} component={DCDetailThirteen} />
 
           <Route exact path={ROUTES.Gallery} component={Gallery} />
 

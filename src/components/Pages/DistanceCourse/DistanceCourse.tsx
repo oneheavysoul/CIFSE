@@ -248,6 +248,26 @@ function DistanceCourse() {
                             </div>
                         </div>
                     </div>
+
+                    <div className="row">
+                        <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                            <div className="blog-one__single">
+                                <div className="blog-one__img">
+                                    <img src={publicUrl + "assets/images/regular-course/3.jpg"} alt="" />
+                                </div>
+                                <div className="blog-one__content">
+                                    <div className="blog-one__user">
+                                    </div>
+                                    <h3 className="blog-one__title"><a href="#">PG Diploma in Disaster & Crisis</a></h3>
+                                    <p className="blog-one__text">Duration: 1 Year</p>
+                                    <p className="blog-one__text">Eligibility: Any Degree or Any Diploma</p>
+                                    <div className="blog-one__read-more">
+                                        <Link to={InnerPageRoutes.mba}>Read More <i className="fa fa-arrow-right"></i></Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             {/* Blog Page End */}
