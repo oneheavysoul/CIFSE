@@ -80,7 +80,7 @@ function Footer() {
                                     </li>
                                     <li>
                                         <i className="fa fa-map-marker"></i>
-                                        <span>Cisfe College Sector 25, GIDC, Plot No 26, Opp. Madur Dairy, Raj Shikshan Sankul, Gandhinagar, Gujarat</span>
+                                        <span>CIFSE Fire College Sector 5C, Near KH-3 Circle, Pathika Bus Stand Road, Gandhinagar, Gujarat-382006</span>
                                     </li>
                                 </ul>
                             </div>
@@ -94,7 +94,7 @@ function Footer() {
                         <p>
                             © 2020 CIFSE. All rights reserved | Designed by
                             <a href="#" target="_blank">
-                                Creactive Design Info
+                                 Creactive Design Info
                             </a>
                         </p>
                     </div>

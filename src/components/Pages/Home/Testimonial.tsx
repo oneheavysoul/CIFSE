@@ -8,8 +8,8 @@ function Testimonial() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-warp">
-                                <span className="sub-title"># Our Clients Review</span>
-                                <h2>Real Review From Our Real Customer</h2>
+                                <span className="sub-title"># Our Students Review</span>
+                                <h2>Real Review From Our Real Students</h2>
                             </div>
                         </div>
                         {/* <div className="col-lg-4">

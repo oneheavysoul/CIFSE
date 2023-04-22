@@ -59,4 +59,6 @@ export const InnerPageRoutes = {
   pgism: `${ROUTES.DistanceCourse}/pg-diploma-industrial-safety-management`,
 
   pghse: `${ROUTES.DistanceCourse}/pg-diploma-health-safety-environment`,
+
+  phdms: `${ROUTES.DistanceCourse}/pg-diploma-disaster-crisis`,
 };

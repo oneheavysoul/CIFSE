@@ -18,29 +18,84 @@ function Placements() {
                         <div className="skin-care-partner-slides owl-carousel owl-theme">
                             <div className="skin-care-partner-card">
                                 <a href="#">
-                                    <img src="assets/images/skin-care/partner/partner-1.png" alt="partner" />
+                                    <img src="assets/images/placement/05.png" alt="partner" />
                                 </a>
                             </div>
                             <div className="skin-care-partner-card">
                                 <a href="#">
-                                    <img src="assets/images/skin-care/partner/partner-2.png" alt="partner" />
+                                    <img src="assets/images/placement/01.png" alt="partner" />
                                 </a>
                             </div>
                             <div className="skin-care-partner-card">
                                 <a href="#">
-                                    <img src="assets/images/skin-care/partner/partner-3.png" alt="partner" />
+                                    <img src="assets/images/placement/02.png" alt="partner" />
                                 </a>
                             </div>
                             <div className="skin-care-partner-card">
                                 <a href="#">
-                                    <img src="assets/images/skin-care/partner/partner-4.png" alt="partner" />
+                                    <img src="assets/images/placement/03.png" alt="partner" />
                                 </a>
                             </div>
                             <div className="skin-care-partner-card">
                                 <a href="#">
-                                    <img src="assets/images/skin-care/partner/partner-5.png" alt="partner" />
+                                    <img src="assets/images/placement/04.png" alt="partner" />
                                 </a>
                             </div>
+                            {/* <div className="skin-care-partner-card">
+                                <a href="#">
+                                    <img src="assets/images/placement/05.png" alt="partner" />
+                                </a>
+                            </div>
+                            <div className="skin-care-partner-card">
+                                <a href="#">
+                                    <img src="assets/images/placement/06.png" alt="partner" />
+                                </a>
+                            </div>
+                            <div className="skin-care-partner-card">
+                                <a href="#">
+                                    <img src="assets/images/placement/07.png" alt="partner" />
+                                </a>
+                            </div>
+                            <div className="skin-care-partner-card">
+                                <a href="#">
+                                    <img src="assets/images/placement/08.png" alt="partner" />
+                                </a>
+                            </div>
+                            <div className="skin-care-partner-card">
+                                <a href="#">
+                                    <img src="assets/images/placement/09.png" alt="partner" />
+                                </a>
+                            </div>
+                            <div className="skin-care-partner-card">
+                                <a href="#">
+                                    <img src="assets/images/placement/10.png" alt="partner" />
+                                </a>
+                            </div>
+                            <div className="skin-care-partner-card">
+                                <a href="#">
+                                    <img src="assets/images/placement/11.png" alt="partner" />
+                                </a>
+                            </div>
+                            <div className="skin-care-partner-card">
+                                <a href="#">
+                                    <img src="assets/images/placement/12.png" alt="partner" />
+                                </a>
+                            </div>
+                            <div className="skin-care-partner-card">
+                                <a href="#">
+                                    <img src="assets/images/placement/13.png" alt="partner" />
+                                </a>
+                            </div>
+                            <div className="skin-care-partner-card">
+                                <a href="#">
+                                    <img src="assets/images/placement/14.png" alt="partner" />
+                                </a>
+                            </div>
+                            <div className="skin-care-partner-card">
+                                <a href="#">
+                                    <img src="assets/images/placement/15.png" alt="partner" />
+                                </a>
+                            </div> */}
                         </div>
                     </div>
                 </div>

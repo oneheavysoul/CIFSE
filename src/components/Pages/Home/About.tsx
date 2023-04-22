@@ -1,4 +1,5 @@
 import React from 'react'
+import CountUp from 'react-countup';
 
 function About() {
     return (
@@ -29,7 +30,7 @@ function About() {
                                     <div className="col-lg-6 col-md-6">
                                         <div className="about-info">
                                             <i className="flaticon-chair"></i>
-                                            <h4>200+</h4>
+                                            <h4><CountUp duration={2} start={0} end={500} style={{ fontSize: 25, fontWeight: 500, color: "#222" }} />+</h4>
                                             <span>Students Passed</span>
                                         </div>
                                     </div>
