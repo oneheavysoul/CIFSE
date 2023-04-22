@@ -41,7 +41,7 @@ function Placements() {
                                     <img src="assets/images/placement/04.png" alt="partner" />
                                 </a>
                             </div>
-                            {/* <div className="skin-care-partner-card">
+                            <div className="skin-care-partner-card">
                                 <a href="#">
                                     <img src="assets/images/placement/05.png" alt="partner" />
                                 </a>
@@ -95,7 +95,7 @@ function Placements() {
                                 <a href="#">
                                     <img src="assets/images/placement/15.png" alt="partner" />
                                 </a>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>

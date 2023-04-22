@@ -48,31 +48,52 @@ function Header() {
             <div className="middle-header-area">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-xl-3 col-lg-2 col-md-12">
+                        <div className="col-xl-12 col-lg-12 col-md-12">
                             <div className="middle-header">
                                 <h1>
                                     {/* <img src="assets/images/logo.png" className="main-logo" alt="logo" /> */}
                                     <img
-                                        src={publicUrl + "assets/images/logo.png"}
+                                        src={publicUrl + "assets/images/Untitled-2.png"}
                                         alt="Logo"
                                         className="main-logo"
                                     />
                                 </h1>
-                                <p style={{ fontSize: "12px", marginBottom:"0px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>ISO:9001-2015 CERTIFIED</p>
-                                <p style={{ fontSize: "12px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>Ministry of Education</p>
+                                {/* <p style={{ fontSize: "12px", marginBottom:"0px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>ISO:9001-2015 CERTIFIED</p>
+                                <p style={{ fontSize: "12px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>Ministry of Education</p> */}
                             </div>
                         </div>
-                        <div className="col-xl-9 col-lg-10 col-md-12">
-                            <ul className="middle-header-content">
-                                <li className='text-center'>
-                                    <h2>CENTRAL INSTITUTE OF FIRE & SAFETY ENGINEERING</h2>
-                                    {/* <h5 className='main-text'>
-                                        India's No.1 Fire & Safety Engineering College<br />
-                                    </h5> */}
-                                    <h5 className='main-text'>मानव संसाधन शिक्षण विकास परिषद<br />(भारत सरकार)</h5>
-                                </li>
-
-                            </ul>
+                        <div className="col-xl-9 col-lg-10 col-md-12 block-slider">
+                            
+                                <div className="skin-care-partner-area">
+                                    <div className="skin-care-partner-slides owl-carousel owl-theme">
+                                        <div className="skin-care-partner-card">
+                                            <a href="#">
+                                                <img src="assets/images/placement/05.png" alt="partner" />
+                                            </a>
+                                        </div>
+                                        <div className="skin-care-partner-card">
+                                            <a href="#">
+                                                <img src="assets/images/placement/01.png" alt="partner" />
+                                            </a>
+                                        </div>
+                                        <div className="skin-care-partner-card">
+                                            <a href="#">
+                                                <img src="assets/images/placement/02.png" alt="partner" />
+                                            </a>
+                                        </div>
+                                        <div className="skin-care-partner-card">
+                                            <a href="#">
+                                                <img src="assets/images/placement/03.png" alt="partner" />
+                                            </a>
+                                        </div>
+                                        <div className="skin-care-partner-card">
+                                            <a href="#">
+                                                <img src="assets/images/placement/04.png" alt="partner" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -86,7 +107,7 @@ function Header() {
                                 <a href="#">
                                     {/* <img src="assets/images/logo.png" className="main-logo" alt="logo" /> */}
                                     <img
-                                        src={publicUrl + "assets/images/logo.png"}
+                                        src={publicUrl + "assets/images/logo_a.png"}
                                         alt="Logo"
                                         className="main-logo"
                                     />
