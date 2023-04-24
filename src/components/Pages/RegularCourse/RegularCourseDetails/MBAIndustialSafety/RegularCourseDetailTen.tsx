@@ -38,7 +38,7 @@ function RegularCourseDetailOne() {
                                     <p>Join <b>Regular Diploma Courses</b> in <b>in MBA in Industrial Safety Management,
                                     </b> Exam will be held on July or Dec every year, you can pursue
                                         2 year course, Come to the campus for a guided tour & counselling and then
-                                        apply <b>GANGHINAGAR,</b> Contact us on mobile (9am to 9pm) <b>0777799414</b> or
+                                        apply <b>Gandhinagar,</b> Contact us on mobile (9am to 9pm) <b>0777799414</b> or
                                         Send us an email – <b>cifsevrl101@gmail.com</b>
                                     </p>
                                     <p>Management courses that we offer are highly compatible with <b>International

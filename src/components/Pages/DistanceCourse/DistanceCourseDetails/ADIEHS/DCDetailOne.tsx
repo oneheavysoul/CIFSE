@@ -39,13 +39,13 @@ function RegularCourseDetailOne() {
                                         Occupational Safety, Health and Environment Management Programs</b>
                                         Exam will be held on July or Dec every year, you can pursue 1 year diploma, just
                                         you have to send Demand Draft infavour of <b>Central institute of fire & safety
-                                            engineering</b> Payable at gandhinagar of amount <b>Rs. 10,500</b> course fee. As soon
+                                            engineering</b> Payable at Gandhinagar of amount <b>Rs. 20,500</b> per semester. As soon
                                         as we received your <b>Demand Draft</b> and <b>Application Form</b> we will send you
-                                        <b>Study Material</b> at your given address.
+                                        <b> Study Material</b> at your given address.
                                     </p>
                                     <p>Management courses that we offer are highly compatible with <b>International
                                         Standards.</b> It has been our constant endeavour to provide the best possible
-                                        <b>Study Material</b> for the students.</p>
+                                        <b> Study Material</b> for the students.</p>
                                     {/* <blockquote className="wp-block-quote">
                                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
                                             auctor, nisi elit consequat ipsum. Proin gravida nibh vel velit auctor aliquet.
@@ -74,7 +74,7 @@ function RegularCourseDetailOne() {
                                                     <td>Any Graduate or<br /> Any Diploma</td>
                                                     <td>• Safety In Chemical Industry</td>
                                                     <td>1 Year</td>
-                                                    <td><b>Rs.10,500</b><br />(including study material and exam fees)</td>
+                                                    <td><b>Rs.20,500</b>/ semester<br />(including study material and exam fees)</td>
                                                 </tr>
                                                 <tr>
                                                     <th scope="row">2</th>
@@ -126,7 +126,7 @@ function RegularCourseDetailOne() {
                         <div className="col-lg-4 col-md-12">
                             <aside className="widget-area">
                                 <div className="widget widget_grin_posts_thumb">
-                                    <h3 className="widget-title">Another Regular Courses</h3>
+                                    <h3 className="widget-title">Another Distance Courses</h3>
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
                                             {/* <span className="fullimage cover bg2" role="img"></span> */}

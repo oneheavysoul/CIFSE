@@ -185,7 +185,7 @@ function OurStory() {
                                     <i className="flaticon-hashtag-symbol"></i>
                                     Directors
                                 </span>
-                                <h2>Executive Directors</h2>
+                                <h2>Director Profile</h2>
                                 <p>
                                     Youth Fire Stop is a program designed to prevent misuse of fire by youth in our community
                                     and to educate and intervene when endangerment involving fire occurs. Youth Fire Stop has
@@ -203,7 +203,7 @@ function OurStory() {
                                     <h3>
                                         <a href="dentist-details.html">Siddharth Dodiya</a>
                                     </h3>
-                                    <span>Director</span>
+                                    <span><b>(Director)</b><br />B.Sc. Fire, M.Sc. Hazard Management, NEBOSH (UK), EHS, IOSH, PGDIS</span>
                                     <div className="share-link">
                                         <a href="https://www.facebook.com/" target="_blank"><i className='bx bxl-facebook'></i></a>
                                         <a href="https://twitter.com/?lang=en" target="_blank"><i
@@ -215,7 +215,7 @@ function OurStory() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        {/* <div className="col-lg-3 col-md-6">
                             <div className="single-doctor">
                                 <a href="dentist-details.html"><img src="assets/images/others/124.jpg" alt="image" /></a>
                                 <div className="doctor-content">
@@ -233,7 +233,7 @@ function OurStory() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

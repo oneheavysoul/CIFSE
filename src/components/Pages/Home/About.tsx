@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import CountUp from 'react-countup';
+import logoGif from "../../../../src/news.gif"
 
 function About() {
+    useEffect(() => {
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }, [])
+
     return (
         <>
-
             <section className="about-area ptb-100">
                 <div className="container">
                     <div className="row align-items-center">
@@ -63,14 +67,14 @@ function About() {
                                             <h3 className="title">NEWS</h3>
                                         </div>
                                         <ul className="pricing-content">
-                                            <li>Government Recognized</li>
-                                            <li>ISO 9001-2008 certified</li>
+                                            <li><img src={logoGif} width={40}/>Admissions open for 2023-2024 batch. Hurry up to reserve your seat.</li>
+                                            {/* <li>ISO 9001-2008 certified</li>
                                             <li>International Level Faculty</li>
                                             <li>Independent Practical Training Yard</li>
                                             <li>Hostel Facility</li>
                                             <li>Industrial Visit</li>
                                             <li>Ground for Playing / Drill</li>
-                                            <li>Books Library Available</li>
+                                            <li>Books Library Available</li> */}
                                         </ul>
 
                                     </div>

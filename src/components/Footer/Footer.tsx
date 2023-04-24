@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import { Link, Route } from 'react-router-dom';
+import { ROUTES } from '../../constants/routes';
 
 function Footer() {
     let publicUrl = process.env.PUBLIC_URL + '/'
@@ -50,7 +52,7 @@ function Footer() {
                                 <h3>Useful Link</h3>
                                 <ul className="quick-links">
                                     <li>
-                                        <a href="#">About Us</a>
+                                        <Link to={ROUTES.aboutUs}>About Us</Link>
                                     </li>
                                     <li>
                                         <a href="#">Contact Us</a>
@@ -94,7 +96,7 @@ function Footer() {
                         <p>
                             © 2020 CIFSE. All rights reserved | Designed by
                             <a href="#" target="_blank">
-                                 Creactive Design Info
+                                Creactive Design Info
                             </a>
                         </p>
                     </div>

@@ -8,7 +8,7 @@ function Placements() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section-title-warp">
-                                <span className="sub-title"># Our Placements</span>
+                                <span className="sub-title"># Our Placements Partner</span>
                             </div>
                         </div>
                     </div>

@@ -29,7 +29,7 @@ function RegularCourseDetailOne() {
                                         Exam will be held on July or Dec every year, you can pursue
                                         1 year diploma, just you have to send Demand Draft infavour of
                                         <b>CENTRAL INSTITUTE OF FIRE AND SAFETY ENGINEERING</b> Payable at
-                                        <b>GANGHINAGAR</b> of amount <b>Rs. 10,500</b> course fee. As soon as we received your
+                                        <b>Gandhinagar</b> of amount <b>Rs. 20,500</b> per semester. As soon as we received your
                                         <b>Demand Draft</b> and <b>Application Form</b> we will send you <b>Study Material</b> at your
                                         given address.
                                     </p>
@@ -52,7 +52,7 @@ function RegularCourseDetailOne() {
                         <div className="col-lg-4 col-md-12">
                             <aside className="widget-area">
                                 <div className="widget widget_grin_posts_thumb">
-                                    <h3 className="widget-title">Another Regular Courses</h3>
+                                    <h3 className="widget-title">Another Distance Courses</h3>
                                     <article className="item">
                                         <a href="#" className="thumb">
                                             {/* <span className="fullimage cover bg1" role="img"></span> */}
