@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Directors() {
+    let publicUrl = process.env.PUBLIC_URL + "/";
     return (
         <>
             <section className="doctor-area pt-100 pb-70">
@@ -25,7 +26,7 @@ function Directors() {
                     {/* <div className="row"> */}
                     <div className="col-lg-3 col-md-6 offset-lg-0 offset-md-3">
                         <div className="single-doctor">
-                            <a href="dentist-details.html"><img src="assets/images/others/123.jpg" alt="image" /></a>
+                            <a href="dentist-details.html"><img src={publicUrl + "assets/images/RD.jpeg"} alt="image" /></a>
                             <div className="doctor-content">
                                 <h3>
                                     <a href="#">D. M. Khan</a>

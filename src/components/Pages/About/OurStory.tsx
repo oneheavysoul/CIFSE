@@ -14,7 +14,7 @@ function OurStory() {
                                 </span>
                                 <h3>WELCOME TO CENTRAL INSTITUTE OF <span>FIRE & SAFETY ENGINEERING</span></h3>
                                 <p className='text-justify'>Central Institute of Fire & Safety Engineering has been founded to produce skilled and trained professionals in the field
-                                    of engineering and safety. Since last two years,
+                                    of engineering and safety. Since last eight years,
                                     We have seen tremendous progress in the field of fire services & growth in fire technology development in entire India.
                                     Different type of industries, commerce, building, infrastructure etc. brings the necessity to efficiently and effectively
                                     channelize the manpower of the country. Fire, Safety, Health and Environment are prime issues and implied concerns for this new breed.

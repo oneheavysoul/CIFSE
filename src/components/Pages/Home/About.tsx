@@ -20,7 +20,7 @@ function About() {
                                 </span>
                                 <h3>Central Institute of  <span>Fire & Safety Engineering</span>
                                 </h3>
-                                <p>Central Institute of Fire & Safety Engineering has been founded to produce skilled and trained professionals in the field of engineering and safety. Since last two years,
+                                <p>Central Institute of Fire & Safety Engineering has been founded to produce skilled and trained professionals in the field of engineering and safety. Since last eight years,
                                     We have seen tremendous progress in the field of fire services & growth in fire technology development in entire India.</p>
 
                                 <div className="row">
