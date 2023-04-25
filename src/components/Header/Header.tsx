@@ -53,7 +53,7 @@ function Header() {
                                 <h1>
                                     {/* <img src="assets/images/logo.png" className="main-logo" alt="logo" /> */}
                                     <img
-                                        src={publicUrl + "assets/images/Untitled-2.png"}
+                                        src={publicUrl + "assets/images/logo_cifse.png"}
                                         alt="Logo"
                                         className="main-logo"
                                     />
@@ -63,37 +63,40 @@ function Header() {
                             </div>
                         </div>
                         <div className="col-xl-9 col-lg-10 col-md-12 block-slider">
-                            
-                                <div className="skin-care-partner-area">
-                                    <div className="skin-care-partner-slides owl-carousel owl-theme">
-                                        <div className="skin-care-partner-card">
-                                            <a href="#">
-                                                <img src="assets/images/placement/05.png" alt="partner" />
-                                            </a>
-                                        </div>
-                                        <div className="skin-care-partner-card">
-                                            <a href="#">
-                                                <img src="assets/images/placement/01.png" alt="partner" />
-                                            </a>
-                                        </div>
-                                        <div className="skin-care-partner-card">
-                                            <a href="#">
-                                                <img src="assets/images/placement/02.png" alt="partner" />
-                                            </a>
-                                        </div>
-                                        <div className="skin-care-partner-card">
-                                            <a href="#">
-                                                <img src="assets/images/placement/03.png" alt="partner" />
-                                            </a>
-                                        </div>
-                                        <div className="skin-care-partner-card">
-                                            <a href="#">
-                                                <img src="assets/images/placement/04.png" alt="partner" />
-                                            </a>
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-lg-12">
+                                        <div className="section-title-warp">
+                                            <span className="sub-title"># Our Recognitions</span>
                                         </div>
                                     </div>
                                 </div>
-                            
+                            </div>
+                            <div className="skin-care-partner-area">
+                                <div className="skin-care-partner-slides owl-carousel owl-theme">
+                                    <div className="skin-care-partner-card">
+                                        <a href="#">
+                                            <img src="assets/images/rec/p1.png" alt="partner" />
+                                        </a>
+                                    </div>
+                                    <div className="skin-care-partner-card">
+                                        <a href="#">
+                                            <img src="assets/images/rec/p2.png" alt="partner" />
+                                        </a>
+                                    </div>
+                                    <div className="skin-care-partner-card">
+                                        <a href="#">
+                                            <img src="assets/images/rec/p3.png" alt="partner" />
+                                        </a>
+                                    </div>
+                                    <div className="skin-care-partner-card">
+                                        <a href="#">
+                                            <img src="assets/images/rec/p4.png" alt="partner" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -170,6 +173,13 @@ function Header() {
                     </div>
                 </div>
                 <div className="others-option-for-responsive">
+                    <div className="dot-menu">
+                        <div className="inner">
+                            <div className="circle circle-one"></div>
+                            <div className="circle circle-two"></div>
+                            <div className="circle circle-three"></div>
+                        </div>
+                    </div>
                     <div className="container">
                         <div className="container">
                             <div className="option-inner">
