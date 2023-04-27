@@ -158,7 +158,7 @@ function Header() {
                                         </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="#" className="nav-link">Placement</a>
+                                        <a href="#partner_1" className="nav-link">Placement</a>
                                     </li>
                                 </ul>
                                 <div className="others-options d-flex align-items-center">
@@ -173,20 +173,20 @@ function Header() {
                     </div>
                 </div>
                 <div className="others-option-for-responsive">
-                    <div className="dot-menu">
-                        <div className="inner">
-                            <div className="circle circle-one"></div>
-                            <div className="circle circle-two"></div>
-                            <div className="circle circle-three"></div>
-                        </div>
-                    </div>
                     <div className="container">
+                        <div className="dot-menu">
+                            <div className="inner">
+                                <div className="circle circle-one"></div>
+                                <div className="circle circle-two"></div>
+                                <div className="circle circle-three"></div>
+                            </div>
+                        </div>
                         <div className="container">
                             <div className="option-inner">
                                 <div className="others-options d-flex align-items-center">
                                     <div className="option-item">
                                         <div className="navbar-btn">
-                                            <a href="#" className="default-btn">Book Appointment</a>
+                                            <a href="appointment.html" className="default-btn">Book Appointment</a>
                                         </div>
                                     </div>
                                 </div>

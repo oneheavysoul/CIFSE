@@ -3,7 +3,7 @@ import React from 'react'
 function Placements() {
     return (
         <>
-            <div className="skin-care-partner-inner-box">
+            <div className="skin-care-partner-inner-box" id='partner_1'>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

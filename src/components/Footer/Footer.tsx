@@ -6,10 +6,19 @@ function Footer() {
     let publicUrl = process.env.PUBLIC_URL + '/'
 
     useEffect(() => {
+        mainMethod3();
         mainMethod();
         mainMethod1();
-        mainMethod2()
+        mainMethod2();
+        
     }, [])
+
+    const mainMethod3 = () => {
+        const minscript3 = document.createElement("script");
+        minscript3.async = true;
+        minscript3.src = publicUrl + "assets/js/bootstrap.bundle.min.js";
+        document.body.appendChild(minscript3); 
+    }
 
     const mainMethod = () => {
         const minscript = document.createElement("script");
@@ -31,7 +40,7 @@ function Footer() {
         minscript2.src = publicUrl + "assets/js/jquery.magnific-popup.min.js";
         document.body.appendChild(minscript2);
     }
-
+    
     return (
         <>
 
