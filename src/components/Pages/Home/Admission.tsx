@@ -9,7 +9,7 @@ function Admission() {
             <section className="cta-one mt-5">
                 <div className="cta-one__img-box">
                     <div className="cta-one__img">
-                        <img src={publicUrl + "assets/images/others/trust-company-bg.jpg"} alt="" />
+                        <img src={publicUrl + "assets/images/others/Application.jpg"} alt="" />
                     </div>
                 </div>
                 <div className="container">

@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Testimonial() {
+    let publicUrl = process.env.PUBLIC_URL + "/";
     return (
         <>
             <div className="dental-tourism-review-area ptb-100">
@@ -21,9 +22,27 @@ function Testimonial() {
                     <div className="dental-tourism-review-slides owl-carousel owl-theme">
                         <div className="dental-tourism-review-card">
                             <div className="review-info">
-                                <img src="assets/images/dental-tourism/review/review-1.jpg" className="rounded-circle" alt="image"/>
-                                    <h3>Dorothy Bratt</h3>
-                                    <span>Manager</span>
+                                <img src={publicUrl + "assets/images/reviews/1.png"} className="rounded-circle" alt="image" />
+                                <h3>Avinash Vala</h3>
+                                <span>Fireman (Durga Fire Service)</span>
+                            </div>
+                            <p>“I got placement in industrial department from this college thanks to all CIFSE management department 🙏🏻✨🙇🏻and also best college in central Gandhinagar.”</p>
+                            <ul className="rating">
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                            </ul>
+                            <div className="icon-quote">
+                                <i className='bx bxs-quote-alt-right'></i>
+                            </div>
+                        </div>
+                        <div className="dental-tourism-review-card">
+                            <div className="review-info">
+                                <img src={publicUrl + "assets/images/reviews/2.jpg"} className="rounded-circle" alt="image" />
+                                <h3>Harshal Vairagade</h3>
+                                <span>Assistant Fire Officer (Indian Airforce)</span>
                             </div>
                             <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
                                 libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi
@@ -39,11 +58,12 @@ function Testimonial() {
                                 <i className='bx bxs-quote-alt-right'></i>
                             </div>
                         </div>
-                        <div className="dental-tourism-review-card">
+                        
+                        {/* <div className="dental-tourism-review-card">
                             <div className="review-info">
-                                <img src="assets/images/dental-tourism/review/review-2.jpg" className="rounded-circle" alt="image"/>
-                                    <h3>Milan Wakefield</h3>
-                                    <span>Director</span>
+                                <img src="assets/images/dental-tourism/review/review-1.jpg" className="rounded-circle" alt="image" />
+                                <h3>Dorothy Bratt</h3>
+                                <span>Manager</span>
                             </div>
                             <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
                                 libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi
@@ -58,12 +78,12 @@ function Testimonial() {
                             <div className="icon-quote">
                                 <i className='bx bxs-quote-alt-right'></i>
                             </div>
-                        </div>
-                        <div className="dental-tourism-review-card">
+                        </div> */}
+                        {/* <div className="dental-tourism-review-card">
                             <div className="review-info">
-                                <img src="assets/images/dental-tourism/review/review-1.jpg" className="rounded-circle" alt="image"/>
-                                    <h3>Dorothy Bratt</h3>
-                                    <span>Manager</span>
+                                <img src="assets/images/dental-tourism/review/review-2.jpg" className="rounded-circle" alt="image" />
+                                <h3>Milan Wakefield</h3>
+                                <span>Director</span>
                             </div>
                             <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
                                 libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi
@@ -78,12 +98,12 @@ function Testimonial() {
                             <div className="icon-quote">
                                 <i className='bx bxs-quote-alt-right'></i>
                             </div>
-                        </div>
-                        <div className="dental-tourism-review-card">
+                        </div> */}
+                        {/* <div className="dental-tourism-review-card">
                             <div className="review-info">
-                                <img src="assets/images/dental-tourism/review/review-2.jpg" className="rounded-circle" alt="image"/>
-                                    <h3>Milan Wakefield</h3>
-                                    <span>Director</span>
+                                <img src="assets/images/dental-tourism/review/review-1.jpg" className="rounded-circle" alt="image" />
+                                <h3>Dorothy Bratt</h3>
+                                <span>Manager</span>
                             </div>
                             <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
                                 libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi
@@ -98,12 +118,12 @@ function Testimonial() {
                             <div className="icon-quote">
                                 <i className='bx bxs-quote-alt-right'></i>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="dental-tourism-review-card">
-                            <div className="review-info">
-                                <img src="assets/images/dental-tourism/review/review-1.jpg" className="rounded-circle" alt="image"/>
-                                    <h3>Dorothy Bratt</h3>
-                                    <span>Manager</span>
+                            {/* <div className="review-info">
+                                <img src="assets/images/dental-tourism/review/review-2.jpg" className="rounded-circle" alt="image" />
+                                <h3>Milan Wakefield</h3>
+                                <span>Director</span>
                             </div>
                             <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
                                 libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi
@@ -117,27 +137,7 @@ function Testimonial() {
                             </ul>
                             <div className="icon-quote">
                                 <i className='bx bxs-quote-alt-right'></i>
-                            </div>
-                        </div>
-                        <div className="dental-tourism-review-card">
-                            <div className="review-info">
-                                <img src="assets/images/dental-tourism/review/review-2.jpg" className="rounded-circle" alt="image"/>
-                                    <h3>Milan Wakefield</h3>
-                                    <span>Director</span>
-                            </div>
-                            <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
-                                libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi
-                                pretium ut lacinia.”</p>
-                            <ul className="rating">
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                            </ul>
-                            <div className="icon-quote">
-                                <i className='bx bxs-quote-alt-right'></i>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
