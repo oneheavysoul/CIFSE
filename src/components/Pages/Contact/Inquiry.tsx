@@ -2,6 +2,19 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 function Inquiry() {
+
+  const config = {
+    Host: "smtp.elasticemail.com",
+    Username: "username",
+    Password: "password",
+    To: 'them@website.com',
+    From: "you@isp.com",
+    Subject: "This is the subject",
+    Body: "And this is the body",
+  }
+
+
+
   return (
     <>
       <section className="contact-details">
@@ -33,7 +46,7 @@ function Inquiry() {
                 <span className="fa fa-map-marker"></span>
               </div>
               <div className="contact-details__content">
-                <h6>CIFSE Fire College Sector 5C, Near KH-3 Circle, Pathika Bus Stand Road, Gandhinagar, Gujarat-382006</h6>
+                <h6>CIFSE Fire College Sector 5C, Near KH-3 Circle, Pathika Bus Stand Road, Gandhinagar, Gujarat- 382006</h6>
               </div>
             </li>
           </ul>

@@ -61,8 +61,8 @@ img {
 }
 
 .ptb-100 {
-    padding-top: 100px;
-    padding-bottom: 100px
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 
 .pt-100 {
@@ -16043,7 +16043,7 @@ blockquote p,
 .contact-details {
     position: relative;
     display: block;
-    padding: 120px 0 90px;
+    /* padding: 120px 0 90px; */
 }
 
 .contact-details__list {
@@ -16184,7 +16184,7 @@ blockquote p,
 .blog-page {
     position: relative;
     display: block;
-    padding: 80px 0 80px;
+    /* padding: 80px 0 80px; */
 }
 
 
@@ -16437,7 +16437,7 @@ blockquote p,
 .gallery-page {
     position: relative;
     display: block;
-    padding: 120px 0 90px;
+    /* padding: 120px 0 90px; */
   }
   
   .gallery-page__single {

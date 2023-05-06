@@ -44,9 +44,8 @@ function Testimonial() {
                                 <h3>Harshal Vairagade</h3>
                                 <span>Assistant Fire Officer (Indian Airforce)</span>
                             </div>
-                            <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
-                                libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi
-                                pretium ut lacinia.”</p>
+                            <p>Cifse is always supportive to all the candidates life time gives guide to all the candidates anytime and anywhere.
+                                I am thankful to cifse for what I am today and what I achieved in my life ..thank you CIFSE FIRE COLLEGE for all your support</p>
                             <ul className="rating">
                                 <li><i className='bx bxs-star'></i></li>
                                 <li><i className='bx bxs-star'></i></li>
@@ -58,76 +57,15 @@ function Testimonial() {
                                 <i className='bx bxs-quote-alt-right'></i>
                             </div>
                         </div>
-                        
-                        {/* <div className="dental-tourism-review-card">
-                            <div className="review-info">
-                                <img src="assets/images/dental-tourism/review/review-1.jpg" className="rounded-circle" alt="image" />
-                                <h3>Dorothy Bratt</h3>
-                                <span>Manager</span>
-                            </div>
-                            <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
-                                libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi
-                                pretium ut lacinia.”</p>
-                            <ul className="rating">
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                            </ul>
-                            <div className="icon-quote">
-                                <i className='bx bxs-quote-alt-right'></i>
-                            </div>
-                        </div> */}
-                        {/* <div className="dental-tourism-review-card">
-                            <div className="review-info">
-                                <img src="assets/images/dental-tourism/review/review-2.jpg" className="rounded-circle" alt="image" />
-                                <h3>Milan Wakefield</h3>
-                                <span>Director</span>
-                            </div>
-                            <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
-                                libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi
-                                pretium ut lacinia.”</p>
-                            <ul className="rating">
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                            </ul>
-                            <div className="icon-quote">
-                                <i className='bx bxs-quote-alt-right'></i>
-                            </div>
-                        </div> */}
-                        {/* <div className="dental-tourism-review-card">
-                            <div className="review-info">
-                                <img src="assets/images/dental-tourism/review/review-1.jpg" className="rounded-circle" alt="image" />
-                                <h3>Dorothy Bratt</h3>
-                                <span>Manager</span>
-                            </div>
-                            <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
-                                libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi
-                                pretium ut lacinia.”</p>
-                            <ul className="rating">
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                                <li><i className='bx bxs-star'></i></li>
-                            </ul>
-                            <div className="icon-quote">
-                                <i className='bx bxs-quote-alt-right'></i>
-                            </div>
-                        </div> */}
+
                         <div className="dental-tourism-review-card">
-                            {/* <div className="review-info">
-                                <img src="assets/images/dental-tourism/review/review-2.jpg" className="rounded-circle" alt="image" />
-                                <h3>Milan Wakefield</h3>
-                                <span>Director</span>
+                            <div className="review-info">
+                                <img src={publicUrl + "assets/images/reviews/3.png"} className="rounded-circle" alt="image" />
+                                <h3>Sujal Pomal</h3>
+                                <span>Fire Officer (Junagadh Municipal Corporation)</span>
                             </div>
-                            <p>“Vivamus magna justo lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut
-                                libero malesuada feugiat. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi
-                                pretium ut lacinia.”</p>
+                            <p>The certificate CIFSE has been provide that will be useful in government, private sectors and also eligible for internationally.
+                                All staff are well educated and responsive behaviour...I suggest this institute for making career in fire and safety engineering”</p>
                             <ul className="rating">
                                 <li><i className='bx bxs-star'></i></li>
                                 <li><i className='bx bxs-star'></i></li>
@@ -137,7 +75,61 @@ function Testimonial() {
                             </ul>
                             <div className="icon-quote">
                                 <i className='bx bxs-quote-alt-right'></i>
-                            </div> */}
+                            </div>
+                        </div>
+                        <div className="dental-tourism-review-card">
+                            <div className="review-info">
+                                <img src={publicUrl + "assets/images/reviews/4.png"} className="rounded-circle" alt="image" />
+                                <h3>Rutvik Nakum</h3>
+                                <span>Fire Supervisor (Adani Port)</span>
+                            </div>
+                            <p>Good placement facilities CIFSE given and also gives a internship in reputed industries personally I suggest CIFSE FIRE COLLEGE for good career in fire and safety</p>
+                            <ul className="rating">
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                            </ul>
+                            <div className="icon-quote">
+                                <i className='bx bxs-quote-alt-right'></i>
+                            </div>
+                        </div>
+                        <div className="dental-tourism-review-card">
+                            <div className="review-info">
+                                <img src={publicUrl + "assets/images/reviews/5.png"} className="rounded-circle" alt="image" />
+                                <h3>Ajay Vaja</h3>
+                                <span>Fire Man (Bhavnagar Municipal Corporation)</span>
+                            </div>
+                            <p>Best fire and safety college in Gujarat. There are all over India's candidates are pursued the diploma courses and placed by cifse in reputed industries..thank you</p>
+                            <ul className="rating">
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                            </ul>
+                            <div className="icon-quote">
+                                <i className='bx bxs-quote-alt-right'></i>
+                            </div>
+                        </div>
+                        <div className="dental-tourism-review-card">
+                            <div className="review-info">
+                                <img src={publicUrl + "assets/images/reviews/5.png"} className="rounded-circle" alt="image" />
+                                <h3>Ajay Vaja</h3>
+                                <span>Fire Man (Bhavnagar Municipal Corporation)</span>
+                            </div>
+                            <p>Best fire and safety college in Gujarat. There are all over India's candidates are pursued the diploma courses and placed by cifse in reputed industries..thank you</p>
+                            <ul className="rating">
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                                <li><i className='bx bxs-star'></i></li>
+                            </ul>
+                            <div className="icon-quote">
+                                <i className='bx bxs-quote-alt-right'></i>
+                            </div>
                         </div>
                     </div>
                 </div>

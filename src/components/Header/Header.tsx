@@ -144,11 +144,6 @@ function Header() {
                                     </li>
                                     {/* <li className="nav-item">
                                         <a href="#" className="nav-link">
-                                            Centers
-                                        </a>
-                                    </li> */}
-                                    {/* <li className="nav-item">
-                                        <a href="#" className="nav-link">
                                             Results
                                         </a>
                                     </li> */}
@@ -157,22 +152,25 @@ function Header() {
                                             Gallery
                                         </Link>
                                     </li>
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <a href="#partner_1" className="nav-link">Placement</a>
+                                    </li> */}
+                                    <li className="nav-item">
+                                        <Link to={ROUTES.contactUs} className="nav-link">Contact Us</Link>
                                     </li>
                                 </ul>
-                                <div className="others-options d-flex align-items-center">
+                                {/* <div className="others-options d-flex align-items-center">
                                     <div className="option-item">
                                         <div className="navbar-btn">
                                             <Link to={ROUTES.contactUs} className="default-btn">Inquiry / Contact Us</Link>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </nav>
                     </div>
                 </div>
-                <div className="others-option-for-responsive">
+                {/* <div className="others-option-for-responsive">
                     <div className="container">
                         <div className="dot-menu">
                             <div className="inner">
@@ -193,7 +191,7 @@ function Header() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
 
 

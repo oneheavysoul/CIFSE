@@ -10,14 +10,14 @@ function Footer() {
         mainMethod();
         mainMethod1();
         mainMethod2();
-        
+
     }, [])
 
     const mainMethod3 = () => {
         const minscript3 = document.createElement("script");
         minscript3.async = true;
         minscript3.src = publicUrl + "assets/js/bootstrap.bundle.min.js";
-        document.body.appendChild(minscript3); 
+        document.body.appendChild(minscript3);
     }
 
     const mainMethod = () => {
@@ -40,7 +40,7 @@ function Footer() {
         minscript2.src = publicUrl + "assets/js/jquery.magnific-popup.min.js";
         document.body.appendChild(minscript2);
     }
-    
+
     return (
         <>
 
@@ -64,13 +64,16 @@ function Footer() {
                                         <Link to={ROUTES.aboutUs}>About Us</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Contact Us</a>
+                                        <Link to={ROUTES.RegularCourse}>Regular Course</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Privacy Policy</a>
+                                        <Link to={ROUTES.DistanceCourse}>Distance Course</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Terms Of Use</a>
+                                        <Link to={ROUTES.Gallery}>Gallery</Link>
+                                    </li>
+                                    <li>
+                                        <Link to={ROUTES.contactUs}>Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -103,7 +106,7 @@ function Footer() {
                 <div className="container">
                     <div className="copyright-area-content">
                         <p>
-                            © 2020 CIFSE. All rights reserved | Designed by
+                            © 2020 CIFSE. All rights reserved | Designed by 
                             <a href="#" target="_blank">
                                 Creactive Design Info
                             </a>
