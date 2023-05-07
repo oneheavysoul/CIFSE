@@ -1,19 +1,23 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 function Inquiry() {
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [body, setBody] = useState("");
 
   const config = {
     Host: "smtp.elasticemail.com",
-    Username: "username",
-    Password: "password",
-    To: 'them@website.com',
-    From: "you@isp.com",
-    Subject: "This is the subject",
-    Body: "And this is the body",
+    SecureToken: "203535ba-ae6d-4dbc-b645-20992a37d00a",
+    To: 'bill181297@gmail.com',
+    From: email,
+    Subject: subject,
+    Body: body,
   }
 
-
+  // const submitHandler = () => {
+  //   if (window.Email)
+  // }
 
   return (
     <>
@@ -77,7 +81,7 @@ function Inquiry() {
                 <div className="col-lg-6 col-md-6">
                   <div className="form-group">
                     <input type="email" name="email" id="email" className="form-control" required
-                      data-error="Please enter your email" placeholder="Email" />
+                      data-error="Please enter your email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
                     <div className="help-block with-errors"></div>
                   </div>
                 </div>
@@ -91,14 +95,14 @@ function Inquiry() {
                 <div className="col-lg-6 col-md-6">
                   <div className="form-group">
                     <input type="text" name="msg_subject" id="msg_subject" className="form-control" required
-                      data-error="Please enter your subject" placeholder="Subject" />
+                      data-error="Please enter your subject" placeholder="Subject" onChange={(e) => setSubject(e.target.value)} />
                     <div className="help-block with-errors"></div>
                   </div>
                 </div>
                 <div className="col-lg-12 col-md-12">
                   <div className="form-group">
                     <textarea name="message" className="form-control" id="message" required
-                      data-error="Write your message" placeholder="Your Message"></textarea>
+                      data-error="Write your message" placeholder="Your Message" onChange={(e) => setBody(e.target.value)}></textarea>
                     <div className="help-block with-errors"></div>
                   </div>
                 </div>
