@@ -81,7 +81,7 @@ function Testimonial() {
                             <div className="review-info">
                                 <img src={publicUrl + "assets/images/reviews/4.png"} className="rounded-circle" alt="image" />
                                 <h3>Rutvik Nakum</h3>
-                                <span>Fire Supervisor (Adani Port)</span>
+                                <span>Fire Supervisor (Adani Ports Limited)</span>
                             </div>
                             <p>Good placement facilities CIFSE given and also gives a internship in reputed industries personally I suggest CIFSE FIRE COLLEGE for good career in fire and safety</p>
                             <ul className="rating">
@@ -115,11 +115,11 @@ function Testimonial() {
                         </div>
                         <div className="dental-tourism-review-card">
                             <div className="review-info">
-                                <img src={publicUrl + "assets/images/reviews/5.png"} className="rounded-circle" alt="image" />
-                                <h3>Ajay Vaja</h3>
-                                <span>Fire Man (Bhavnagar Municipal Corporation)</span>
+                                <img src={publicUrl + "assets/images/reviews/6.png"} className="rounded-circle" alt="image" />
+                                <h3>Jaydeep Solanki</h3>
+                                <span>EHS Officer (Welspun Captive Power Generation Limited)</span>
                             </div>
-                            <p>Best fire and safety college in Gujarat. There are all over India's candidates are pursued the diploma courses and placed by cifse in reputed industries..thank you</p>
+                            <p>Cifse is one of the best institute in our region. They had a reputed accreditation and recognition that will help to impart a big successful career in fire and safety..if you want to make career in fire and safety go for this institute.</p>
                             <ul className="rating">
                                 <li><i className='bx bxs-star'></i></li>
                                 <li><i className='bx bxs-star'></i></li>
