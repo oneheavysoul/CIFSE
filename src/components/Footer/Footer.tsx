@@ -85,8 +85,8 @@ function Footer() {
                                 <ul className="footer-information">
                                     <li>
                                         <i className="fa fa-phone-square"></i>
-                                        <span><a href="tel:+91 94514 42632">+91 94514 42632</a></span>
-                                        <span><a href="tel:+91 73101 76777">+91 73101 76777</a></span>
+                                        <span><a href="tel:+91 95740 31178">+91 95740 31178</a></span>
+                                        <span><a href="tel:+91 77779 95414">+91 77779 95414</a></span>
                                     </li><br />
                                     <li>
                                         <i className="fa fa-envelope"></i>
@@ -106,7 +106,7 @@ function Footer() {
                 <div className="container">
                     <div className="copyright-area-content">
                         <p>
-                            © 2020 CIFSE. All rights reserved | Designed by 
+                            © 2020 CIFSE. All rights reserved | Designed by
                             <a href="#" target="_blank">
                                 Creactive Design Info
                             </a>

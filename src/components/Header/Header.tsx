@@ -14,8 +14,8 @@ function Header() {
                             <ul className="top-header-information">
                                 <li>
                                     <i className="fa fa-phone-square" aria-hidden="true"></i>
-                                    <span><a href="tel:+91 94514 42632">+91 94514 42632</a></span>,
-                                    <span><a href="tel:+91 73101 76777">+91 73101 76777</a></span>
+                                    <span><a href="tel:+91 95740 31178">+91 95740 31178</a></span>,
+                                    <span><a href="tel:+91 77779 95414">+91 77779 95414</a></span>
                                 </li>
                                 <li>
                                     <i className="fa fa-envelope" aria-hidden="true"></i>

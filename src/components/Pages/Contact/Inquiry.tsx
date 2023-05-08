@@ -30,8 +30,8 @@ function Inquiry() {
               </div>
               <div className="contact-details__content">
                 <h6>
-                  <a href="tel:+91 94514 42632" className="contact-details__number-1">+91 94514 42632</a>
-                  <a href="tel:+91 73101 76777" className="contact-details__number-2">+91 73101 76777</a>
+                  <a href="tel:+91 95740 31178" className="contact-details__number-1">+91 95740 31178</a>
+                  <a href="tel:+91 77779 95414" className="contact-details__number-2">+91 77779 95414</a>
                 </h6>
               </div>
             </li>
