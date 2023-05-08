@@ -16043,7 +16043,7 @@ blockquote p,
 .contact-details {
     position: relative;
     display: block;
-    /* padding: 120px 0 90px; */
+    padding: 40px 0 40px;
 }
 
 .contact-details__list {

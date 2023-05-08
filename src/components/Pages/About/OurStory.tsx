@@ -1,6 +1,7 @@
 import React from 'react'
 
 function OurStory() {
+    let publicUrl = process.env.PUBLIC_URL + "/";
     return (
         <>
             <section className="about-area ptb-100">
@@ -52,7 +53,7 @@ function OurStory() {
                         </div>
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/400.jpg" alt="image" />
+                                <img src={process.env.PUBLIC_URL + "assets/images/about/400.jpg"} alt="image" />
                             </div>
                         </div>
                     </div>
@@ -63,7 +64,7 @@ function OurStory() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/401.jpg" alt="image" />
+                                <img src={process.env.PUBLIC_URL + "assets/images/about/401.jpg"} alt="image" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -87,7 +88,7 @@ function OurStory() {
                         </div>
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/408.jpg" alt="image" />
+                                <img src={process.env.PUBLIC_URL + "assets/images/about/408.jpg"} alt="image" />
                             </div>
                         </div>
                     </div>
@@ -98,7 +99,7 @@ function OurStory() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/others/405.png" alt="image" />
+                                <img src={process.env.PUBLIC_URL + "assets/images/others/405.png"} alt="image" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -169,7 +170,7 @@ function OurStory() {
                         </div>
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/406.jpg" alt="image" />
+                                <img src={process.env.PUBLIC_URL + "assets/images/about/406.jpg"} alt="image" />
                             </div>
                         </div>
                     </div>
@@ -198,7 +199,7 @@ function OurStory() {
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div className="single-doctor">
-                                <a href="dentist-details.html"><img src="assets/images/others/123.jpg" alt="image" /></a>
+                                <a href="dentist-details.html"><img src={process.env.PUBLIC_URL + "assets/images/main-photo/Sid.jpg"} alt="image" /></a>
                                 <div className="doctor-content">
                                     <h3>
                                         <a href="dentist-details.html">Siddharth Dodiya</a>
