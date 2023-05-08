@@ -16437,7 +16437,7 @@ blockquote p,
 .gallery-page {
     position: relative;
     display: block;
-    /* padding: 120px 0 90px; */
+    padding: 40px 0 40px;
   }
   
   .gallery-page__single {

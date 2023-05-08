@@ -107,9 +107,7 @@ function Footer() {
                     <div className="copyright-area-content">
                         <p>
                             © 2020 CIFSE. All rights reserved | Designed by
-                            <a href="#" target="_blank">
-                                Creactive Design Info
-                            </a>
+                            <a href="#" target="_blank"> Creactive Design Info </a>
                         </p>
                     </div>
                 </div>
