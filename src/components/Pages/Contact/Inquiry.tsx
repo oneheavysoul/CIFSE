@@ -5,6 +5,7 @@ function Inquiry() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [body, setBody] = useState("");
+  const [phone, setPhone] = useState("");
 
   const config = {
     Host: "smtp.elasticemail.com",
