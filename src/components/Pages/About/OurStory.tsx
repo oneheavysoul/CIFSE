@@ -199,10 +199,10 @@ function OurStory() {
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div className="single-doctor">
-                                <a href="dentist-details.html"><img src={process.env.PUBLIC_URL + "assets/images/main-photo/Sid.jpg"} alt="image" /></a>
+                                <img src={process.env.PUBLIC_URL + "assets/images/main-photo/Sid.jpeg"} alt="image" />
                                 <div className="doctor-content">
                                     <h3>
-                                        <a href="dentist-details.html">Siddharth Dodiya</a>
+                                        Siddharth Dodiya
                                     </h3>
                                     <span><b>(Director)</b><br />B.Sc. Fire, M.Sc. Hazard Management, NEBOSH (UK), EHS, IOSH, PGDIS</span>
                                     <div className="share-link">

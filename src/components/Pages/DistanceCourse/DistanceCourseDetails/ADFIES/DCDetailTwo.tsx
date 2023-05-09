@@ -37,11 +37,7 @@ function RegularCourseDetailTwo() {
                                     <p>Management courses that we offer are highly compatible with <b>International Standards. </b>
                                         It has been our constant endeavour to provide the best possible
                                         Study Material for the students.</p>
-                                    {/* <blockquote className="wp-block-quote">
-                                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-                                            auctor, nisi elit consequat ipsum. Proin gravida nibh vel velit auctor aliquet.
-                                            Aenean sollicitudin, lorem quis bibendum auctor.</p>
-                                    </blockquote> */}
+
                                     <p>The International curriculam added in our syllabus are an effort to make this possible. We want our students
                                         to excel in what they are doing; creating a <b>Safety Engineer / HSE officer / Safety officer</b> is not the aim for us, its making a Engineer who
                                         can really take its organization on a high with Zero Accident policy.
@@ -146,7 +142,7 @@ function RegularCourseDetailTwo() {
                                             </h4>
                                         </div>
                                     </article>
-                                  
+
                                     <article className="item">
                                         <a href="blog-details.html" className="thumb">
                                             {/* <span className="fullimage cover bg2" role="img"></span> */}

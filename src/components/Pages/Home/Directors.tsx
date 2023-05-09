@@ -26,10 +26,10 @@ function Directors() {
                     {/* <div className="row"> */}
                     <div className="col-lg-3 col-md-6 offset-lg-0 offset-md-3">
                         <div className="single-doctor">
-                            <a href="dentist-details.html"><img src={publicUrl + "assets/images/RD.jpeg"} alt="image" /></a>
+                            <img src={publicUrl + "assets/images/RD.jpeg"} alt="image" />
                             <div className="doctor-content">
                                 <h3>
-                                    <a href="#">D. M. Khan</a>
+                                    D. M. Khan
                                 </h3>
                                 <span>Retd. Assistant Director of NATIONAL FIRE SERVICE COLLEGE - NAGPUR <br />(MINISTRY OF HOME AFFAIRS)</span>
                                 <div className="share-link">

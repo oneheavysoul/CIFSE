@@ -6,7 +6,6 @@ function Header() {
     let publicUrl = process.env.PUBLIC_URL + "/";
     return (
         <>
-
             <div className="top-header-area">
                 <div className="container">
                     <div className="row align-items-center">
@@ -51,15 +50,14 @@ function Header() {
                         <div className="col-xl-12 col-lg-12 col-md-12">
                             <div className="middle-header">
                                 <h1>
-                                    {/* <img src="assets/images/logo.png" className="main-logo" alt="logo" /> */}
-                                    <img
-                                        src={publicUrl + "assets/images/logo_cifse.png"}
-                                        alt="Logo"
-                                        className="main-logo"
-                                    />
+                                    <Link to={ROUTES.home} className="nav-link">
+                                        <img
+                                            src={publicUrl + "assets/images/logo_cifse.png"}
+                                            alt="Logo"
+                                            className="main-logo"
+                                        />
+                                    </Link>
                                 </h1>
-                                {/* <p style={{ fontSize: "12px", marginBottom:"0px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>ISO:9001-2015 CERTIFIED</p>
-                                <p style={{ fontSize: "12px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>Ministry of Education</p> */}
                             </div>
                         </div>
                         <div className="col-xl-9 col-lg-10 col-md-12 block-slider">
@@ -75,24 +73,16 @@ function Header() {
                             <div className="skin-care-partner-area">
                                 <div className="skin-care-partner-slides owl-carousel owl-theme">
                                     <div className="skin-care-partner-card">
-                                        <a href="#">
-                                            <img src="assets/images/rec/p1.png" alt="partner" />
-                                        </a>
+                                        <img src="assets/images/rec/p1.png" alt="partner" />
                                     </div>
                                     <div className="skin-care-partner-card">
-                                        <a href="#">
-                                            <img src="assets/images/rec/p2.png" alt="partner" />
-                                        </a>
+                                        <img src="assets/images/rec/p2.png" alt="partner" />
                                     </div>
                                     <div className="skin-care-partner-card">
-                                        <a href="#">
-                                            <img src="assets/images/rec/p3.png" alt="partner" />
-                                        </a>
+                                        <img src="assets/images/rec/p3.png" alt="partner" />
                                     </div>
                                     <div className="skin-care-partner-card">
-                                        <a href="#">
-                                            <img src="assets/images/rec/p4.png" alt="partner" />
-                                        </a>
+                                        <img src="assets/images/rec/p4.png" alt="partner" />
                                     </div>
                                 </div>
                             </div>
@@ -107,14 +97,13 @@ function Header() {
                     <div className="container">
                         <div className="main-responsive-menu">
                             <div className="logo">
-                                <a href="#">
-                                    {/* <img src="assets/images/logo.png" className="main-logo" alt="logo" /> */}
+                                <Link to={ROUTES.home} className="nav-link">
                                     <img
                                         src={publicUrl + "assets/images/logo_a.png"}
                                         alt="Logo"
                                         className="main-logo"
                                     />
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -192,7 +181,7 @@ function Header() {
                         </div>
                     </div>
                 </div> */}
-            </div>
+            </div >
 
 
         </>

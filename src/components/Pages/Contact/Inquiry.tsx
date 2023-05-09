@@ -65,8 +65,8 @@ function Inquiry() {
               Message Us
             </span>
             <h2>Drop Us Message for Any Query</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-              et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+            {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p> */}
           </div>
           <div className="contact-form">
             <form id="contactForm">
