@@ -4,6 +4,7 @@ import { InnerPageRoutes, ROUTES } from './constants/routes';
 import AboutUs from './components/Pages/About/AboutUs';
 import Home from './components/Pages/Home/Home';
 import ContactUs from './components/Pages/Contact/ContactUs';
+import 'react-toastify/dist/ReactToastify.css';
 import RegularCourseP from './components/Pages/RegularCourse/RegularCourseMainPage';
 import RegularCourseDetailOne from './components/Pages/RegularCourse/RegularCourseDetails/BscFire/RegularCourseDetailOne';
 import RegularCourseDetailTwo from './components/Pages/RegularCourse/RegularCourseDetails/DiplomaFireService/RegularCourseDetailTwo';
