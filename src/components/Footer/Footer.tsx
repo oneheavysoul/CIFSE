@@ -90,7 +90,7 @@ function Footer() {
                                     </li><br />
                                     <li>
                                         <i className="fa fa-envelope"></i>
-                                        <span><a href="mailto:info@cifseindia.org"> info@cifseindia.org</a></span>
+                                        <span><a href="mailto:info@cifse.in"> info@cifse.in</a></span>
                                     </li>
                                     <li>
                                         <i className="fa fa-map-marker"></i>

@@ -45,7 +45,7 @@ function Inquiry() {
               </div>
               <div className="contact-details__content">
                 <h6>
-                  <a href="mailto:info@cifseindia.org" className="contact-details__number-1">info@cifseindia.org</a>
+                  <a href="mailto:info@cifse.in" className="contact-details__number-1">info@cifse.in</a>
                 </h6>
               </div>
             </li>
