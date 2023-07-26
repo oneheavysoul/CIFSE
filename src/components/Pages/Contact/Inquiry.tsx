@@ -1,30 +1,46 @@
-import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
+import { useState } from 'react';
 import { toast } from 'react-toastify';
+import axios from "axios";
+import { API_END_POINT, config } from '../../../constants/const';
+import ToastMessage from "../../../components/common/ToastMessage";
 
 function Inquiry() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
   const [body, setBody] = useState("");
   const [phone, setPhone] = useState("");
 
-  const config = {
-    Host: "smtp.elasticemail.com",
-    SecureToken: "203535ba-ae6d-4dbc-b645-20992a37d00a",
-    To: 'bill181297@gmail.com',
-    From: email,
-    Subject: subject,
-    Body: body,
+  function resetData() {
+    setName("");
+    setEmail("");
+    setBody("");
+    setPhone("")
   }
 
-  const sendMail = (e: any) => {
+  const sendMail = async (e: any) => {
     e.preventDefault();
-    emailjs.sendForm('service_im3qwdb', 'template_071b5tb', e.target, 'JaTPExH68HKRX3IB1')
+    let obj = {
+      name: name || "",
+      from: email || "",
+      phone: phone || "",
+      message: body || ""
+    }
+
+    const sendEnquiry = await axios.post(`${API_END_POINT}/user/enquiry`, obj, config)
+      .then((res) => {
+        toast.success(res?.data?.msg);
+        resetData();
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+        return res;
+      })
+      .catch((error) => {
+        return error?.response?.data;
+      });
   }
 
   return (
     <>
+      <ToastMessage />
       <section className="contact-details">
         <div className="container">
           <ul className="list-unstyled contact-details__list">
@@ -73,37 +89,37 @@ function Inquiry() {
           <div className="contact-form">
             <form id="contactForm" onSubmit={sendMail}>
               <div className="row">
-                <div className="col-lg-6 col-md-6">
+                <div className="col-lg-12 col-md-12">
                   <div className="form-group">
-                    <input type="text" name="from_name" id="from_name" className="form-control" required
+                    <input value={name} type="text" name="from_name" id="from_name" className="form-control" required
                       data-error="Please enter your name" placeholder="Name" onChange={(e) => setName(e.target.value)} />
                     <div className="help-block with-errors"></div>
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-6">
                   <div className="form-group">
-                    <input type="email" name="email_from" id="email" className="form-control" required
+                    <input value={email} type="email" name="email_from" id="email" className="form-control" required
                       data-error="Please enter your email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
                     <div className="help-block with-errors"></div>
                   </div>
                 </div>
                 <div className="col-lg-6 col-md-6">
                   <div className="form-group">
-                    <input type="text" name="phone_from" id="phone_from" required
-                      data-error="Please enter your number" className="form-control" placeholder="Phone" />
+                    <input value={phone} type="number" name="phone_from" id="phone_from" required
+                      data-error="Please enter your number" className="form-control" placeholder="Phone" onChange={(e) => setPhone(e.target.value)} />
                     <div className="help-block with-errors"></div>
                   </div>
                 </div>
-                <div className="col-lg-6 col-md-6">
+                {/* <div className="col-lg-6 col-md-6">
                   <div className="form-group">
                     <input type="text" name="subject_from" id="subject_from" className="form-control" required
                       data-error="Please enter your subject" placeholder="Subject" onChange={(e) => setSubject(e.target.value)} />
                     <div className="help-block with-errors"></div>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-lg-12 col-md-12">
                   <div className="form-group">
-                    <textarea name="body_from" className="form-control" id="body_from" required
+                    <textarea value={body} name="body_from" className="form-control" id="body_from" required
                       data-error="Write your message" placeholder="Your Message" onChange={(e) => setBody(e.target.value)}></textarea>
                     <div className="help-block with-errors"></div>
                   </div>
