@@ -5,6 +5,7 @@ export const ROUTES = {
   RegularCourse: "/regular-course",
   DistanceCourse: "/distance-course",
   Gallery: "/gallery",
+  Result: "/student-result",
   // bscfire: "/bsc-in-fire-safety-and-hazard-management",
 };
 

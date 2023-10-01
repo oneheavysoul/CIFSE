@@ -1,4 +1,4 @@
-export const API_END_POINT = "http://cifse.in/api";
+export const API_END_POINT = "https://cifse.in/api";
 export const config = {
   headers: {
     "Content-Type": "application/json",

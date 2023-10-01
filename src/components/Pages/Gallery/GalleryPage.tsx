@@ -3,8 +3,6 @@ import Footer from '../../Footer/Footer';
 import Header from '../../Header/Header';
 import PageHeader from './PageHeader';
 
-
-
 function GalleryPage() {
     let publicUrl = process.env.PUBLIC_URL + "/";
     return (

@@ -147,6 +147,9 @@ function Header() {
                                     <li className="nav-item">
                                         <Link to={ROUTES.contactUs} className="nav-link">Contact Us</Link>
                                     </li>
+                                    <li className="nav-item">
+                                        <Link to={ROUTES.Result} className="nav-link">Student Result</Link>
+                                    </li>
                                 </ul>
                                 {/* <div className="others-options d-flex align-items-center">
                                     <div className="option-item">

@@ -35,6 +35,7 @@ import DCDetailTweleve from './components/Pages/DistanceCourse/DistanceCourseDet
 import DCDetailThirteen from './components/Pages/DistanceCourse/DistanceCourseDetails/PHDMS/DCDetailThirteen';
 
 import Gallery from './components/Pages/Gallery/Gallery';
+import Result from './components/Pages/StudentResult/Result'
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route exact path={ROUTES.home} component={Home} />
           <Route exact path={ROUTES.aboutUs} component={AboutUs} />
           <Route exact path={ROUTES.RegularCourse} component={RegularCourseP} />
+          <Route exact path={ROUTES.Result} component={Result} />
           <Route exact path={`${InnerPageRoutes.bscFire}`} component={RegularCourseDetailOne} />
           <Route exact path={`${InnerPageRoutes.diplomaFireService}`} component={RegularCourseDetailTwo} />
           <Route exact path={`${InnerPageRoutes.adis12th}`} component={RegularCourseDetailThree} />
