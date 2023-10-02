@@ -1024,7 +1024,7 @@ h6:last-child {
     -webkit-transition: .6s;
     transition: .6s;
     border-radius: 10px;
-    color: #000
+    color: #000000
 }
 
 .modal-search-form .search-field::-webkit-input-placeholder {
@@ -1056,19 +1056,19 @@ h6:last-child {
 }
 
 .modal-search-form .search-field:focus::-webkit-input-placeholder {
-    color: transparent
+    color: #000000
 }
 
 .modal-search-form .search-field:focus:-ms-input-placeholder {
-    color: transparent
+    color: #000000
 }
 
 .modal-search-form .search-field:focus::-ms-input-placeholder {
-    color: transparent
+    color: #000000
 }
 
 .modal-search-form .search-field:focus::placeholder {
-    color: black
+    color: #000000
 }
 
 .modal-search-form button {

@@ -9,6 +9,8 @@ import studentData from './stud';
 const ResultPage = () => {
     const [enrollmentNo, setEnrollmentNo] = useState("");
     const [result, setResult] = useState<any>({});
+    const [totalObtained, setTotalObtained] = useState(0);
+    const [totalMarks, setTotalMarks] = useState(0);
 
     let publicUrl = process.env.PUBLIC_URL + "/";
 
@@ -21,6 +23,17 @@ const ResultPage = () => {
         const enroll = enrollmentNo.replace(/\s/g, '')
 
         const objectData: any = studentData.find(i => i.enrollment_no === enroll)
+        console.log(objectData.subjects)
+        const sum = objectData.subjects.reduce(function (a: any, b: any) { return a + b; }, 0);
+
+        var result = objectData.subjects.reduce(function (tot: any, arr: any) {
+            // return the sum with previous value
+            return tot + arr.marks;
+            // set initial value as 0
+        }, 0);
+        var resultTotal = objectData.subjects.length * 100;
+        setTotalMarks(resultTotal)
+        setTotalObtained(result)
         setResult(objectData);
     }
 
@@ -80,6 +93,10 @@ const ResultPage = () => {
                                             </tr>
                                         )
                                     })}
+                                    <td></td>
+                                    <td></td>
+                                    <td><b>Total : {totalMarks}<br />  Total Percentage: {((100 * totalObtained) / totalMarks).toFixed(2)} %</b></td>
+                                    <td><b>Total Obtained Marks: {totalObtained}</b></td>
                                 </tbody>
                             </table>
                         </div>
