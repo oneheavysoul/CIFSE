@@ -91,14 +91,14 @@ const ResultPage = () => {
                                     <tr>
                                         <td style={{ borderBottomWidth: '0px' }}></td>
                                         <td style={{ borderBottomWidth: '0px' }}></td>
-                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#D3D3D3', borderLeftWidth: '1px', borderLeftColor: '#D3D3D3' }}><b>Total Marks Obtained:</b></td>
-                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#D3D3D3', borderLeftWidth: '1px', borderLeftColor: '#D3D3D3' }}><b>{totalObtained} / {totalMarks}</b></td>
+                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#e9e9e9', borderLeftWidth: '1px', borderLeftColor: '#e9e9e9' }}><b>Total Marks Obtained:</b></td>
+                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#e9e9e9', borderLeftWidth: '1px', borderLeftColor: '#e9e9e9' }}><b>{totalObtained} / {totalMarks}</b></td>
                                     </tr>
                                     <tr>
                                         <td style={{ borderBottomWidth: '0px' }}></td>
                                         <td style={{ borderBottomWidth: '0px' }}></td>
-                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#D3D3D3', borderLeftWidth: '1px', borderLeftColor: '#D3D3D3' }}><b>Total Percentage: </b></td>
-                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#D3D3D3', borderLeftWidth: '1px', borderLeftColor: '#D3D3D3' }}><b>{((100 * totalObtained) / totalMarks).toFixed(2)} %</b></td>
+                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#e9e9e9', borderLeftWidth: '1px', borderLeftColor: '#e9e9e9' }}><b>Total Percentage: </b></td>
+                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#e9e9e9', borderLeftWidth: '1px', borderLeftColor: '#e9e9e9' }}><b>{((100 * totalObtained) / totalMarks).toFixed(2)} %</b></td>
                                     </tr>
                                 </tbody>
                             </table>
