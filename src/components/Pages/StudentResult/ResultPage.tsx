@@ -1,9 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Footer from '../../Footer/Footer';
-import Header from '../../Header/Header';
-import PageHeader from '../../Header/Header';
-import { Link } from 'react-router-dom';
-import { InnerPageRoutes } from '../../../constants/routes';
 import studentData from './stud';
 
 const ResultPage = () => {
@@ -93,10 +88,18 @@ const ResultPage = () => {
                                             </tr>
                                         )
                                     })}
-                                    <td></td>
-                                    <td></td>
-                                    <td><b>Total : {totalMarks}<br />  Total Percentage: {((100 * totalObtained) / totalMarks).toFixed(2)} %</b></td>
-                                    <td><b>Total Obtained Marks: {totalObtained}</b></td>
+                                    <tr>
+                                        <td style={{ borderBottomWidth: '0px' }}></td>
+                                        <td style={{ borderBottomWidth: '0px' }}></td>
+                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#D3D3D3', borderLeftWidth: '1px', borderLeftColor: '#D3D3D3' }}><b>Total Marks Obtained:</b></td>
+                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#D3D3D3', borderLeftWidth: '1px', borderLeftColor: '#D3D3D3' }}><b>{totalObtained} / {totalMarks}</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td style={{ borderBottomWidth: '0px' }}></td>
+                                        <td style={{ borderBottomWidth: '0px' }}></td>
+                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#D3D3D3', borderLeftWidth: '1px', borderLeftColor: '#D3D3D3' }}><b>Total Percentage: </b></td>
+                                        <td style={{ borderRightWidth: '1px', borderRightColor: '#D3D3D3', borderLeftWidth: '1px', borderLeftColor: '#D3D3D3' }}><b>{((100 * totalObtained) / totalMarks).toFixed(2)} %</b></td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
