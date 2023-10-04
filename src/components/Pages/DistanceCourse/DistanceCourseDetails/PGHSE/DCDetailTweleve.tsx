@@ -1,6 +1,5 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import PageHeader from '../../PageHeader'
 import Header from '../../../../Header/Header'
 import Footer from '../../../../Footer/Footer'
 import { InnerPageRoutes } from '../../../../../constants/routes'
@@ -25,12 +24,12 @@ function RegularCourseDetailOne() {
                                 </div>
                                 <div className="article-content">
                                     <h3>PG Diploma in Health Safety and Enviornment<br /></h3><h6>(CHRED Govt. Of India)</h6>
-                                    <p>You can join <b>Correspondence PG Diploma</b> in <b>Health Safety and Enviornment.</b>
+                                    <p>You can join <b>Correspondence PG Diploma</b> in <b>Health Safety and Enviornment. </b>
                                         Exam will be held on July or Dec every year, you can pursue
                                         1 year diploma, just you have to send Demand Draft infavour of
-                                        <b>CENTRAL INSTITUTE OF FIRE AND SAFETY ENGINEERING</b> Payable at
-                                        <b>Gandhinagar</b> of amount <b>Rs. 20,500</b> per semester. As soon as we received your
-                                        <b>Demand Draft</b> and <b>Application Form</b> we will send you <b>Study Material</b> at your
+                                        <b> CENTRAL INSTITUTE OF FIRE AND SAFETY ENGINEERING</b> Payable at
+                                        <b> Gandhinagar</b> of amount <b>Rs. 20,500</b> per semester. As soon as we received your
+                                        <b> Demand Draft</b> and <b>Application Form</b> we will send you <b>Study Material</b> at your
                                         given address.
                                     </p>
                                     <p>Management courses that we offer are highly compatible with <b>International
@@ -202,29 +201,77 @@ function RegularCourseDetailOne() {
                                 <thead className="thead-dark">
                                     <tr>
                                         <th scope="col">#</th>
-                                        <th scope="col">First</th>
-                                        <th scope="col">Last</th>
-                                        <th scope="col">Handle</th>
+                                        <th scope="col">Syllabus</th>
+                                        <th scope="col">Eligibility Criteria</th>
+                                        <th scope="col">Exam Schedule</th>
+                                        <th scope="col">Duration</th>
+                                        <th scope="col">Total Fees</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td>Occupational Health And Industrial Hygiene</td>
+                                        <td>Any Degree or Any Diploma</td>
+                                        <td>Examination will be taken on JULY or DEC<br />(You will be able to attain anyone of given schedule)</td>
+                                        <td>1 Year</td>
+                                        <td><b>Rs. 20,500</b> semester<br />(including study material and exam fees)</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td>Environmental Safety Management</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td>Larry</td>
-                                        <td>the Bird</td>
-                                        <td>@twitter</td>
+                                        <td>Industrial Psychology, Ergonomics And Accidents</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Health, Safety & Environment Legislation</td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Risk Management & Permit To Work</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>Overview Of Industrial Safety Management</td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Safety During Project Construction</td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>First Aid</td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
                                     </tr>
                                 </tbody>
                             </table>

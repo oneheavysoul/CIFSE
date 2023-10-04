@@ -27,8 +27,8 @@ function RegularCourseDetailOne() {
                                     <p>Join <b>Regular Certificate Courses</b> in <b>Fire Officer Course,</b>
                                         Exam will be held on July or Dec every year, you can pursue
                                         1 Year diploma,, Come to the campus for a guided tour & counselling and then
-                                        apply <b>Gandhinagar,</b> Contact us on mobile (9am to 9pm) <b>0777799414</b> or
-                                        Send us an email – <b>cifsevrl101@gmail.com</b>
+                                        apply <b>Gandhinagar,</b> Contact us on mobile (9am to 9pm) <b>09898557778</b> or
+                                        Send us an email – <b>info@cifse.in</b>
                                     </p>
                                     <p>Engineering courses that we offer are highly compatible with <b>International
                                         Standards.</b> It has been our constant endeavour to provide the best possible

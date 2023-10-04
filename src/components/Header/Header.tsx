@@ -14,11 +14,11 @@ function Header() {
                                 <li>
                                     <i className="fa fa-phone-square" aria-hidden="true"></i>
                                     <span><a href="tel:+91 95740 31178">+91 95740 31178</a></span>,
-                                    <span><a href="tel:+91 77779 95414">+91 77779 95414</a></span>
+                                    <span><a href="tel:+91 98985 57778">+91 98985 57778</a></span>
                                 </li>
                                 <li>
                                     <i className="fa fa-envelope" aria-hidden="true"></i>
-                                    <span><a href="mailto:info@cifse.in"> info@cifse.in</a></span>
+                                    <span><a href="mailto:info@cifse.in"> .in</a></span>
                                 </li>
                             </ul>
                         </div>

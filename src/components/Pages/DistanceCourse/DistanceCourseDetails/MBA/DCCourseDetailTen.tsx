@@ -27,8 +27,8 @@ function RegularCourseDetailOne() {
                                     <h3>MBA Safety and Fire Management Programs<br /></h3><h6>(CHRED Govt. Of India)</h6>
 
                                     <p>
-                                        The Master's Program in <b>Business Administration (Safety Management)</b>
-                                        Or <b>(Dire Safety management)</b> of the <b>CIFSE</b> is to equip
+                                        The Master's Program in <b>Business Administration (Safety Management) </b>
+                                        Or <b>(Fire Safety management)</b> of the <b>CIFSE</b> is to equip
                                         practicing Executives and Managers, working in Private / Public Sector
                                         Undertakings / Banks/ Educational Institutions. Industries and other similar
                                         organizations so as to enable them to enrich their managerial skills,
@@ -39,9 +39,9 @@ function RegularCourseDetailOne() {
                                     <p>You can join <b>Correspondence Diploma Courses</b> in <b> MBA Safety and Fire Management Programs,
                                     </b> Exam will be held on July or Dec every year, you can pursue
                                         1 year diploma, just you have to send Demand Draft infavour of
-                                        <b>CENTRAL INSTITUTE OF FIRE AND SAFETY ENGINEERING</b> Payable at
-                                        <b>Gandhinagar</b> of amount <b>Rs. 20,500</b> per semester. As soon as we received your
-                                        <b>Demand Draft</b> and <b>Application Form</b> we will send you <b>Study Material</b> at your
+                                        <b> CENTRAL INSTITUTE OF FIRE AND SAFETY ENGINEERING</b> Payable at
+                                        <b> Gandhinagar</b> of amount <b>Rs. 20,500</b> per semester. As soon as we received your
+                                        <b> Demand Draft</b> and <b>Application Form</b> we will send you <b>Study Material</b> at your
                                         given address.
                                     </p>
                                     <p>Management courses that we offer are highly compatible with <b>International
@@ -254,76 +254,6 @@ function RegularCourseDetailOne() {
                                         <th scope="row">3</th>
                                         <td><b>SEM - III</b>
                                             <br />• Equipment And Appliance
-                                            <br />• Safety Acts And Law
-                                            <br />• Work Permit System
-                                            <br />• Risk Assessment
-                                        </td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td><b>SEM - IV</b>
-                                            <br />• Storage And Handling Of Hazardous Substances
-                                            <br />• Safety Audit
-                                            <br />• Project Study OR
-                                            <br />• Elective I, Elective -II
-                                        </td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                        <div className='col-lg-12'>
-                            <table className="table">
-                                <thead className="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Syllabus (2 Years)</th>
-                                        <th scope="col">Eligibility Criteria</th>
-                                        <th scope="col">Elective Subject</th>
-                                        <th scope="col">Total Fees</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td><b>SEM - I</b>
-                                            <br />• Management Principles & Practices
-                                            <br />• Fire Service Organization
-                                            <br />• Fundamental Of Safety
-                                            <br />• Fire Engineering Science
-                                        </td>
-                                        <td>Graduate or (Tech.) Diploma with 3+ years Experience</td>
-                                        <td> • Safety In Chemical Industry
-                                            <br />• Safety In Textile Industry
-                                            <br />• Safety In Electrical Industry
-                                            <br />• Safety At DockYard
-                                            <br />• Special Fire Hazards
-                                            <br />• Safety At Constructions
-                                        </td>
-                                        <td><b>Rs. 20,500</b> semester<br />(including study material and exam fees)</td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td><b>SEM - II</b>
-                                            <br />• Business Communication
-                                            <br />• Human Resource Development
-                                            <br />• Special Fire Hazards
-                                            <br />• Communication And Detection System
-                                        </td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td><b>SEM - III</b>
-                                            <br />• Industrial Hygiene
                                             <br />• Safety Acts And Law
                                             <br />• Work Permit System
                                             <br />• Risk Assessment

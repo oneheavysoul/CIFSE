@@ -51,7 +51,7 @@ function Inquiry() {
               <div className="contact-details__content">
                 <h6>
                   <a href="tel:+91 95740 31178" className="contact-details__number-1">+91 95740 31178</a>
-                  <a href="tel:+91 77779 95414" className="contact-details__number-2">+91 77779 95414</a>
+                  <a href="tel:+91 98985 57778" className="contact-details__number-2">+91 98985 57778</a>
                 </h6>
               </div>
             </li>
@@ -70,7 +70,7 @@ function Inquiry() {
                 <span className="fa fa-map-marker"></span>
               </div>
               <div className="contact-details__content">
-                <h6>CIFSE Fire College Sector 5C, Near KH-3 Circle, Pathika Bus Stand Road, Gandhinagar, Gujarat- 382006</h6>
+                <h6>CIFSE Fire College Sector 5D, Near KH-3 Circle, Pathika Bus Stand Road, Gandhinagar, Gujarat- 382006</h6>
               </div>
             </li>
           </ul>

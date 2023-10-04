@@ -86,7 +86,7 @@ function Footer() {
                                     <li>
                                         <i className="fa fa-phone-square"></i>
                                         <span><a href="tel:+91 95740 31178">+91 95740 31178</a></span>
-                                        <span><a href="tel:+91 77779 95414">+91 77779 95414</a></span>
+                                        <span><a href="tel:+91 98985 57778">+91 98985 57778</a></span>
                                     </li><br />
                                     <li>
                                         <i className="fa fa-envelope"></i>
@@ -94,7 +94,7 @@ function Footer() {
                                     </li>
                                     <li>
                                         <i className="fa fa-map-marker"></i>
-                                        <span>CIFSE Fire College Sector 5C, Near KH-3 Circle, Pathika Bus Stand Road, Gandhinagar, Gujarat-382006</span>
+                                        <span>CIFSE Fire College Sector 5D, Near KH-3 Circle, Pathika Bus Stand Road, Gandhinagar, Gujarat-382006</span>
                                     </li>
                                 </ul>
                             </div>
