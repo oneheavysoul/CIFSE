@@ -46,7 +46,7 @@ const ResultPage = () => {
                                 value={enrollmentNo}
                                 onChange={(e) => setEnrollmentNo(e.target.value)}
                             />
-                            {/* <button type="submit"><i className='bx bx-search-alt'></i></button> */}
+                            <button disabled={enrollmentNo == ""} type="submit"><i className='bx bx-search-alt'></i></button>
                         </form>
                         {!result && enrollmentNo != "" ? <small className="text-danger font-weight-bold">Invalid Enrollment Number</small> : ""}
                     </div>
