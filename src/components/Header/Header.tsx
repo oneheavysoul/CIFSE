@@ -18,7 +18,7 @@ function Header() {
                                 </li>
                                 <li>
                                     <i className="fa fa-envelope" aria-hidden="true"></i>
-                                    <span><a href="mailto:info@cifse.in"> .in</a></span>
+                                    <span><a href="mailto:info@cifse.in">info@cifse .in</a></span>
                                 </li>
                             </ul>
                         </div>
