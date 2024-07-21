@@ -212,7 +212,7 @@ function RegularCourseDetailOne() {
                             <table className="table">
                                 <thead className="thead-dark">
                                     <tr>
-                                        <th scope="col">#</th>
+                                        <th scope="col">Sr No</th>
                                         <th scope="col">Syllabus (2 Years)</th>
                                         <th scope="col">Eligibility Criteria</th>
                                         <th scope="col">Elective Subject</th>

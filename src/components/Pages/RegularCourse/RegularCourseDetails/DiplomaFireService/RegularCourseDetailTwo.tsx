@@ -41,7 +41,7 @@ function RegularCourseDetailTwo() {
                                         <table className="table">
                                             <thead className="thead-dark">
                                                 <tr>
-                                                    <th scope="col">#</th>
+                                                    <th scope="col">Sr No</th>
                                                     <th scope="col">Syllabus</th>
                                                     <th scope="col">Eligibility Criteria</th>
                                                     <th scope="col">Exam Schedule</th>
