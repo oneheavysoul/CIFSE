@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import { ROUTES } from '../../constants/routes';
 
 function Header() {
+    let publicUrl = process.env.PUBLIC_URL + "/";
     return (
         <>
-
             <div className="top-header-area">
                 <div className="container">
                     <div className="row align-items-center">
@@ -13,12 +13,12 @@ function Header() {
                             <ul className="top-header-information">
                                 <li>
                                     <i className="fa fa-phone-square" aria-hidden="true"></i>
-                                    <span><a href="tel:+91 94514 42632">+91 94514 42632</a></span>,
-                                    <span><a href="tel:+91 73101 76777">+91 73101 76777</a></span>
+                                    <span><a href="tel:+91 95740 31178">+91 95740 31178</a></span>,
+                                    <span><a href="tel:+91 98985 57778">+91 98985 57778</a></span>
                                 </li>
                                 <li>
                                     <i className="fa fa-envelope" aria-hidden="true"></i>
-                                    <span><a href="mailto:info@cifseindia.org"> info@cifseindia.org</a></span>
+                                    {/* <span className='ms-1'><a href="mailto:info@cifse.in">info@cifse .in</a></span> */}
                                 </li>
                             </ul>
                         </div>
@@ -47,25 +47,46 @@ function Header() {
             <div className="middle-header-area">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-2 col-md-12">
+                        <div className="col-xl-12 col-lg-12 col-md-12">
                             <div className="middle-header">
                                 <h1>
-                                    <img src="assets/images/logo.png" className="main-logo" alt="logo" />
+                                    <Link to={ROUTES.home} className="nav-link">
+                                        <img
+                                            src={publicUrl + "assets/images/logo_cifse.png"}
+                                            alt="Logo"
+                                            className="main-logo"
+                                        />
+                                    </Link>
                                 </h1>
-                                <p style={{ fontSize: "12px", color: '#222222', fontWeight: 600, textAlign: 'center' }}>ISO:9001-2015 CERTIFIED</p>
                             </div>
                         </div>
-                        <div className="col-lg-10 col-md-12">
-                            <ul className="middle-header-content">
-                                <li className='text-center'>
-                                    <h2>CENTRAL INSTITUTE OF FIRE & SAFETY ENGINEERING</h2>
-                                    <h5 className='main-text'>
-                                        India's No.1 Fire & Safety Engineering College<br />
-                                    </h5>
-                                    <h5 className='main-text'>मानव संसाधन शिक्षण विकास परिषद-भारत सरकार</h5>
-                                </li>
+                        <div className="col-xl-9 col-lg-10 col-md-12 block-slider">
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-lg-12">
+                                        <div className="section-title-warp">
+                                            <span className="sub-title"># Our Recognitions</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="skin-care-partner-area">
+                                <div className="skin-care-partner-slides owl-carousel owl-theme">
+                                    <div className="skin-care-partner-card">
+                                        <img src="assets/images/rec/p1.png" alt="partner" />
+                                    </div>
+                                    <div className="skin-care-partner-card">
+                                        <img src="assets/images/rec/p2.png" alt="partner" />
+                                    </div>
+                                    <div className="skin-care-partner-card">
+                                        <img src="assets/images/rec/p3.png" alt="partner" />
+                                    </div>
+                                    <div className="skin-care-partner-card">
+                                        <img src="assets/images/rec/p4.png" alt="partner" />
+                                    </div>
+                                </div>
+                            </div>
 
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -76,9 +97,13 @@ function Header() {
                     <div className="container">
                         <div className="main-responsive-menu">
                             <div className="logo">
-                                <a href="#">
-                                    <img src="assets/images/logo.png" className="main-logo" alt="logo" />
-                                </a>
+                                <Link to={ROUTES.home} className="nav-link">
+                                    <img
+                                        src={publicUrl + "assets/images/logo_a.png"}
+                                        alt="Logo"
+                                        className="main-logo"
+                                    />
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -97,61 +122,69 @@ function Header() {
                                         <Link to={ROUTES.aboutUs} className="nav-link">About Us</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="#" className="nav-link">
+                                        <Link to={ROUTES.RegularCourse} className="nav-link">
                                             Regular Course
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="#" className="nav-link">
+                                        <Link to={ROUTES.DistanceCourse} className="nav-link">
                                             Distance Course
-                                        </a>
+                                        </Link>
                                     </li>
-                                    <li className="nav-item">
-                                        <a href="#" className="nav-link">
-                                            Centers
-                                        </a>
-                                    </li>
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <a href="#" className="nav-link">
                                             Results
                                         </a>
-                                    </li>
+                                    </li> */}
                                     <li className="nav-item">
-                                        <a href="#" className="nav-link">
+                                        <Link to={ROUTES.Gallery} className="nav-link">
                                             Gallery
-                                        </a>
+                                        </Link>
+                                    </li>
+                                    {/* <li className="nav-item">
+                                        <a href="#partner_1" className="nav-link">Placement</a>
+                                    </li> */}
+                                    <li className="nav-item">
+                                        <Link to={ROUTES.contactUs} className="nav-link">Contact Us</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <a href="#" className="nav-link">Placement</a>
+                                        <Link to={ROUTES.Result} className="nav-link">Student Result</Link>
                                     </li>
                                 </ul>
-                                <div className="others-options d-flex align-items-center">
+                                {/* <div className="others-options d-flex align-items-center">
                                     <div className="option-item">
                                         <div className="navbar-btn">
                                             <Link to={ROUTES.contactUs} className="default-btn">Inquiry / Contact Us</Link>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </nav>
                     </div>
                 </div>
-                <div className="others-option-for-responsive">
+                {/* <div className="others-option-for-responsive">
                     <div className="container">
+                        <div className="dot-menu">
+                            <div className="inner">
+                                <div className="circle circle-one"></div>
+                                <div className="circle circle-two"></div>
+                                <div className="circle circle-three"></div>
+                            </div>
+                        </div>
                         <div className="container">
                             <div className="option-inner">
                                 <div className="others-options d-flex align-items-center">
                                     <div className="option-item">
                                         <div className="navbar-btn">
-                                            <a href="#" className="default-btn">Book Appointment</a>
+                                            <a href="appointment.html" className="default-btn">Book Appointment</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> */}
+            </div >
 
 
         </>

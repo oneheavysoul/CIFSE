@@ -5,8 +5,8 @@
     background: 0 0;
     padding: 20px 0 0;
     z-index: 999;
-    border-bottom: 1px solid rgba(0, 0, 0, .03);
-    height: 55px
+    /* border-bottom: 1px solid rgba(0, 0, 0, .03); */
+    /* height: 55px */
 }
 
 .mean-container a.meanmenu-reveal {
@@ -324,10 +324,10 @@
         font-size: 20px
     }
 
-    .mean-container .mean-bar {
+    /* .mean-container .mean-bar {
         background-color: #fff;
         padding: 25px 0px;
-    }
+    } */
 
     .mean-container a.meanmenu-reveal {
         padding: 15px 15px 0 0

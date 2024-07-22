@@ -7,6 +7,7 @@ import Directors from './Directors';
 import Testimonial from './Testimonial';
 import OurAffiliation from './OurAffiliation';
 import Admission from './Admission';
+import Placements from './Placements';
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         <OurAffiliation />
         <Testimonial />
         <Directors />
+        <Placements />
         <Admission />
         <Footer />
       </div>

@@ -1,12 +1,24 @@
 import React, { useEffect, useState } from 'react'
+import { Link, Route } from 'react-router-dom';
+import { ROUTES } from '../../constants/routes';
 
 function Footer() {
     let publicUrl = process.env.PUBLIC_URL + '/'
 
     useEffect(() => {
+        mainMethod3();
         mainMethod();
         mainMethod1();
+        mainMethod2();
+
     }, [])
+
+    const mainMethod3 = () => {
+        const minscript3 = document.createElement("script");
+        minscript3.async = true;
+        minscript3.src = publicUrl + "assets/js/bootstrap.bundle.min.js";
+        document.body.appendChild(minscript3);
+    }
 
     const mainMethod = () => {
         const minscript = document.createElement("script");
@@ -14,14 +26,21 @@ function Footer() {
         minscript.src = publicUrl + "assets/js/main.js";
         document.body.appendChild(minscript);
     }
-    
+
     const mainMethod1 = () => {
         const minscript1 = document.createElement("script");
         minscript1.async = true;
         minscript1.src = publicUrl + "assets/js/jarallax.min.js";
         document.body.appendChild(minscript1);
-
     }
+
+    const mainMethod2 = () => {
+        const minscript2 = document.createElement("script");
+        minscript2.async = true;
+        minscript2.src = publicUrl + "assets/js/jquery.magnific-popup.min.js";
+        document.body.appendChild(minscript2);
+    }
+
     return (
         <>
 
@@ -31,7 +50,7 @@ function Footer() {
                         <div className="col-lg-4 col-md-6">
                             <div className="single-footer-widget">
                                 <h2>
-                                    <img src="assets/images/logo.png" className="main-logo" alt="logo" />
+                                    <img src={publicUrl + "assets/images/logo.png"} className="main-logo" alt="logo" />
                                 </h2>
                                 <p>Central Institute of Fire & Safety Engineering has been founded to produce skilled and trained professionals in the field of engineering and safety.</p>
 
@@ -42,16 +61,19 @@ function Footer() {
                                 <h3>Useful Link</h3>
                                 <ul className="quick-links">
                                     <li>
-                                        <a href="#">About Us</a>
+                                        <Link to={ROUTES.aboutUs}>About Us</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Contact Us</a>
+                                        <Link to={ROUTES.RegularCourse}>Regular Course</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Privacy Policy</a>
+                                        <Link to={ROUTES.DistanceCourse}>Distance Course</Link>
                                     </li>
                                     <li>
-                                        <a href="#">Terms Of Use</a>
+                                        <Link to={ROUTES.Gallery}>Gallery</Link>
+                                    </li>
+                                    <li>
+                                        <Link to={ROUTES.contactUs}>Contact Us</Link>
                                     </li>
                                 </ul>
                             </div>
@@ -63,16 +85,16 @@ function Footer() {
                                 <ul className="footer-information">
                                     <li>
                                         <i className="fa fa-phone-square"></i>
-                                        <span><a href="tel:+91 94514 42632">+91 94514 42632</a></span>
-                                        <span><a href="tel:+91 73101 76777">+91 73101 76777</a></span>
+                                        <span><a href="tel:+91 95740 31178">+91 95740 31178</a></span>
+                                        <span><a href="tel:+91 98985 57778">+91 98985 57778</a></span>
                                     </li><br />
                                     <li>
                                         <i className="fa fa-envelope"></i>
-                                        <span><a href="mailto:info@cifseindia.org"> info@cifseindia.org</a></span>
+                                        <span><a href="mailto:info@cifse.in"> info@cifse.in</a></span>
                                     </li>
                                     <li>
                                         <i className="fa fa-map-marker"></i>
-                                        <span>Cisfe College Sector 25, GIDC, Plot No 26, Opp. Madur Dairy, Raj Shikshan Sankul, Gandhinagar, Gujarat</span>
+                                        <span>CIFSE Fire College Sector 5D, Near KH-3 Circle, Pathika Bus Stand Road, Gandhinagar, Gujarat-382006</span>
                                     </li>
                                 </ul>
                             </div>
@@ -84,10 +106,8 @@ function Footer() {
                 <div className="container">
                     <div className="copyright-area-content">
                         <p>
-                        © 2020 CIFSE. All rights reserved | Designed by
-                            <a href="#" target="_blank">
-                                 Creactive Design Info
-                            </a>
+                            © 2024 CIFSE. All rights reserved by
+                            <a href="#" target="_blank"> CIFSE, Gandhinagar</a>
                         </p>
                     </div>
                 </div>

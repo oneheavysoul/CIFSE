@@ -1,6 +1,7 @@
 import React from 'react'
 
 function OurStory() {
+    let publicUrl = process.env.PUBLIC_URL + "/";
     return (
         <>
             <section className="about-area ptb-100">
@@ -14,7 +15,7 @@ function OurStory() {
                                 </span>
                                 <h3>WELCOME TO CENTRAL INSTITUTE OF <span>FIRE & SAFETY ENGINEERING</span></h3>
                                 <p className='text-justify'>Central Institute of Fire & Safety Engineering has been founded to produce skilled and trained professionals in the field
-                                    of engineering and safety. Since last two years,
+                                    of engineering and safety. Since last eight years,
                                     We have seen tremendous progress in the field of fire services & growth in fire technology development in entire India.
                                     Different type of industries, commerce, building, infrastructure etc. brings the necessity to efficiently and effectively
                                     channelize the manpower of the country. Fire, Safety, Health and Environment are prime issues and implied concerns for this new breed.
@@ -52,7 +53,7 @@ function OurStory() {
                         </div>
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/194.jpg" alt="image" />
+                                <img src={process.env.PUBLIC_URL + "assets/images/about/400.jpg"} alt="image" />
                             </div>
                         </div>
                     </div>
@@ -63,7 +64,7 @@ function OurStory() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/195.jpg" alt="image" />
+                                <img src={process.env.PUBLIC_URL + "assets/images/about/401.jpg"} alt="image" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -87,7 +88,7 @@ function OurStory() {
                         </div>
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/196.jpg" alt="image" />
+                                <img src={process.env.PUBLIC_URL + "assets/images/about/408.jpg"} alt="image" />
                             </div>
                         </div>
                     </div>
@@ -98,7 +99,7 @@ function OurStory() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/197.png" alt="image" />
+                                <img src={process.env.PUBLIC_URL + "assets/images/others/405.png"} alt="image" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -169,7 +170,7 @@ function OurStory() {
                         </div>
                         <div className="col-lg-6">
                             <div className="about-image">
-                                <img src="assets/images/about/198.png" alt="image" />
+                                <img src={process.env.PUBLIC_URL + "assets/images/about/406.jpg"} alt="image" />
                             </div>
                         </div>
                     </div>
@@ -185,7 +186,7 @@ function OurStory() {
                                     <i className="flaticon-hashtag-symbol"></i>
                                     Directors
                                 </span>
-                                <h2>Executive Directors</h2>
+                                <h2>Director Profile</h2>
                                 <p>
                                     Youth Fire Stop is a program designed to prevent misuse of fire by youth in our community
                                     and to educate and intervene when endangerment involving fire occurs. Youth Fire Stop has
@@ -198,12 +199,12 @@ function OurStory() {
                     <div className="row">
                         <div className="col-lg-3 col-md-6">
                             <div className="single-doctor">
-                                <a href="dentist-details.html"><img src="assets/images/others/123.jpg" alt="image" /></a>
+                                <img src={process.env.PUBLIC_URL + "assets/images/main-photo/Sid.jpeg"} alt="image" />
                                 <div className="doctor-content">
                                     <h3>
-                                        <a href="dentist-details.html">Siddharth Dodiya</a>
+                                        Siddharth Dodiya
                                     </h3>
-                                    <span>Director</span>
+                                    <span><b>(Director)</b><br />B.Sc. Fire, M.Sc. Hazard Management, NEBOSH (UK), EHS, IOSH, PGDIS</span>
                                     <div className="share-link">
                                         <a href="https://www.facebook.com/" target="_blank"><i className='bx bxl-facebook'></i></a>
                                         <a href="https://twitter.com/?lang=en" target="_blank"><i
@@ -215,12 +216,12 @@ function OurStory() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6">
+                        {/* <div className="col-lg-3 col-md-6">
                             <div className="single-doctor">
                                 <a href="dentist-details.html"><img src="assets/images/others/124.jpg" alt="image" /></a>
                                 <div className="doctor-content">
                                     <h3>
-                                        <a href="dentist-details.html">Dhara Dodiya</a>
+                                        <a href="dentist-details.html">Dhara Dodiya</a>
                                     </h3>
                                     <span>CEO</span>
                                     <div className="share-link">
@@ -233,7 +234,7 @@ function OurStory() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
