@@ -17,7 +17,7 @@ function Header() {
                                     <span><a href="tel:+91 98985 57778">+91 98985 57778</a></span>
                                 </li>
                                 <li>
-                                    <i className="fa fa-envelope" aria-hidden="true"></i>
+                                    {/* <i className="fa fa-envelope" aria-hidden="true"></i> */}
                                     {/* <span className='ms-1'><a href="mailto:info@cifse.in">info@cifse .in</a></span> */}
                                 </li>
                             </ul>
