@@ -855,6 +855,26 @@ const studentData = [
       { name: 'Practical 3', marks: 80 },
     ],
   },
+  {
+    id: 45,
+    name: 'RAKESH MANDANLAL PANOLA',
+    course: 'D.F.S.E.',
+    batch: "MMXXI",
+    enrollment_no: "CIFSE00UN70191",
+    subjects: [
+      { name: 'F.E.S.C', marks: 69 },
+      { name: 'S.O.A', marks: 72 },
+      { name: 'S.B.C', marks: 85 },
+      { name: 'F.F.F.I', marks: 68 },
+      { name: 'S.F.H', marks: 72 },
+      { name: 'R.E.M', marks: 78 },
+      { name: 'F.A.P', marks: 68 },
+      { name: 'S.M', marks: 77 },
+      { name: 'Practical 1', marks: 70 },
+      { name: 'Practical 2', marks: 82 },
+      { name: 'Practical 3', marks: 72 },
+    ],
+  },
 ];
 
 export default studentData;
