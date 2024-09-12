@@ -916,7 +916,7 @@ const studentData = [
     ],
   },
   {
-    id: 48,
+    id: 48, 
     name: 'RATHOD VIJAYRAJSINH HATHISINH',
     course: 'D.F.S.E.',
     batch: "MMXXI",
