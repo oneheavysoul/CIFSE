@@ -879,7 +879,7 @@ const studentData = [
     id: 46,
     name: 'SAGAR DHARMARAJ MAHENDRABHAI',
     course: 'D.F.S.E.',
-    batch: "MMXXI",
+    batch: "XII",
     enrollment_no: "DFSE/2056UN2021",
     subjects: [
       { name: 'F.E.S.C', marks: 88 },
@@ -899,7 +899,7 @@ const studentData = [
     id: 47,
     name: 'SOLANKI VISHAVJITSINH BHARATSINH',
     course: 'D.F.S.E.',
-    batch: "MMXXI",
+    batch: "XII",
     enrollment_no: "DFSE/1023UN2021",
     subjects: [
       { name: 'F.E.S.C', marks: 71 },
@@ -919,7 +919,7 @@ const studentData = [
     id: 48, 
     name: 'RATHOD VIJAYRAJSINH HATHISINH',
     course: 'D.F.S.E.',
-    batch: "MMXXI",
+    batch: "XII",
     enrollment_no: "DFSE/3079UN2021",
     subjects: [
       { name: 'F.E.S.C', marks: 67 },
