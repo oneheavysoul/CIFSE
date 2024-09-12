@@ -915,6 +915,26 @@ const studentData = [
       { name: 'Practical 3', marks: 66 },
     ],
   },
+  {
+    id: 48,
+    name: 'RATHOD VIJAYRAJSINH HATHISINH',
+    course: 'D.F.S.E.',
+    batch: "MMXXI",
+    enrollment_no: "DFSE/3079UN2021",
+    subjects: [
+      { name: 'F.E.S.C', marks: 67 },
+      { name: 'S.O.A', marks: 78 },
+      { name: 'S.B.C', marks: 59 },
+      { name: 'F.F.F.I', marks: 66 },
+      { name: 'S.F.H', marks: 89 },
+      { name: 'R.E.M', marks: 83 },
+      { name: 'F.A.P', marks: 74 },
+      { name: 'S.M', marks: 64 },
+      { name: 'Practical 1', marks: 55 },
+      { name: 'Practical 2', marks: 63 },
+      { name: 'Practical 3', marks: 76 },
+    ],
+  },
 ];
 
 export default studentData;
