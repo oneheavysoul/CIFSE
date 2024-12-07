@@ -82,7 +82,7 @@ const ResultPage = () => {
                                             <tr>
                                                 <td scope="row">{index + 1}</td>
                                                 <td>{data?.name}</td>
-                                                <td>100</td>
+                                                <td>{data?.total ? data?.total : "100"}</td>
                                                 <td>{data?.marks}</td>
                                             </tr>
                                         )

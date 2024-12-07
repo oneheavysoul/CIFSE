@@ -935,6 +935,29 @@ const studentData = [
       { name: 'Practical 3', marks: 76 },
     ],
   },
+  {
+    id: 49, 
+    name: 'PARMAR PARTH HARI BHAI',
+    course: 'P.D.I.S',
+    batch: "III 2022/2023",
+    enrollment_no: "CIFSE00UN1057",
+    subjects: [
+      { name: 'S.M (SEM-1)', marks: 75, total: 80 },
+      { name: 'S.E-1 (SEM-1)', marks: 69, total: 80 },
+      { name: 'S.C.I (SEM-1)', marks: 72, total: 80 },
+      { name: 'S.E-II (SEM-1)', marks: 58, total: 80 },
+      { name: 'CASE STUDY & SEMINAR (SEM-1)', marks: 65, total: 80 },
+      { name: 'I.V. (SEM-1)', marks: 62, total: 80 },
+      { name: 'INTERNSHIP-I (SEM-1)', marks: 78, total: 80 },
+      { name: 'H.R.D.C.T (SEM-2)', marks: 69, total: 80 },
+      { name: 'I.H.H (SEM-2)', marks: 73, total: 80 },
+      { name: 'H.L.A.S.P (SEM-2)', marks: 84, total: 80 },
+      { name: 'P.E. (SEM-2)', marks: 67, total: 80 },
+      { name: 'S.A.S (SEM-2)', marks: 56, total: 80 },
+      { name: 'I.V. (SEM-2)', marks: 59, total: 80 },
+      { name: 'INTERNSHIP-II (SEM-2)', marks: 77, total: 80 },
+    ],
+  },
 ];
 
 export default studentData;
