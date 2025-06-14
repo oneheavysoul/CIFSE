@@ -1038,6 +1038,26 @@ const studentData = [
       { name: 'Practical 3', marks: 80 },
     ],
   },
+  {
+    id: 54, 
+    name: 'GOHIL KARANSINH BHIKHABHAI',
+    course: 'D.F.S.E.',
+    batch: "2021/2022",
+    enrollment_no: "CIFSE00UN3089",
+    subjects: [
+      { name: 'F.E.S.C', marks: 72 },
+      { name: 'S.O.A', marks: 83 },
+      { name: 'S.B.C', marks: 77 },
+      { name: 'F.F.F.I', marks: 89 },
+      { name: 'S.F.H', marks: 69 },
+      { name: 'R.E.M', marks: 74 },
+      { name: 'F.A.P', marks: 85 },
+      { name: 'S.M', marks: 80 },
+      { name: 'Practical 1', marks: 82 },
+      { name: 'Practical 2', marks: 70 },
+      { name: 'Practical 3', marks: 87 },
+    ],
+  },
 ];
 
 export default studentData;
