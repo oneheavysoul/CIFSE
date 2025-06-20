@@ -1062,7 +1062,7 @@ const studentData = [
     id: 55, 
     name: 'VASAVA ANKITBHAI KOTIYABHAI',
     course: 'D.F.S.E.',
-    batch: "2024/2025",
+    batch: "2021/2022",
     enrollment_no: "CIFSE00UN80015",
     subjects: [
       { name: 'F.E.S.C', marks: 79 },
