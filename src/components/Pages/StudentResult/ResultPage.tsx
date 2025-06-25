@@ -62,6 +62,10 @@ const ResultPage = () => {
                                 <tr>
                                     <th scope="col">Batch : {result.batch}</th>
                                 </tr>
+                                {result?.center &&
+                                    <tr>
+                                        <th scope="col">Center : {result?.center}</th>
+                                    </tr>}
                                 <tr>
                                     <th scope="col">Course Name : {result.course}</th>
                                 </tr>
