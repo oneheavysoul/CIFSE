@@ -1754,7 +1754,7 @@ const studentData = [
     name: 'VASAVA YOGESHBHAI NARESHBHAI',
     course: 'DFSE',
     batch: '2024/2025',
-    enrollment_no: 'FO00UN0012',
+    enrollment_no: 'FO00UN80012',
     subjects: [
       { name: 'F.E.S.C', marks: 79 },
       { name: 'S.O.A', marks: 68 },
