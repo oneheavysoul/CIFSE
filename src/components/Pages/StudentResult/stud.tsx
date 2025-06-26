@@ -1374,7 +1374,7 @@ const studentData = [
   {
     id: 70,
     name: 'PARMAR NIKUL REVABHAI',
-    course: 'DFSE',
+    course: 'SUB FIRE OFFICER',
     batch: '2024/2025',
     center: "PARA TECHNICAL INSTITUTE",
     enrollment_no: 'CIFSE00UN00087',
@@ -1395,7 +1395,7 @@ const studentData = [
   {
     id: 71,
     name: 'CHAVADA VIJAYKUMAR DIPAKKUMAR',
-    course: 'DFSE',
+    course: 'SUB FIRE OFFICER',
     batch: '2024/2025',
     center: "PARA TECHNICAL INSTITUTE",
     enrollment_no: 'CIFSE00UN00088',
@@ -1747,6 +1747,26 @@ const studentData = [
       { name: 'Practical 1', marks: 70 },
       { name: 'Practical 2', marks: 68 },
       { name: 'Practical 3', marks: 61 }
+    ]
+  },
+  {
+    id: 88,
+    name: 'VASAVA YOGESHBHAI NARESHBHAI',
+    course: 'DFSE',
+    batch: '2024/2025',
+    enrollment_no: 'FO00UN0012',
+    subjects: [
+      { name: 'F.E.S.C', marks: 79 },
+      { name: 'S.O.A', marks: 68 },
+      { name: 'S.B.C', marks: 70 },
+      { name: 'F.F.F.I', marks: 80 },
+      { name: 'S.F.H', marks: 86 },
+      { name: 'R.E.M', marks: 92 },
+      { name: 'F.A.P', marks: 80 },
+      { name: 'S.M', marks: 56 },
+      { name: 'Practical 1', marks: 80 },
+      { name: 'Practical 2', marks: 80 },
+      { name: 'Practical 3', marks: 80 }
     ]
   },
 ];
