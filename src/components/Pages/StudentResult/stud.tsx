@@ -1769,6 +1769,90 @@ const studentData = [
       { name: 'Practical 3', marks: 80 }
     ]
   },
+  {
+    id: 89,
+    name: 'PARMAR JAYDEEPBHAI HIRABHAI',
+    course: 'DFSE',
+    batch: '2024/2025',
+    center: "PARA TECHNICAL INSTITUTE",
+    enrollment_no: 'CIFSE00UN00105',
+    subjects: [
+      { name: 'F.E.S.C', marks: 65 },
+      { name: 'S.O.A', marks: 71 },
+      { name: 'S.B.C', marks: 59 },
+      { name: 'F.F.F.I', marks: 74 },
+      { name: 'S.F.H', marks: 61 },
+      { name: 'R.E.M', marks: 56 },
+      { name: 'F.A.P', marks: 76 },
+      { name: 'S.M', marks: 68 },
+      { name: 'Practical 1', marks: 54 },
+      { name: 'Practical 2', marks: 59 },
+      { name: 'Practical 3', marks: 63 }
+    ]
+  },
+  {
+    id: 90,
+    name: 'BIHOLA MEHULSINH LALSINH',
+    course: 'DFSE',
+    batch: '2024/2025',
+    center: "PARA TECHNICAL INSTITUTE",
+    enrollment_no: 'CIFSE00UN00106',
+    subjects: [
+      { name: 'F.E.S.C', marks: 68 },
+      { name: 'S.O.A', marks: 72 },
+      { name: 'S.B.C', marks: 65 },
+      { name: 'F.F.F.I', marks: 73 },
+      { name: 'S.F.H', marks: 62 },
+      { name: 'R.E.M', marks: 57 },
+      { name: 'F.A.P', marks: 74 },
+      { name: 'S.M', marks: 62 },
+      { name: 'Practical 1', marks: 58 },
+      { name: 'Practical 2', marks: 59 },
+      { name: 'Practical 3', marks: 63 }
+    ]
+  },
+  {
+    id: 91,
+    name: 'BIHOLA SATYAJITSINH NARESHSINH',
+    course: 'DFSE',
+    batch: '2024/2025',
+    center: "PARA TECHNICAL INSTITUTE",
+    enrollment_no: 'CIFSE00UN00107',
+    subjects: [
+      { name: 'F.E.S.C', marks: 56 },
+      { name: 'S.O.A', marks: 65 },
+      { name: 'S.B.C', marks: 62 },
+      { name: 'F.F.F.I', marks: 71 },
+      { name: 'S.F.H', marks: 63 },
+      { name: 'R.E.M', marks: 59 },
+      { name: 'F.A.P', marks: 75 },
+      { name: 'S.M', marks: 63 },
+      { name: 'Practical 1', marks: 58 },
+      { name: 'Practical 2', marks: 59 },
+      { name: 'Practical 3', marks: 63 }
+    ]
+  },
+  {
+    id: 92,
+    name: 'SENMA SURYAPRAKASH MUKESHKUMAR',
+    course: 'DFSE',
+    batch: '2024/2025',
+    center: "PARA TECHNICAL INSTITUTE",
+    enrollment_no: 'CIFSE00UN00108',
+    subjects: [
+      { name: 'F.E.S.C', marks: 70 },
+      { name: 'S.O.A', marks: 58 },
+      { name: 'S.B.C', marks: 67 },
+      { name: 'F.F.F.I', marks: 59 },
+      { name: 'S.F.H', marks: 64 },
+      { name: 'R.E.M', marks: 55 },
+      { name: 'F.A.P', marks: 78 },
+      { name: 'S.M', marks: 61 },
+      { name: 'Practical 1', marks: 58 },
+      { name: 'Practical 2', marks: 59 },
+      { name: 'Practical 3', marks: 63 }
+    ]
+  },
 ];
 
 export default studentData;
