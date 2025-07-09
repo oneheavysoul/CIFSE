@@ -1853,6 +1853,26 @@ const studentData = [
       { name: 'Practical 3', marks: 63 }
     ]
   },
+  {
+    id: 93,
+    name: 'BORICHA PANKAJKUMAR MAHESHBHAI',
+    course: 'DFSE',
+    batch: '2023/2024',
+    enrollment_no: 'CIFSE00UN14085',
+    subjects: [
+      { name: 'F.E.S.C', marks: 67 },
+      { name: 'S.O.A', marks: 58 },
+      { name: 'S.B.C', marks: 78 },
+      { name: 'F.F.F.I', marks: 72 },
+      { name: 'S.F.H', marks: 88 },
+      { name: 'R.E.M', marks: 65 },
+      { name: 'F.A.P', marks: 71 },
+      { name: 'S.M', marks: 78 },
+      { name: 'Practical 1', marks: 77 },
+      { name: 'Practical 2', marks: 86 },
+      { name: 'Practical 3', marks: 72 }
+    ]
+  }
 ];
 
 export default studentData;
