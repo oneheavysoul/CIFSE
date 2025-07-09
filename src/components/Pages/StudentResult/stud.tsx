@@ -1856,7 +1856,7 @@ const studentData = [
   {
     id: 93,
     name: 'BORICHA PANKAJKUMAR MAHESHBHAI',
-    course: 'DFSE',
+    course: 'SFO',
     batch: '2023/2024',
     enrollment_no: 'CIFSE00UN14085',
     subjects: [
