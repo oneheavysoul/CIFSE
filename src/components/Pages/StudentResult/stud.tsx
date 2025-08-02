@@ -1892,6 +1892,66 @@ const studentData = [
       { name: 'Practical 2', marks: 80 },
       { name: 'Practical 3', marks: 80 }
     ]
+  },
+  {
+    id: 95,
+    name: 'KAVITHIYA PANKAJBHAI BHOPABHAI',
+    course: 'DFSE',
+    batch: '2024/2025',
+    enrollment_no: 'CIFSE00UN00109',
+    subjects: [
+      { name: 'F.E.S.C', marks: 78 },
+      { name: 'S.O.A', marks: 70 },
+      { name: 'S.B.C', marks: 71 },
+      { name: 'F.F.F.I', marks: 78 },
+      { name: 'S.F.H', marks: 82 },
+      { name: 'R.E.M', marks: 81 },
+      { name: 'F.A.P', marks: 82 },
+      { name: 'S.M', marks: 65 },
+      { name: 'Practical 1', marks: 80 },
+      { name: 'Practical 2', marks: 80 },
+      { name: 'Practical 3', marks: 80 }
+    ]
+  },
+  {
+    id: 96,
+    name: 'THAKOR ALKHAJI VIKRAMJI',
+    course: 'DFSE',
+    batch: '2024/2025',
+    enrollment_no: 'CIFSE00UN00110',
+    subjects: [
+      { name: 'F.E.S.C', marks: 70 },
+      { name: 'S.O.A', marks: 66 },
+      { name: 'S.B.C', marks: 73 },
+      { name: 'F.F.F.I', marks: 78 },
+      { name: 'S.F.H', marks: 82 },
+      { name: 'R.E.M', marks: 83 },
+      { name: 'F.A.P', marks: 81 },
+      { name: 'S.M', marks: 64 },
+      { name: 'Practical 1', marks: 80 },
+      { name: 'Practical 2', marks: 80 },
+      { name: 'Practical 3', marks: 80 }
+    ]
+  },
+  {
+    id: 97,
+    name: 'DESAI BRIJESHBHAI KANUBHAI',
+    course: 'DFSE',
+    batch: '2024/2025',
+    enrollment_no: 'CIFSE00UN00111',
+    subjects: [
+      { name: 'F.E.S.C', marks: 74 },
+      { name: 'S.O.A', marks: 68 },
+      { name: 'S.B.C', marks: 71 },
+      { name: 'F.F.F.I', marks: 80 },
+      { name: 'S.F.H', marks: 86 },
+      { name: 'R.E.M', marks: 88 },
+      { name: 'F.A.P', marks: 80 },
+      { name: 'S.M', marks: 65 },
+      { name: 'Practical 1', marks: 80 },
+      { name: 'Practical 2', marks: 80 },
+      { name: 'Practical 3', marks: 80 }
+    ]
   }
 ];
 
