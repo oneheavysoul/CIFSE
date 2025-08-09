@@ -1952,6 +1952,26 @@ const studentData = [
       { name: 'Practical 2', marks: 80 },
       { name: 'Practical 3', marks: 80 }
     ]
+  },
+   {
+    id: 98,
+    name: 'VALA AVINASH BHAGVANBHAI',
+    course: 'DFSE',
+    batch: '2021/2022',
+    enrollment_no: 'CIFSE00UN7013',
+    subjects: [
+      { name: 'F.E.S.C', marks: 82 },
+      { name: 'S.O.A', marks: 78 },
+      { name: 'S.B.C', marks: 85 },
+      { name: 'F.F.F.I', marks: 87 },
+      { name: 'S.F.H', marks: 72 },
+      { name: 'R.E.M', marks: 89 },
+      { name: 'F.A.P', marks: 70 },
+      { name: 'S.M', marks: 83 },
+      { name: 'Practical 1', marks: 90 },
+      { name: 'Practical 2', marks: 85 },
+      { name: 'Practical 3', marks: 87 }
+    ]
   }
 ];
 
