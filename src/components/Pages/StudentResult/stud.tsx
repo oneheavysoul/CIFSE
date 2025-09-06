@@ -1952,6 +1952,46 @@ const studentData = [
       { name: 'Practical 2', marks: 80 },
       { name: 'Practical 3', marks: 80 }
     ]
+  },
+  {
+    id: 98,
+    name: 'MOGAL MAHMADOVESH KAIYUMKHAN',
+    course: 'DFSE',
+    batch: '2024/2025',
+    enrollment_no: 'CIFSE00UN00112',
+    subjects: [
+      { name: 'F.E.S.C', marks: 70 },
+      { name: 'S.O.A', marks: 58 },
+      { name: 'S.B.C', marks: 67 },
+      { name: 'F.F.F.I', marks: 59 },
+      { name: 'S.F.H', marks: 64 },
+      { name: 'R.E.M', marks: 55 },
+      { name: 'F.A.P', marks: 78 },
+      { name: 'S.M', marks: 61 },
+      { name: 'Practical 1', marks: 58 },
+      { name: 'Practical 2', marks: 59 },
+      { name: 'Practical 3', marks: 63 }
+    ]
+  },
+  {
+    id: 99,
+    name: 'PATEL DIXITKUMAR MAHESHKUMAR',
+    course: 'DFSE',
+    batch: '2024/2025',
+    enrollment_no: 'CIFSE00UN00113',
+    subjects: [
+      { name: 'F.E.S.C', marks: 60 },
+      { name: 'S.O.A', marks: 72 },
+      { name: 'S.B.C', marks: 68 },
+      { name: 'F.F.F.I', marks: 67 },
+      { name: 'S.F.H', marks: 70 },
+      { name: 'R.E.M', marks: 65 },
+      { name: 'F.A.P', marks: 73 },
+      { name: 'S.M', marks: 58 },
+      { name: 'Practical 1', marks: 62 },
+      { name: 'Practical 2', marks: 60 },
+      { name: 'Practical 3', marks: 63 }
+    ]
   }
 ];
 
