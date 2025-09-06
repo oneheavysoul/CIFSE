@@ -111,7 +111,7 @@ const ResultPage = () => {
                                     <thead className="thead-dark">
                                         <tr>
                                             <th scope="col">Sr No</th>
-                                            <th scope="col">Subject</th>
+                                            <th scope="col">Semester</th>
                                             <th scope="col">Total Marks</th>
                                             <th scope="col">Obtained Marks</th>
                                         </tr>
