@@ -105,6 +105,30 @@ const ResultPage = () => {
                                     </tr>
                                 </tbody>
                             </table>
+
+                            {result && result?.sem?.length > 0 &&
+                                <table className="table">
+                                    <thead className="thead-dark">
+                                        <tr>
+                                            <th scope="col">Sr No</th>
+                                            <th scope="col">Subject</th>
+                                            <th scope="col">Total Marks</th>
+                                            <th scope="col">Obtained Marks</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {result && result?.sem?.map((data: any, index: number) => {
+                                            return (
+                                                <tr>
+                                                    <td scope="row">{index + 1}</td>
+                                                    <td>{data?.name}</td>
+                                                    <td>{data?.total ? data?.total : "400"}</td>
+                                                    <td>{data?.marks}</td>
+                                                </tr>
+                                            )
+                                        })}
+                                    </tbody>
+                                </table>}
                         </div>
                     }
                 </div>

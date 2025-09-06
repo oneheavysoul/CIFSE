@@ -2012,6 +2012,25 @@ const studentData = [
       { name: 'Practical 2', marks: 62 },
       { name: 'Practical 3', marks: 60 }
     ]
+  },
+  {
+    id: 101,
+    name: 'ALLY SHAH MUHAMMAD YASIN SHAWKAT',
+    course: 'MBA in Fire Safety Management',
+    batch: '2020/2021',
+    enrollment_no: 'CIFSE00UN00115',
+    subjects: [
+      { name: 'Storage And Handling Of Hazardous Substances', marks: 72 },
+      { name: 'Safety Audit', marks: 77 },
+      { name: 'Project Study', marks: 81 },
+      { name: 'Safety At DockYard', marks: 83 },
+      { name: 'Safety At Constructions', marks: 74 },
+    ],
+    sem: [
+      { name: 'SEM - I', marks: 368 },
+      { name: 'SEM - II', marks: 351 },
+      { name: 'SEM - III', marks: 377 }
+    ]
   }
 ];
 
