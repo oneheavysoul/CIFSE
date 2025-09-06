@@ -1992,6 +1992,26 @@ const studentData = [
       { name: 'Practical 2', marks: 60 },
       { name: 'Practical 3', marks: 63 }
     ]
+  },
+  {
+    id: 100,
+    name: 'PARMAR DALPATSINH JAVANJI',
+    course: 'DFSE',
+    batch: '2024/2025',
+    enrollment_no: 'CIFSE00UN00114',
+    subjects: [
+      { name: 'F.E.S.C', marks: 62 },
+      { name: 'S.O.A', marks: 65 },
+      { name: 'S.B.C', marks: 68 },
+      { name: 'F.F.F.I', marks: 70 },
+      { name: 'S.F.H', marks: 72 },
+      { name: 'R.E.M', marks: 76 },
+      { name: 'F.A.P', marks: 72 },
+      { name: 'S.M', marks: 70 },
+      { name: 'Practical 1', marks: 64 },
+      { name: 'Practical 2', marks: 62 },
+      { name: 'Practical 3', marks: 60 }
+    ]
   }
 ];
 
