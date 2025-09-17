@@ -1499,7 +1499,7 @@ const studentData = [
   },
   {
     id: 76,
-    name: 'CHAUDHARY NIKHILKUMAR HARENDRAKUMAR',
+    name: 'CHAUDHARI NIKHILKUMAR HARENDRAKUMAR',
     course: 'DFSE',
     batch: '2024/2025',
     center: "PARA TECHNICAL INSTITUTE",
