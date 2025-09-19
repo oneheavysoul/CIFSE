@@ -81,7 +81,7 @@ const ResultPage = () => {
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    {result && result.subjects?.map((data: any, index: number) => {
+                                    {result && result?.subjects?.map((data: any, index: number) => {
                                         return (
                                             <tr>
                                                 <td scope="row">{index + 1}</td>
