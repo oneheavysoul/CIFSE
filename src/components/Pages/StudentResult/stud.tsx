@@ -2031,7 +2031,27 @@ const studentData = [
       { name: 'SEM - II', marks: 351 },
       { name: 'SEM - III', marks: 377 }
     ]
-  }
+  },
+  {
+    id: 102,
+    name: 'BARIYA VIVEK MAHESHBHAI',
+    course: 'DFSE',
+    batch: '2022/2023',
+    enrollment_no: 'DFSE00UN6756',
+    subjects: [
+      { name: 'F.E.S.C', marks: 79 },
+      { name: 'S.O.A', marks: 68 },
+      { name: 'S.B.C', marks: 70 },
+      { name: 'F.F.F.I', marks: 80 },
+      { name: 'S.F.H', marks: 86 },
+      { name: 'R.E.M', marks: 92 },
+      { name: 'F.A.P', marks: 80 },
+      { name: 'S.M', marks: 56 },
+      { name: 'Practical 1', marks: 80 },
+      { name: 'Practical 2', marks: 80 },
+      { name: 'Practical 3', marks: 80 }
+    ]
+  },
 ];
 
 export default studentData;
