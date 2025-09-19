@@ -20,7 +20,7 @@ const ResultPage = () => {
         const objectData: any = studentData.find(i => i.enrollment_no === enroll)
         // const sum = objectData.subjects.reduce(function (a: any, b: any) { return a + b; }, 0);
 
-        var result = objectData.subjects.reduce(function (tot: any, arr: any) {
+        var result = objectData?.subjects?.reduce(function (tot: any, arr: any) {
             // return the sum with previous value
             return tot + arr.marks;
             // set initial value as 0
