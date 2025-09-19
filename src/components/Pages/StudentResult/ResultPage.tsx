@@ -25,7 +25,7 @@ const ResultPage = () => {
             return tot + arr.marks;
             // set initial value as 0
         }, 0);
-        var resultTotal = objectData.subjects.length * 100;
+        var resultTotal = objectData?.subjects?.length * 100;
         setTotalMarks(resultTotal)
         setTotalObtained(result)
         setResult(objectData);
