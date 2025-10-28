@@ -1955,22 +1955,22 @@ const studentData = [
   },
   {
     id: 98,
-    name: 'MOGAL MAHMADOVESH KAIYUMKHAN',
+    name: 'ZALA PRAKASHKUMAR MASARIBHAI',
     course: 'DFSE',
-    batch: '2024/2025',
+    batch: '2018/2019',
     enrollment_no: 'CIFSE00UN00112',
     subjects: [
       { name: 'F.E.S.C', marks: 70 },
-      { name: 'S.O.A', marks: 58 },
-      { name: 'S.B.C', marks: 67 },
-      { name: 'F.F.F.I', marks: 59 },
-      { name: 'S.F.H', marks: 64 },
-      { name: 'R.E.M', marks: 55 },
-      { name: 'F.A.P', marks: 78 },
-      { name: 'S.M', marks: 61 },
-      { name: 'Practical 1', marks: 58 },
-      { name: 'Practical 2', marks: 59 },
-      { name: 'Practical 3', marks: 63 }
+      { name: 'S.O.A', marks: 70 },
+      { name: 'S.B.C', marks: 61 },
+      { name: 'F.F.F.I', marks: 56 },
+      { name: 'S.F.H', marks: 61 },
+      { name: 'R.E.M', marks: 51 },
+      { name: 'F.A.P', marks: 74 },
+      { name: 'S.M', marks: 58 },
+      { name: 'Practical 1', marks: 70 },
+      { name: 'Practical 2', marks: 68 },
+      { name: 'Practical 3', marks: 61 }
     ]
   },
   {
