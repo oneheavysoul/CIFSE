@@ -2052,6 +2052,26 @@ const studentData = [
       { name: 'Practical 3', marks: 80 }
     ]
   },
+  {
+    id: 103,
+    name: 'VAGHELA ATULBHAI MANUBHAI',
+    course: 'ADISE',
+    batch: '2024/2025',
+    enrollment_no: 'ADIS00UN1421',
+    subjects: [
+      { name: 'S.H.E.M', marks: 85 },
+      { name: 'S.E', marks: 82 },
+      { name: 'S.L', marks: 89 },
+      { name: 'O.H.I.H', marks: 85 },
+      { name: 'R.M.P.S', marks: 79 },
+      { name: 'C.E.P', marks: 86 },
+      { name: 'F.P.P', marks: 80 },
+      { name: 'O.H', marks: 82 },
+      { name: 'Practical 1', marks: 85 },
+      { name: 'Practical 2', marks: 80 },
+      { name: 'Practical 3', marks: 82 }
+    ]
+  },
 ];
 
 
