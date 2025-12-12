@@ -2074,7 +2074,7 @@ const studentData = [
   },
   {
     id: 104,
-    name: 'HARESHKUMAR JAGDISHBHAI PATEL',
+    name: 'HARSHKUMAR JAGDISHBHAI PATEL',
     course: 'ADISE',
     batch: '2024/2025',
     enrollment_no: 'ADIS00UN20034',
