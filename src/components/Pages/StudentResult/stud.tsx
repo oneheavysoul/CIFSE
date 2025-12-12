@@ -2072,6 +2072,26 @@ const studentData = [
       { name: 'Practical 3', marks: 82 }
     ]
   },
+  {
+    id: 104,
+    name: 'HARESHKUMAR JAGDISHBHAI PATEL',
+    course: 'ADISE',
+    batch: '2024/2025',
+    enrollment_no: 'ADIS00UN20034',
+    subjects: [
+      { name: 'S.H.E.M', marks: 71 },
+      { name: 'S.E', marks: 64 },
+      { name: 'S.L', marks: 63 },
+      { name: 'O.H.I.H', marks:58 },
+      { name: 'R.M.P.S', marks: 66 },
+      { name: 'C.E.P', marks: 52 },
+      { name: 'F.P.P', marks: 57 },
+      { name: 'O.H', marks: 73 },
+      { name: 'Practical 1', marks: 70 },
+      { name: 'Practical 2', marks: 68 },
+      { name: 'Practical 3', marks: 61 }
+    ]
+  },
 ];
 
 
