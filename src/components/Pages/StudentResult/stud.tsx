@@ -2110,7 +2110,7 @@ const studentData = [
     name: 'RABARI JIGAR KARMANBHAI',
     course: 'ADISE',
     batch: '2024',
-    enrollment_no: 'CIFSE00UN12001',
+    enrollment_no: 'CIFSE00UN12011',
     subjects: [
       { name: 'Fire Engineering Science', marks: 71 },
       { name: 'Fire Fighting Technology', marks: 64 },
