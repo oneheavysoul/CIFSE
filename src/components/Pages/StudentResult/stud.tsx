@@ -2108,7 +2108,7 @@ const studentData = [
   {
     id: 106,
     name: 'RABARI JIGAR KARMANBHAI',
-    course: 'ADISE',
+    course: 'SIX MONTH FIRE MAN',
     batch: '2024',
     enrollment_no: 'CIFSE00UN12011',
     subjects: [
