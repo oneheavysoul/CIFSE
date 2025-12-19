@@ -2082,7 +2082,7 @@ const studentData = [
       { name: 'S.H.E.M', marks: 71 },
       { name: 'S.E', marks: 64 },
       { name: 'S.L', marks: 63 },
-      { name: 'O.H.I.H', marks:58 },
+      { name: 'O.H.I.H', marks: 58 },
       { name: 'R.M.P.S', marks: 66 },
       { name: 'C.E.P', marks: 52 },
       { name: 'F.P.P', marks: 57 },
@@ -2090,6 +2090,32 @@ const studentData = [
       { name: 'Practical 1', marks: 70 },
       { name: 'Practical 2', marks: 68 },
       { name: 'Practical 3', marks: 61 }
+    ]
+  },
+  {
+    id: 105,
+    name: 'RATHOD MANANKUMAR ASHOKBHAI',
+    course: 'SIX MONTH FIRE MAN',
+    batch: '2024',
+    enrollment_no: 'CIFSE00UN12001',
+    subjects: [
+      { name: 'Fire Engineering Science', marks: 63 },
+      { name: 'Fire Fighting Technology', marks: 76 },
+      { name: 'Fire Ground Communication', marks: 57 },
+      { name: 'Organisation & Acts', marks: 77 }
+    ]
+  },
+  {
+    id: 106,
+    name: 'RABARI JIGAR KARMANBHAI',
+    course: 'ADISE',
+    batch: '2024',
+    enrollment_no: 'CIFSE00UN12001',
+    subjects: [
+      { name: 'Fire Engineering Science', marks: 71 },
+      { name: 'Fire Fighting Technology', marks: 64 },
+      { name: 'Fire Ground Communication', marks: 63 },
+      { name: 'Organisation & Acts', marks: 58 }
     ]
   },
 ];
