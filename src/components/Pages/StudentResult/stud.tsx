@@ -2118,6 +2118,19 @@ const studentData = [
       { name: 'Organisation & Acts', marks: 58 }
     ]
   },
+  {
+    id: 107,
+    name: 'RATHOD MANANKUMAR ASHOKBHAI',
+    course: 'SIX MONTH FIRE MAN',
+    batch: '2024',
+    enrollment_no: 'CIFSE00UN12001',
+    subjects: [
+      { name: 'Fire Engineering Science', marks: 63 },
+      { name: 'Fire Fighting Technology', marks: 76 },
+      { name: 'Fire Ground Communication', marks: 57 },
+      { name: 'Organisation & Acts', marks: 77 }
+    ]
+  },
 ];
 
 
