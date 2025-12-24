@@ -2131,6 +2131,26 @@ const studentData = [
       { name: 'Organisation & Acts', marks: 77 }
     ]
   },
+   {
+    id: 108,
+    name: 'RATHOD DHARMARAJSINH MAHENDRASINH',
+    course: 'DFSE',
+    batch: '2024/2025',
+    enrollment_no: 'CIFSE00UN17019',
+    subjects: [
+      { name: 'F.E.S.C', marks: 62 },
+      { name: 'S.O.A', marks: 75 },
+      { name: 'S.B.C', marks: 78 },
+      { name: 'F.F.F.I', marks: 59 },
+      { name: 'S.F.H', marks: 68 },
+      { name: 'R.E.M', marks: 73 },
+      { name: 'F.A.P', marks: 56 },
+      { name: 'S.M', marks: 78 },
+      { name: 'Practical 1', marks: 78 },
+      { name: 'Practical 2', marks: 62 },
+      { name: 'Practical 3', marks: 72 }
+    ]
+  },
 ];
 
 
