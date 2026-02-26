@@ -2131,7 +2131,7 @@ const studentData = [
       { name: 'Organisation & Acts', marks: 77 }
     ]
   },
-   {
+  {
     id: 108,
     name: 'RATHOD DHARMARAJSINH MAHENDRASINH',
     course: 'DFSE',
@@ -2149,6 +2149,92 @@ const studentData = [
       { name: 'Practical 1', marks: 78 },
       { name: 'Practical 2', marks: 62 },
       { name: 'Practical 3', marks: 72 }
+    ]
+  },
+  {
+    id: 109,
+    name: 'PATEL MAYUKUMAR VIKRAMBHAI',
+    course: 'SIX MONTH FIRE MAN',
+    batch: '2024',
+    enrollment_no: 'CIFSE00UN20079',
+    subjects: [
+      { name: 'Fire Engineering Science', marks: 69 },
+      { name: 'Fire Fighting Technology', marks: 74 },
+      { name: 'Fire Ground Communication', marks: 61 },
+      { name: 'Organisation & Acts', marks: 77 }
+    ]
+  },
+  {
+    id: 110,
+    name: 'BRAHMANIYA HETKUMAR DINESHBHAI',
+    course: 'SIX MONTH FIRE MAN',
+    batch: '2022',
+    enrollment_no: 'CIFSE00UN20078',
+    subjects: [
+      { name: 'Fire Engineering Science', marks: 69 },
+      { name: 'Fire Fighting Technology', marks: 74 },
+      { name: 'Fire Ground Communication', marks: 61 },
+      { name: 'Organisation & Acts', marks: 77 }
+    ]
+  },
+  {
+    id: 111,
+    name: 'NAKUM YUVRAJBHAI ABHESINHBHAI',
+    course: 'DFSE',
+    batch: '2021/2022',
+    enrollment_no: 'DFSE00UN23090',
+    subjects: [
+      { name: 'F.E.S.C', marks: 70 },
+      { name: 'S.O.A', marks: 70 },
+      { name: 'S.B.C', marks: 75 },
+      { name: 'F.F.F.I', marks: 82 },
+      { name: 'S.F.H', marks: 68 },
+      { name: 'R.E.M', marks: 78 },
+      { name: 'F.A.P', marks: 74 },
+      { name: 'S.M', marks: 80 },
+      { name: 'Practical 1', marks: 70 },
+      { name: 'Practical 2', marks: 68 },
+      { name: 'Practical 3', marks: 61 }
+    ]
+  },
+  {
+    id: 112,
+    name: 'BARAIYA MUKESH JIVANBHAI',
+    course: 'DFSE',
+    batch: '2023/2024',
+    enrollment_no: 'CIFSE00UN23090',
+    subjects: [
+      { name: 'F.E.S.C', marks: 70 },
+      { name: 'S.O.A', marks: 70 },
+      { name: 'S.B.C', marks: 75 },
+      { name: 'F.F.F.I', marks: 82 },
+      { name: 'S.F.H', marks: 68 },
+      { name: 'R.E.M', marks: 78 },
+      { name: 'F.A.P', marks: 74 },
+      { name: 'S.M', marks: 80 },
+      { name: 'Practical 1', marks: 70 },
+      { name: 'Practical 2', marks: 68 },
+      { name: 'Practical 3', marks: 61 }
+    ]
+  },
+  {
+    id: 113,
+    name: 'CHAUHAN VISHALKUMAR MANILAL',
+    course: 'DFSE',
+    batch: '2023/2024',
+    enrollment_no: 'CIFSE00UN30045',
+    subjects: [
+      { name: 'F.E.S.C', marks: 70 },
+      { name: 'S.O.A', marks: 70 },
+      { name: 'S.B.C', marks: 75 },
+      { name: 'F.F.F.I', marks: 82 },
+      { name: 'S.F.H', marks: 68 },
+      { name: 'R.E.M', marks: 78 },
+      { name: 'F.A.P', marks: 74 },
+      { name: 'S.M', marks: 80 },
+      { name: 'Practical 1', marks: 70 },
+      { name: 'Practical 2', marks: 68 },
+      { name: 'Practical 3', marks: 61 }
     ]
   },
 ];
