@@ -2281,7 +2281,7 @@ const studentData = [
     id: 116,
     name: 'KALIYA GHANSHYAMBHAI BALDEVBHAI',
     course: 'D.F.S.E.',
-    batch: "2025/2026",
+    batch: "2023/2024",
     enrollment_no: "CIFSE00UN20718",
     subjects: [
       { name: 'F.E.S.C', marks: 78 },
