@@ -25,16 +25,15 @@ const ResultPage = () => {
             return tot + arr.marks;
             // set initial value as 0
         }, 0);
+        var totalMarks = objectData?.total_marks;
         var resultTotal = objectData?.subjects?.length * 100;
-        setTotalMarks(resultTotal)
-        setTotalObtained(result)
+        setTotalMarks(totalMarks ? totalMarks : resultTotal);
+        setTotalObtained(result);
         setResult(objectData);
-    }
-
+    };
 
     return (
         <>
-            {/* Blog Page Start */}
             <section className="blog-page">
                 <div className="container">
                     <div className="modal-body mb-5">

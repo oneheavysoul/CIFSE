@@ -2383,6 +2383,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS001",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 49 },
       { name: 'S.O.A', marks: 58 },
@@ -2401,6 +2402,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS002",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 54 },
       { name: 'S.O.A', marks: 56 },
@@ -2419,6 +2421,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS003",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 53 },
       { name: 'S.O.A', marks: 57 },
@@ -2437,6 +2440,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS004",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 55 },
       { name: 'S.O.A', marks: 47 },
@@ -2455,6 +2459,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS005",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 48 },
       { name: 'S.O.A', marks: 54 },
@@ -2473,6 +2478,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS006",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 48 },
       { name: 'S.O.A', marks: 59 },
@@ -2491,6 +2497,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS007",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 60 },
       { name: 'S.O.A', marks: 67 },
@@ -2509,6 +2516,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS008",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 47 },
       { name: 'S.O.A', marks: 48 },
@@ -2527,6 +2535,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS009",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 60 },
       { name: 'S.O.A', marks: 59 },
@@ -2545,6 +2554,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS010",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 50 },
       { name: 'S.O.A', marks: 64 },
@@ -2563,6 +2573,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS011",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 49 },
       { name: 'S.O.A', marks: 48 },
@@ -2581,6 +2592,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS012",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 49 },
       { name: 'S.O.A', marks: 63 },
@@ -2599,6 +2611,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS013",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 52 },
       { name: 'S.O.A', marks: 57 },
@@ -2617,6 +2630,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS014",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 59 },
       { name: 'S.O.A', marks: 52 },
@@ -2635,6 +2649,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS015",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 47 },
       { name: 'S.O.A', marks: 61 },
@@ -2653,6 +2668,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS016",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 47 },
       { name: 'S.O.A', marks: 61 },
@@ -2671,6 +2687,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS017",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 63 },
       { name: 'S.O.A', marks: 67 },
@@ -2689,6 +2706,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS018",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 53 },
       { name: 'S.O.A', marks: 63 },
@@ -2707,6 +2725,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS019",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 55 },
       { name: 'S.O.A', marks: 62 },
@@ -2725,6 +2744,7 @@ const studentData = [
     course: 'D.F.S.E.',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS020",
+    total_marks: 800,
     subjects: [
       { name: 'F.E.S.C', marks: 55 },
       { name: 'S.O.A', marks: 42 },
