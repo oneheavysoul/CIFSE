@@ -2801,7 +2801,7 @@ const studentData = [
     id: 143,
     name: 'VALA NITINBHAI VAJUBHAI',
     course: 'D.F.S.E.',
-    batch: "2025/2026",
+    batch: "2024/2025",
     enrollment_no: "CIFSE00UN1901",
     subjects: [
       { name: 'F.E.S.C', marks: 82 },
