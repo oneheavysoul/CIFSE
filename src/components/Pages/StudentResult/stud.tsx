@@ -2760,7 +2760,7 @@ const studentData = [
   {
     id: 141,
     name: 'DHAVAL MUKESHBHAI KAPADIYA',
-    course: 'D.F.S.E.',
+    course: 'SUB FIRE OFFICER',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS021",
     subjects: [
@@ -2780,7 +2780,7 @@ const studentData = [
   {
     id: 142,
     name: 'CHAVDA GAUTAMBHAI PRAHALADBHAI',
-    course: 'D.F.S.E.',
+    course: 'SUB FIRE OFFICER',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS022",
     subjects: [
@@ -2820,7 +2820,7 @@ const studentData = [
   {
     id: 144,
     name: 'CHAVDA JAYDIPBHAI HEMABHAI',
-    course: 'D.F.S.E.',
+    course: 'SUB FIRE OFFICER',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS023",
     subjects: [
