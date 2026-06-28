@@ -2817,6 +2817,26 @@ const studentData = [
       { name: 'Practical 3', marks: 64 },
     ],
   },
+   {
+    id: 145,
+    name: 'DHARAJIYA VIJAYKUMAR DHUDABHAI',
+    course: 'D.F.S.E.',
+    batch: "2024/2025",
+    enrollment_no: "CIFSE00UN1902",
+    subjects: [
+      { name: 'F.E.S.C', marks: 82 },
+      { name: 'S.O.A', marks: 81 },
+      { name: 'S.B.C', marks: 83 },
+      { name: 'F.F.F.I', marks: 85 },
+      { name: 'S.F.H', marks: 87 },
+      { name: 'R.E.M', marks: 84 },
+      { name: 'F.A.P', marks: 86 },
+      { name: 'S.M', marks: 87 },
+      { name: 'Practical 1', marks: 67 },
+      { name: 'Practical 2', marks: 70 },
+      { name: 'Practical 3', marks: 64 },
+    ],
+  },
 ];
 
 
