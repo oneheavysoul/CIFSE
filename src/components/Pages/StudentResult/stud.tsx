@@ -2934,6 +2934,26 @@ const studentData = [
       { name: "Internship II (Sem 2)", marks: 73, total: 100 },
     ],
   },
+  {
+    id: 151,
+    name: "GONDALIYA DHAVALKUMAR BANSIDAS",
+    course: "D.F.S.E.",
+    batch: "2024/2025",
+    enrollment_no: "DFSE00UN202689",
+    subjects: [
+      { name: "F.E.S.C", marks: 70 },
+      { name: "S.O.A", marks: 70 },
+      { name: "S.B.C", marks: 75 },
+      { name: "F.F.F.I", marks: 82 },
+      { name: "S.F.H", marks: 68 },
+      { name: "R.E.M", marks: 78 },
+      { name: "F.A.P", marks: 74 },
+      { name: "S.M", marks: 80 },
+      { name: "Practical 1", marks: 70 },
+      { name: "Practical 2", marks: 68 },
+      { name: "Practical 3", marks: 61 }
+    ]
+  },
 ];
 
 
