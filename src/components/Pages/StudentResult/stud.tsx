@@ -2897,7 +2897,7 @@ const studentData = [
   {
     id: 149,
     name: "CHAVADA JAYRAJSINH FATEHSINH",
-    course: "P.D.I.S",
+    course: "Fire Man",
     batch: "2025/2026",
     enrollment_no: "CIFSE00UN19087",
     subjects: [
