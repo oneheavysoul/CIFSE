@@ -2897,7 +2897,7 @@ const studentData = [
   {
     id: 149,
     name: "CHAVADA JAYRAJSINH FATEHSINH",
-    course: "PDIS",
+    course: "P.D.I.S",
     batch: "2025/2026",
     enrollment_no: "CIFSE00UN19087",
     subjects: [
