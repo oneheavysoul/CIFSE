@@ -2974,6 +2974,26 @@ const studentData = [
       { name: "Practical 3", marks: 61 }
     ]
   },
+{
+    id: 153,
+    name: "SOLANKI AJAYBHAI CHANDUBHAI",
+    course: "D.F.S.E.",
+    batch: "2023/2024",
+    enrollment_no: "CIFSE00UN1460",
+    subjects: [
+      { name: "F.E.S.C", marks: 81 },
+      { name: "S.O.A", marks: 78 },
+      { name: "S.B.C", marks: 87 },
+      { name: "F.F.F.I", marks: 77 },
+      { name: "S.F.H", marks: 57 },
+      { name: "R.E.M", marks: 67 },
+      { name: "F.A.P", marks: 84 },
+      { name: "S.M", marks: 76 },
+      { name: "Practical 1", marks: 70 },
+      { name: "Practical 2", marks: 84 },
+      { name: "Practical 3", marks: 82 }
+    ]
+  },
 ];
 
 
