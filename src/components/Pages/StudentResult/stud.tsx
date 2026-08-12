@@ -2958,7 +2958,7 @@ const studentData = [
     id: 152,
     name: "GALTHARIYA DILIP GORDHANBHAI",
     course: "D.F.S.E.",
-    batch: "2025/2026",
+    batch: "2024/2025",
     enrollment_no: "CIFSE00AS025",
     subjects: [
       { name: "F.E.S.C", marks: 82 },
