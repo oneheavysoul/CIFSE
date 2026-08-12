@@ -2961,17 +2961,17 @@ const studentData = [
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS025",
     subjects: [
-      { name: "F.E.S.C", marks: 75 },
-      { name: "S.O.A", marks: 74 },
-      { name: "S.B.C", marks: 76 },
-      { name: "F.F.F.I", marks: 82 },
-      { name: "S.F.H", marks: 69 },
-      { name: "R.E.M", marks: 78 },
-      { name: "F.A.P", marks: 72 },
-      { name: "S.M", marks: 80 },
-      { name: "Practical 1", marks: 70 },
-      { name: "Practical 2", marks: 68 },
-      { name: "Practical 3", marks: 61 }
+      { name: "F.E.S.C", marks: 82 },
+      { name: "S.O.A", marks: 81 },
+      { name: "S.B.C", marks: 83 },
+      { name: "F.F.F.I", marks: 85 },
+      { name: "S.F.H", marks: 87 },
+      { name: "R.E.M", marks: 84 },
+      { name: "F.A.P", marks: 86 },
+      { name: "S.M", marks: 87 },
+      { name: "Practical 1", marks: 67 },
+      { name: "Practical 2", marks: 70 },
+      { name: "Practical 3", marks: 64 }
     ]
   },
 {
@@ -2992,6 +2992,26 @@ const studentData = [
       { name: "Practical 1", marks: 70 },
       { name: "Practical 2", marks: 84 },
       { name: "Practical 3", marks: 82 }
+    ]
+  },
+{
+    id: 154,
+    name: "SOLANKI PRUTHVIRAJ THAKORBHA",
+    course: "D.F.S.E.",
+    batch: "2024/2025",
+    enrollment_no: "CIFSE00AS027",
+    subjects: [
+      { name: "F.E.S.C", marks: 67 },
+      { name: "S.O.A", marks: 72 },
+      { name: "S.B.C", marks: 71 },
+      { name: "F.F.F.I", marks: 82 },
+      { name: "S.F.H", marks: 65 },
+      { name: "R.E.M", marks: 76 },
+      { name: "F.A.P", marks: 76 },
+      { name: "S.M", marks: 78 },
+      { name: "Practical 1", marks: 67 },
+      { name: "Practical 2", marks: 70 },
+      { name: "Practical 3", marks: 64 }
     ]
   },
 ];
