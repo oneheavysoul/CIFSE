@@ -2979,7 +2979,7 @@ const studentData = [
     name: "SOLANKI AJAYBHAI CHANDUBHAI",
     course: "D.F.S.E.",
     batch: "2023/2024",
-    enrollment_no: "CIFSE00UN1460",
+    enrollment_no: "DFSE00UN1460",
     subjects: [
       { name: "F.E.S.C", marks: 81 },
       { name: "S.O.A", marks: 78 },
