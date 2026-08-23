@@ -3014,6 +3014,29 @@ const studentData = [
       { name: "Practical 3", marks: 64 }
     ]
   },
+{
+    id: 155,
+    name: "VALA RAJBHAI HARIBHAI",
+    course: "P.D.I.S.",
+    batch: "2025/2026",
+    enrollment_no: "CIFSE00UN19010",
+    subjects: [
+      { name: "S.M (Sem 1)", marks: 79, total: 100 },
+      { name: "S.E.I (Sem 1)", marks: 88, total: 100 },
+      { name: "S.C.I (Sem 1)", marks: 82, total: 100 },
+      { name: "S.E-II (Sem 1)", marks: 88, total: 100 },
+      { name: "Case Study & Seminar (Sem 1)", marks: 77, total: 100 },
+      { name: "I.V (Sem 1)", marks: 82, total: 100 },
+      { name: "Internship 1 (Sem 1)", marks: 73, total: 100 },
+      { name: "H.R.D.C.T.C (Sem 2)", marks: 75, total: 100 },
+      { name: "I.H.H (Sem 2)", marks: 78, total: 100 },
+      { name: "H.L.A.S.P (Sem 2)", marks: 82, total: 100 },
+      { name: "P.E (Sem 2)", marks: 85, total: 100 },
+      { name: "S.A.S (Sem 2)", marks: 75, total: 100 },
+      { name: "I.V (Sem 2)", marks: 77, total: 100 },
+      { name: "Internship II (Sem 2)", marks: 85, total: 100 },
+    ],
+  },
 ];
 
 
