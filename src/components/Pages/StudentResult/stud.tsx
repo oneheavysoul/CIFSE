@@ -3077,6 +3077,46 @@ const studentData = [
       { name: "Practical 3", marks: 64 }
     ]
   },
+{
+    id: 158,
+    name: 'KHOJIJI HARSHABEN ISHVARBHAI',
+    course: 'SUB FIRE OFFICER',
+    batch: "2025/2026",
+    enrollment_no: "CIFSE00AS780056",
+    subjects: [
+      { name: 'F.E.S.C', marks: 67 },
+      { name: 'S.O.A', marks: 72 },
+      { name: 'S.B.C', marks: 71 },
+      { name: 'F.F.F.I', marks: 82 },
+      { name: 'S.F.H', marks: 65 },
+      { name: 'R.E.M', marks: 76 },
+      { name: 'F.A.P', marks: 76 },
+      { name: 'S.M', marks: 78 },
+      { name: 'Practical 1', marks: 67 },
+      { name: 'Practical 2', marks: 70 },
+      { name: 'Practical 3', marks: 64 },
+    ],
+  },
+{
+    id: 159,
+    name: 'RAVAL PIYUSH HASMUKHBHAI',
+    course: 'SUB FIRE OFFICER',
+    batch: "2024/2025",
+    enrollment_no: "CIFSE00AS780057",
+    subjects: [
+      { name: 'F.E.S.C', marks: 69 },
+      { name: 'S.O.A', marks: 71 },
+      { name: 'S.B.C', marks: 68 },
+      { name: 'F.F.F.I', marks: 77 },
+      { name: 'S.F.H', marks: 67 },
+      { name: 'R.E.M', marks: 72 },
+      { name: 'F.A.P', marks: 71 },
+      { name: 'S.M', marks: 77 },
+      { name: 'Practical 1', marks: 62 },
+      { name: 'Practical 2', marks: 68 },
+      { name: 'Practical 3', marks: 65 },
+    ],
+  },
 ];
 
 
