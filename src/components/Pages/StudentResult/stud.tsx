@@ -3117,6 +3117,157 @@ const studentData = [
       { name: 'Practical 3', marks: 65 },
     ],
   },
+  {
+    id: 160,
+    name: 'MEHUL MANSINGBHAICHAUHAN',
+    course: 'DFSE',
+    batch: '2025/2026',
+    enrollment_no: 'CIFSE00UN19085',
+    subjects: [
+      { name: 'F.E.S.C.', marks: 72 },
+      { name: 'S.O.A', marks: 68 },
+      { name: 'S.B.C', marks: 74 },
+      { name: 'F.F.F.I', marks: 58 },
+      { name: 'S.F.H', marks: 72 },
+      { name: 'R.E.M', marks: 77 },
+      { name: 'F.A.P', marks: 63 },
+      { name: 'S.M', marks: 70 },
+      { name: 'PRECTICAL 1', marks: 57 },
+      { name: 'PRECTICAL 2', marks: 82 },
+      { name: 'PRECTICAL 3', marks: 74 }
+    ]
+  },
+  {
+    id: 161,
+    name: 'BAMBHANIYA DHAVALBHAI JIYUBHAI',
+    course: 'DFSE',
+    batch: '2025/2026',
+    enrollment_no: 'CIFSE00UN19086',
+    subjects: [
+      { name: 'F.E.S.C.', marks: 76 },
+      { name: 'S.O.A', marks: 68 },
+      { name: 'S.B.C', marks: 72 },
+      { name: 'F.F.F.I', marks: 82 },
+      { name: 'S.F.H', marks: 55 },
+      { name: 'R.E.M', marks: 76 },
+      { name: 'F.A.P', marks: 82 },
+      { name: 'S.M', marks: 63 },
+      { name: 'PRECTICAL 1', marks: 62 },
+      { name: 'PRECTICAL 2', marks: 87 },
+      { name: 'PRECTICAL 3', marks: 77 }
+    ]
+  },
+  {
+    id: 162,
+    name: 'CHUDASAMA MILAN ASHVINBHAI',
+    course: 'DFSE',
+    batch: '2025/2026',
+    enrollment_no: 'CIFSE00UN19087',
+    subjects: [
+      { name: 'F.E.S.C.', marks: 62 },
+      { name: 'S.O.A', marks: 70 },
+      { name: 'S.B.C', marks: 58 },
+      { name: 'F.F.F.I', marks: 63 },
+      { name: 'S.F.H', marks: 75 },
+      { name: 'R.E.M', marks: 68 },
+      { name: 'F.A.P', marks: 78 },
+      { name: 'S.M', marks: 85 },
+      { name: 'PRECTICAL 1', marks: 64 },
+      { name: 'PRECTICAL 2', marks: 75 },
+      { name: 'PRECTICAL 3', marks: 77 }
+    ]
+  },
+  {
+    id: 163,
+    name: 'RATHOD SANDIPSINH JAGDISHBHAI',
+    course: 'fire man',
+    batch: '2025/2026',
+    enrollment_no: 'CIFSE00UN19088',
+    subjects: [
+      { name: 'F.F.S.E', marks: 56 },
+      { name: 'F.F.F.I', marks: 77 },
+      { name: 'S.P.I.L', marks: 84 },
+      { name: 'H.E.M', marks: 68 },
+      { name: 'F.A.P', marks: 70 },
+      { name: 'PRECTICAL 1', marks: 79 },
+      { name: 'PRECTICAL 2', marks: 82 },
+      { name: 'PRECTICAL 3', marks: 67 }
+    ]
+  },
+  {
+    id: 164,
+    name: 'RATHOD ARJUNSINH RANJITSINH',
+    course: 'fire man',
+    batch: '2025/2026',
+    enrollment_no: 'CIFSE00UN19089',
+    subjects: [
+      { name: 'F.F.S.E', marks: 66 },
+      { name: 'F.F.F.I', marks: 87 },
+      { name: 'S.P.I.L', marks: 75 },
+      { name: 'H.E.M', marks: 68 },
+      { name: 'F.A.P', marks: 74 },
+      { name: 'PRECTICAL 1', marks: 72 },
+      { name: 'PRECTICAL 2', marks: 87 },
+      { name: 'PRECTICAL 3', marks: 70 }
+    ]
+  },
+  {
+    id: 165,
+    name: 'CHUDASAMA MAYURSINH DANUBHA',
+    course: 'SFO',
+    batch: '2025/2026',
+    enrollment_no: 'CIFSE00UN20790',
+    subjects: [
+      { name: 'F.E.S.C.', marks: 70 },
+      { name: 'S.O.A', marks: 84 },
+      { name: 'S.B.C', marks: 70 },
+      { name: 'F.F.F.I', marks: 68 },
+      { name: 'S.F.H', marks: 84 },
+      { name: 'R.E.M', marks: 71 },
+      { name: 'F.A.P', marks: 69 },
+      { name: 'S.M', marks: 76 },
+      { name: 'PRECTICAL 1', marks: 70 },
+      { name: 'PRECTICAL 2', marks: 84 },
+      { name: 'PRECTICAL 3', marks: 78 }
+    ]
+  },
+  {
+    id: 166,
+    name: 'VAGHELA JAINIK ASHOKBHAI',
+    course: 'SFO',
+    batch: '2025/2026',
+    enrollment_no: 'CIFSE00UN20791',
+    subjects: [
+      { name: 'F.E.S.C.', marks: 66 },
+      { name: 'S.O.A', marks: 74 },
+      { name: 'S.B.C', marks: 82 },
+      { name: 'F.F.F.I', marks: 78 },
+      { name: 'S.F.H', marks: 68 },
+      { name: 'R.E.M', marks: 80 },
+      { name: 'F.A.P', marks: 78 },
+      { name: 'S.M', marks: 70 },
+      { name: 'PRECTICAL 1', marks: 76 },
+      { name: 'PRECTICAL 2', marks: 80 },
+      { name: 'PRECTICAL 3', marks: 72 }
+    ]
+  },
+  {
+    id: 167,
+    name: 'PRAVINBHAI RAMBHAI JADAV',
+    course: 'fire man',
+    batch: '2018/2019',
+    enrollment_no: 'CIFSE00UN19092',
+    subjects: [
+      { name: 'F.F.S.E', marks: 74 },
+      { name: 'F.F.F.I', marks: 68 },
+      { name: 'S.P.I.L', marks: 73 },
+      { name: 'H.E.M', marks: 63 },
+      { name: 'F.A.P', marks: 70 },
+      { name: 'PRECTICAL 1', marks: 82 },
+      { name: 'PRECTICAL 2', marks: 72 },
+      { name: 'PRECTICAL 3', marks: 74 }
+    ]
+  }
 ];
 
 
