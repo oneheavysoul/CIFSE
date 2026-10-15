@@ -3079,7 +3079,7 @@ const studentData = [
   },
 {
     id: 158,
-    name: 'KHOJIJI HARSHABEN ISHVARBHAI',
+    name: 'KHOJIJI HARSHA ISHVARBHAI',
     course: 'SUB FIRE OFFICER',
     batch: "2025/2026",
     enrollment_no: "CIFSE00AS780056",
@@ -3119,7 +3119,7 @@ const studentData = [
   },
   {
     id: 160,
-    name: 'MEHUL MANSINGBHAICHAUHAN',
+    name: 'MEHUL MANSINGBHAI CHAUHAN',
     course: 'DFSE',
     batch: '2025/2026',
     enrollment_no: 'CIFSE00UN19085',
